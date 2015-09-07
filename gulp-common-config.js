@@ -102,6 +102,9 @@ module.exports = {
     // https://www.npmjs.com/package/gulp-print
     print: {},
 
+    // https://www.npmjs.com/package/gulp-sass
+    sass: {},
+
     // https://www.npmjs.com/package/gulp-uglify
     ugilfy: {
       mangle: false

@@ -1,10 +1,10 @@
 {
-  "name": "payment-validation",
+  "name": "angular-testing-demo",
   "version": "0.0.0",
   "authors": [
-    "Glenn bunter <gbunter@teachersassurance.co.uk>"
+    "aliengoo"
   ],
-  "description": "validates payment information",
+  "description": "angular test demo",
   "license": "MIT",
   "ignore": [
     "**/.*",

@@ -77,7 +77,7 @@ gulp.task("clean:app-styles", function (done) {
 });
 
 gulp.task("styles", ["clean:app-styles"], function () {
-  return lp.rubySass(input.scss)
+  return gulp.src((input.scss))
     .pipe(helper.sassTask())
     .pipe(gulp.dest(commonConfig.publicPaths.css))
     .pipe(helper.livereloadTask());

@@ -16,7 +16,6 @@ var del = require('del');
  -------------- REUSABLE PIPE OPERATIONS --------------
  */
 
-// prints stuff if the --verbose argument is used
 var printTask = lazypipe()
   .pipe(function () {
     return lp.if(args.verbose, lp.print())
@@ -70,6 +69,9 @@ var cssTaskFn = function (concatenatedFileName) {
 var sassTask = lazypipe()
   .pipe(function () {
     return commonConfig.filters.include.scss;
+  })
+  .pipe(function () {
+    return lp.sass(commonConfig.npmConfig.sass);
   })
   .pipe(autoprefixerTask);
 
