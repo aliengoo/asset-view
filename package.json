@@ -64,6 +64,7 @@
     "gulp-watch": "^4.2.4",
     "gulp-webserver": "^0.9.1",
     "istanbul": "^0.3.17",
+    "lazypipe": "^1.0.1",
     "main-bower-files": "^2.8.2",
     "mocha": "^2.2.5",
     "mocha-jenkins-reporter": "^0.1.9",
