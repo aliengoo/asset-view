@@ -128,7 +128,7 @@ gulp.task("bower:less", function () {
   return gulp.src(bowerFiles(mainBowerFilesOptions))
     .pipe(lessFilter)
     .pipe(lp.less())
-    .pipe(gulp.dest(path.join(config.temp, "vendor-styles")));
+    .pipe(gulp.dest(path.join(config.tempVendorStyles)));
 });
 
 // Compiles bower CSS dependencies

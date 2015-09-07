@@ -4,13 +4,29 @@ var path = require("path");
 
 module.exports = function () {
   // TODO: Specify file and folder information here...
-  var src = "./app/";
+  var applicationRoot = "./app/";
+  var tempRoot = "./.temp/";
   var outputRoot = "./public";
   var indexHtmlFile = path.join(outputRoot, "index.html");
   var temp = "./.temp/";
 
   var config = {
-    src: src,
+    applicationRoot: applicationRoot,
+
+    temp: {
+      path: tempRoot,
+      js: {
+        path: path.join(tempRoot, "js")
+      },
+      css: {
+
+        yourCss: {
+          path: path.join(tempRoot, "your")
+        }
+      }
+    },
+
+
     // TODO: fix the need for this
     templatesModule: "atd.templates",
     mainBowerFilterFilters: {
