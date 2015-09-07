@@ -1,0 +1,84 @@
+{
+  "name": "payment-validation",
+  "version": "1.0.0",
+  "description": "Payment validation",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "mocha --reporter doc \"server/**/test/*.spec.js\"",
+    "test-jenkins": "mocha -R xunit ./server/**/*.spec.js > test-reports.xml",
+    "test-watch": "mocha --reporter spec --watch \"server/**/test/*.spec.js\"",
+    "test-watch-growl": "mocha --reporter spec -G --watch \"server/**/test/*.spec.js\"",
+    "run-local": "set NODE_ENV=local && nodemon",
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "postcode",
+    "search"
+  ],
+  "author": "gbunter@teachersassurance.co.uk",
+  "license": "ISC",
+  "dependencies": {
+    "clone": "^1.0.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "lodash": "^3.9.3",
+    "mongoose": "^4.0.6",
+    "netmask": "^1.0.5",
+    "pm2": "^0.14.3",
+    "q": "^1.4.1",
+    "qs": "^3.1.0",
+    "request": "^2.58.0",
+    "string": "^3.3.0",
+    "string-template": "^0.2.1",
+    "valid-url": "^1.0.9",
+    "validatejs": "0.0.2",
+    "xml2js": "^0.4.9",
+    "xmlbuilder": "^2.6.4"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "chai": "^3.0.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-angular-templatecache": "^1.7.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-if": "^1.2.5",
+    "gulp-jade": "^1.0.1",
+    "gulp-less": "^3.0.3",
+    "gulp-livereload": "^3.8.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-ng-annotate": "^1.0.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-print": "^1.1.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-shell": "^0.4.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.7.8",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.2.4",
+    "gulp-webserver": "^0.9.1",
+    "istanbul": "^0.3.17",
+    "main-bower-files": "^2.8.2",
+    "mocha": "^2.2.5",
+    "mocha-jenkins-reporter": "^0.1.9",
+    "nodemon": "^1.3.7",
+    "rewire": "^2.3.4",
+    "sinon": "^1.15.3",
+    "tape": "^4.0.1",
+    "xunit-file": "0.0.6",
+    "yargs": "^3.15.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "./server/**/*.js"
+      ]
+    }
+  }
+}

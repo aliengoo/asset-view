@@ -1,0 +1,9 @@
+{
+  "script": "./server/server.js",
+  "ext": "js",
+  "watch" : "./server",
+  "nodeArgs": ["--debug", "--harmony"],
+  "execMap": {
+    "js": "node"
+  }
+}

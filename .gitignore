@@ -1,0 +1,10 @@
+.idea
+node_modules
+bower
+bower_components
+.temp
+.sass-cache
+npm-debug.log
+public/assets
+public/js
+xunit-output
