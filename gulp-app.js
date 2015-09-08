@@ -61,7 +61,6 @@ var outputCss = {
   // the name of the file being exported
   fileName: "app.css",
 
-
   // the glob path to the temporary directory for vendor files, e.g. output from less and sass compilation
   temporaryFilesGlob: [path.join(temporaryFiles, "**/*.css")]
 };
@@ -89,8 +88,6 @@ gulp.task("styles", ["clean:app-styles"], function () {
 
 /* CLEAN */
 gulp.task("clean:app-js", function (done) {
-
-
   helper.clean(outputJs.temporaryFilesGlob, done);
 });
 
@@ -124,9 +121,6 @@ gulp.task("clean:templates-js", function (done) {
   helper.clean(outputJs.temporaryTemplatesFileUri, done);
 });
 
-gulp.task("build:html-templates", function () {
-});
-
 gulp.task('build:templates', ['clean:templates-js'], function () {
   return gulp.src(commonConfig.src.glob)
     .pipe(lp.plumber())
@@ -143,7 +137,7 @@ gulp.task('build:templates', ['clean:templates-js'], function () {
 /*
  MAIN BUILD TASK
  */
-gulp.task('build', ['build:js', 'build:templates'], function () {
+gulp.task('build', ['build:js'], function () {
   helper.log("Preparing final application JavaScript file...");
 
   return gulp.src(outputJs.temporaryFilesGlob)

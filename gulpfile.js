@@ -17,7 +17,7 @@ gulp.task('webserver', function () {
 });
 
 
-gulp.task('default', ['styles', 'bower', 'build'], function () {
+gulp.task('default', ['styles', 'build', 'bower'], function () {
   if (commonConfig.watchReloadEnabled) {
 
     helper.log("Watching for changes, and ready to reload...");

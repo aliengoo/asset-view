@@ -84,7 +84,6 @@ gulp.task("bower:less", function () {
 });
 
 gulp.task("bower:css", ["bower:sass", "bower:less"], function () {
-  helper.log(commonConfig.publicPaths.css);
   return gulp.src(mbf(commonConfig.npmConfig.mainBowerFiles))
     .pipe(lp.addSrc(addTheseFiles))
     .pipe(lp.addSrc(outputCss.temporaryFilesGlob))
