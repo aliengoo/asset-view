@@ -1,3 +1,5 @@
+
+
 describe("HomeController", function(){
 
   beforeEach(module("atd.home"));
@@ -18,5 +20,4 @@ describe("HomeController", function(){
       expect(controller.message).to.equal(undefined);
     });
   });
-
 });

@@ -24,7 +24,9 @@ module.exports = function(config) {
 
     plugins: [
       "karma-mocha",
-      "karma-phantomjs-launcher"
+      "karma-chai",
+      "karma-phantomjs-launcher",
+      "karma-chrome-launcher"
     ],
 
     client: {
