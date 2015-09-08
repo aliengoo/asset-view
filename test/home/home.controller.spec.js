@@ -1,4 +1,4 @@
-
+"use strict";
 
 describe("HomeController", function(){
 
@@ -17,7 +17,7 @@ describe("HomeController", function(){
 
       var controller = $controller('HomeController', {});
 
-      expect(controller.message).to.equal(undefined);
+      expect(controller.message).toEqual("Hello, World!");
     });
   });
 });

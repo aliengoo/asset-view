@@ -98,6 +98,7 @@ gulp.task("clean:app-js", function (done) {
 /* BUILD TYPESCRIPT */
 gulp.task('build:ts', ['clean:app-js'], function () {
   return gulp.src(input.typescript)
+    .pipe(lp.plumber(commonConfig.npmConfig.plumber))
     .pipe(lp.typescript({
       noImplicitAny: true,
       out: outputJs.fileName
@@ -113,6 +114,7 @@ gulp.task('build:ts', ['clean:app-js'], function () {
  */
 gulp.task('build:js', ['build:ts'], function () {
   return gulp.src(input.js.temporaryFilePath)
+    .pipe(helper.plumberTask())
     .pipe(lp.ngAnnotate(commonConfig.npmConfig.ngAnnotate))
     .pipe(gulp.dest(temporaryFiles));
 });
@@ -131,7 +133,7 @@ gulp.task('build:templates', ['clean:templates-js'], function () {
   var jadeFilter = lp.filter(commonConfig.filters.include.jade);
 
   return gulp.src(commonConfig.src.glob)
-    .pipe(lp.plumber())
+    .pipe(helper.plumberTask())
     .pipe(htmlFilter)
     .pipe(helper.angularTemplateCacheTask())
     .pipe(htmlFilter.restore())
@@ -152,9 +154,18 @@ gulp.task('build:combine', function () {
 
 // Test
 gulp.task("build:test", function (done) {
-  new Server({
-    configFile: path.join(__dirname, "test/test.conf.js")
-  }, done).start();
+  var server = new Server({
+    configFile: path.join(__dirname, "/karma.conf.js")
+  }, function(){
+    helper.log("Karma ended");
+    done();
+  });
+
+  server.on("browser_error", function (browser, error) {
+    helper.log("BROWSER ERROR:", error);
+  });
+
+  server.start();
 });
 
 // entry point for the build, using run-sequence to ensure build:test runs after the rest of the build has finished

@@ -16,6 +16,11 @@ var del = require('del');
  -------------- REUSABLE PIPE OPERATIONS --------------
  */
 
+var plumberTask = lazypipe().pipe(function () {
+  return lp.plumber(commonConfig.npmConfig.plumber);
+});
+
+
 var printTask = lazypipe()
   .pipe(function () {
     return lp.if(args.verbose, lp.print())
@@ -24,7 +29,7 @@ var printTask = lazypipe()
 // prefixes CSS properties
 var autoprefixerTask = lazypipe()
   .pipe(printTask)
-  .pipe(lp.plumber)
+  .pipe(plumberTask)
   .pipe(function () {
     return lp.autoprefixer(commonConfig.npmConfig.autoprefixer);
   });
@@ -39,6 +44,7 @@ var fixFontLocationTask = lazypipe()
 var jsTaskFn = function (outputFileName) {
   return lazypipe()
     .pipe(printTask)
+    .pipe(plumberTask)
     .pipe(function () {
       return lp.concat(outputFileName);
     })
@@ -58,6 +64,7 @@ var cssTaskFn = function (concatenatedFileName) {
 
   var cssFilter = lp.filter(commonConfig.filters.include.css);
   return lazypipe()
+    .pipe(plumberTask)
     .pipe(function () {
       return cssFilter;
     })
@@ -73,6 +80,7 @@ var sassTaskFn = function () {
   var scssFilter = lp.filter(commonConfig.filters.include.scss);
 
   return lazypipe()
+    .pipe(plumberTask)
     .pipe(function () {
       return scssFilter;
     })
@@ -87,6 +95,7 @@ var lessTaskFn = function () {
   var lessFilter = lp.filter(commonConfig.filters.include.less);
 
   return lazypipe()
+    .pipe(plumberTask)
     .pipe(function () {
       return lessFilter;
     })
@@ -104,10 +113,12 @@ var livereloadTask = lazypipe()
 
 var angularTemplateCacheTask = lazypipe()
   .pipe(printTask)
+  .pipe(plumberTask)
   .pipe(function () {
     return lp.angularTemplatecache(commonConfig.npmConfig.angularTemplateCache)
   });
 
+module.exports.plumberTask = plumberTask;
 module.exports.printTask = printTask;
 module.exports.autoprefixerTask = autoprefixerTask;
 module.exports.fixFontLocationTask = fixFontLocationTask;
