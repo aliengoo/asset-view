@@ -157,7 +157,7 @@ gulp.task("build:test", function (done) {
   var server = new Server({
     configFile: path.join(__dirname, "/karma.conf.js")
   }, function(){
-    helper.log("Karma ended");
+    helper.log("Karma server completed");
     done();
   });
 

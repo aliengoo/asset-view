@@ -4,12 +4,7 @@
   "description": "Angular Testing",
   "main": "server/server.js",
   "scripts": {
-    "test": "mocha --reporter doc \"server/**/test/*.spec.js\"",
-    "test-jenkins": "mocha -R xunit ./server/**/*.spec.js > test-reports.xml",
-    "test-watch": "mocha --reporter spec --watch \"server/**/test/*.spec.js\"",
-    "test-watch-growl": "mocha --reporter spec -G --watch \"server/**/test/*.spec.js\"",
-    "run-local": "set NODE_ENV=local && nodemon",
-    "gulp": "gulp"
+    "test": "gulp --silent --color --watch --test --serve"
   },
   "keywords": [
     "testing",
@@ -51,6 +46,7 @@
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-minify-css": "^1.2.0",
     "gulp-ng-annotate": "^1.0.0",
+    "gulp-notify": "^2.2.0",
     "gulp-plumber": "^1.0.1",
     "gulp-print": "^1.1.0",
     "gulp-replace": "^0.5.3",
@@ -68,6 +64,7 @@
     "jasmine-core": "^2.3.4",
     "karma": "^0.13.9",
     "karma-chrome-launcher": "^0.2.0",
+    "karma-growl-reporter": "^0.1.1",
     "karma-jasmine": "^0.3.6",
     "karma-phantomjs-launcher": "^0.2.1",
     "karma-requirejs": "^0.2.2",

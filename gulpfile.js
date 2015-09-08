@@ -5,6 +5,8 @@ var lp = require('gulp-load-plugins')({
   lazy: true
 });
 
+var Server = require('karma').Server;
+
 var path = require("path");
 
 var commonConfig = require("./gulp-common-config");
