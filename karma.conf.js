@@ -36,7 +36,13 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'growl'],
+    reporters: ['progress', 'notify'],
+
+    // Optional Settings
+    notifyReporter: {
+      reportEachFailure: true, // Default: false, Will notify on every failed sepc
+      reportSuccess: true // Default: true, Will notify when a suite was successful
+    },
 
 
     // web server port
