@@ -132,8 +132,6 @@ module.exports.log = log;
  * @param done
  */
 function clean(path, done) {
-  log("Cleaning: " + path);
-
   del(path, done);
 }
 
@@ -142,7 +140,7 @@ function clean(path, done) {
  * @param message - the message
  */
 function log(message) {
-  var printFn = lp.util.colors.magenta.bold;
+  var printFn = lp.util.colors.cyan.bold;
 
   if (typeof (message) === "object") {
     for (var item in message) {

@@ -10,7 +10,7 @@ var lp = require("gulp-load-plugins")({
 /*
  ------------------ TEMPLATE MODULE PATH CONFIGURATION ------------------
  */
-var angularTemplateCacheModuleName = "app.templates";
+var angularTemplateCacheModuleName = "atd.templates";
 
 /*
  ------------------ SOURCE PATH CONFIGURATION ------------------
@@ -19,7 +19,7 @@ var src = {
   root: "app"
 };
 
-src.glob = [path.join(src.root, "**/*")];
+src.glob = path.join(src.root, "**/*");
 
 /*
  ------------------ STYLE PATH CONFIGURATION ------------------
@@ -28,7 +28,7 @@ var styles = {
   root: "styles"
 };
 
-styles.glob = [path.join(styles.root, "**/*")];
+styles.glob = path.join(styles.root, "**/*");
 
 /*
  ------------------ PUBLIC PATHS CONFIGURATION ------------------
@@ -56,6 +56,8 @@ module.exports = {
 
   // starts a web server
   serve: !!args.serve && !(!!args.production),
+
+  servePort: args.servePort || 8000,
 
   // when watch is enabled and not in production, run livereload
   watchReloadEnabled: !!args.watch && !(!!args.production),

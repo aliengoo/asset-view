@@ -107,5 +107,5 @@ gulp.task("bower:assets", function () {
 // Runs all bower tasks
 gulp.task("bower", ["bower:js", "bower:css", "bower:assets"], function (done) {
   done();
-  helper.log("**** BOWER TASKS COMPLETED ****");
+  helper.log("READY PLAYER ONE...");
 });

@@ -142,8 +142,6 @@ gulp.task('build:templates', ['clean:templates-js'], function () {
  MAIN BUILD TASK
  */
 gulp.task('build', ['build:js', 'build:templates'], function () {
-  helper.log("Preparing final application JavaScript file...");
-
   return gulp.src(outputJs.temporaryFilesGlob)
     .pipe(helper.jsTaskFn(outputJs.fileName)())
     .pipe(gulp.dest(commonConfig.publicPaths.js))

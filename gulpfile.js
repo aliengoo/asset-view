@@ -12,7 +12,8 @@ var helper = require("./gulp-helper");
 
 gulp.task('webserver', function () {
   gulp.src('public').pipe(lp.webserver({
-    fallback: 'index.html'
+    fallback: 'index.html',
+    port: commonConfig.servePort
   }));
 });
 
@@ -26,8 +27,8 @@ gulp.task('default', ['styles', 'build', 'bower'], function () {
       start: true
     });
 
-    lp.watch(commonConfig.src.glob, ['build']);
-    lp.watch(commonConfig.styles.glob, ['styles']);
+    gulp.watch(commonConfig.src.glob, ['build']);
+    gulp.watch(commonConfig.styles.glob, ['styles']);
   } else {
 
     if (!args.production) {
@@ -37,8 +38,16 @@ gulp.task('default', ['styles', 'build', 'bower'], function () {
     }
   }
 
+  if (args.servePort) {
+    helper.log("Running web server on port " + args.servePort);
+  } else {
+    helper.log("Running web server on default port " + commonConfig.servePort);
+  }
+
   if (commonConfig.serve) {
     gulp.start("webserver");
+  } else {
+    helper.log("To start a web server, use the --serve argument");
   }
 });
 
