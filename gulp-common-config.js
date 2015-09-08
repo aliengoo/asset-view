@@ -54,6 +54,9 @@ module.exports = {
   src: src,
   styles: styles,
 
+  // starts a web server
+  serve: !!args.serve && !(!!args.production),
+
   // when watch is enabled and not in production, run livereload
   watchReloadEnabled: !!args.watch && !(!!args.production),
 
@@ -114,19 +117,19 @@ module.exports = {
   // GLOB files
   filters: {
     include: {
-      js: lp.filter(["**/*.js"]),
-      html: lp.filter(["**/*.html"]),
-      jade: lp.filter(["**/*.jade"]),
-      css: lp.filter(["**/*.css"]),
-      less: lp.filter(["**/*.less"]),
-      scss: lp.filter(["**/*.scss"]),
-      assets: lp.filter([
+      js: ["**/*.js"],
+      html: ["**/*.html"],
+      jade: ["**/*.jade"],
+      css: ["**/*.css"],
+      less: ["**/*.less"],
+      scss: ["**/*.scss"],
+      assets: [
         '*',
         '!**/*.css',
         '!**/*.js',
         '!**/*.jade',
         '!**/*.scss',
-        '!**/*.less'])
+        '!**/*.less']
     }
   }
 };

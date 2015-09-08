@@ -55,9 +55,11 @@ var jsTaskFn = function (outputFileName) {
 
 // concatenates and minifies CSS
 var cssTaskFn = function (concatenatedFileName) {
+
+  var cssFilter = lp.filter(commonConfig.filters.include.css);
   return lazypipe()
     .pipe(function () {
-      return commonConfig.filters.include.css;
+      return cssFilter;
     })
     .pipe(function () {
       return lp.concat(concatenatedFileName);
@@ -66,23 +68,34 @@ var cssTaskFn = function (concatenatedFileName) {
     .pipe(lp.minifyCss);
 };
 
-var sassTask = lazypipe()
-  .pipe(function () {
-    return commonConfig.filters.include.scss;
-  })
-  .pipe(function () {
-    return lp.sass(commonConfig.npmConfig.sass);
-  })
-  .pipe(autoprefixerTask);
+var sassTaskFn = function () {
 
-var lessTask = lazypipe()
-  .pipe(function () {
-    return commonConfig.filters.include.less;
-  })
-  .pipe(function () {
-    return lp.less(commonConfig.npmConfig.less);
-  })
-  .pipe(autoprefixerTask);
+  var scssFilter = lp.filter(commonConfig.filters.include.scss);
+
+  return lazypipe()
+    .pipe(function () {
+      return scssFilter;
+    })
+    .pipe(function () {
+      return lp.sass(commonConfig.npmConfig.sass);
+    })
+    .pipe(autoprefixerTask);
+};
+
+var lessTaskFn = function () {
+
+  var lessFilter = lp.filter(commonConfig.filters.include.less);
+
+  return lazypipe()
+    .pipe(function () {
+      return lessFilter;
+    })
+    .pipe(function () {
+      return lp.less(commonConfig.npmConfig.less);
+    })
+    .pipe(autoprefixerTask);
+
+};
 
 var livereloadTask = lazypipe()
   .pipe(function () {
@@ -100,8 +113,8 @@ module.exports.autoprefixerTask = autoprefixerTask;
 module.exports.fixFontLocationTask = fixFontLocationTask;
 module.exports.jsTaskFn = jsTaskFn;
 module.exports.cssTaskFn = cssTaskFn;
-module.exports.lessTask = lessTask;
-module.exports.sassTask = sassTask;
+module.exports.lessTaskFn = lessTaskFn;
+module.exports.sassTaskFn = sassTaskFn;
 module.exports.livereloadTask = livereloadTask;
 module.exports.angularTemplateCacheTask = angularTemplateCacheTask;
 

@@ -62,9 +62,11 @@ outputCss.temporaryFilesGlob = path.join(outputCss.temporaryFiles, "**/*.css");
 
 // Compiles JavaScript bowerFiles
 gulp.task("bower:js", function () {
+
+  var jsFilter = lp.filter(commonConfig.filters.include.js);
   return gulp.src(mbf(commonConfig.npmConfig.mainBowerFiles))
     .pipe(lp.addSrc(addTheseFiles))
-    .pipe(commonConfig.filters.include.js)
+    .pipe(jsFilter)
     .pipe(helper.jsTaskFn(outputJs.fileName)())
     .pipe(gulp.dest(commonConfig.publicPaths.js));
 });
@@ -72,14 +74,14 @@ gulp.task("bower:js", function () {
 // Compiles .scss files  - the output is directory to a temporary location
 gulp.task("bower:sass", function () {
   return gulp.src(mbf(commonConfig.npmConfig.mainBowerFiles))
-    .pipe(helper.sassTask())
+    .pipe(helper.sassTaskFn()())
     .pipe(gulp.dest(outputCss.temporaryFiles));
 });
 
 // Compiles .less files - the output is directory to a temporary location
 gulp.task("bower:less", function () {
   return gulp.src(mbf(commonConfig.npmConfig.mainBowerFiles))
-    .pipe(helper.lessTask())
+    .pipe(helper.lessTaskFn()())
     .pipe(gulp.dest(path.join(outputCss.temporaryFiles)));
 });
 
@@ -94,9 +96,11 @@ gulp.task("bower:css", ["bower:sass", "bower:less"], function () {
 // move any other files that are not JS or CSS into the assets folder
 gulp.task("bower:assets", function () {
 
+  var assetsFilter = lp.filter(commonConfig.filters.include.assets);
+
   return gulp.src(mbf(commonConfig.npmConfig.mainBowerFiles))
     .pipe(lp.addSrc(addTheseFiles))
-    .pipe(commonConfig.filters.include.assets)
+    .pipe(assetsFilter)
     .pipe(gulp.dest(commonConfig.publicPaths.assets));
 });
 

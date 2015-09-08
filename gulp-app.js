@@ -77,7 +77,7 @@ gulp.task("clean:app-styles", function (done) {
 
 gulp.task("styles", ["clean:app-styles"], function () {
   return gulp.src((input.scss))
-    .pipe(helper.sassTask())
+    .pipe(helper.sassTaskFn()())
     .pipe(gulp.dest(commonConfig.publicPaths.css))
     .pipe(helper.livereloadTask());
 });
@@ -122,12 +122,16 @@ gulp.task("clean:templates-js", function (done) {
 });
 
 gulp.task('build:templates', ['clean:templates-js'], function () {
+
+  var htmlFilter = lp.filter(commonConfig.filters.include.html);
+  var jadeFilter = lp.filter(commonConfig.filters.include.jade);
+
   return gulp.src(commonConfig.src.glob)
     .pipe(lp.plumber())
-    .pipe(commonConfig.filters.include.html)
+    .pipe(htmlFilter)
     .pipe(helper.angularTemplateCacheTask())
-    .pipe(commonConfig.filters.include.html.restore())
-    .pipe(commonConfig.filters.include.jade)
+    .pipe(htmlFilter.restore())
+    .pipe(jadeFilter)
     .pipe(lp.jade(commonConfig.npmConfig.jade))
     .pipe(helper.angularTemplateCacheTask())
     .pipe(lp.concat(outputJs.temporaryTemplateFileName))
@@ -137,7 +141,7 @@ gulp.task('build:templates', ['clean:templates-js'], function () {
 /*
  MAIN BUILD TASK
  */
-gulp.task('build', ['build:js'], function () {
+gulp.task('build', ['build:js', 'build:templates'], function () {
   helper.log("Preparing final application JavaScript file...");
 
   return gulp.src(outputJs.temporaryFilesGlob)

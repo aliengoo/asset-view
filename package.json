@@ -1,7 +1,7 @@
 {
-  "name": "payment-validation",
+  "name": "angular-testing-demo",
   "version": "1.0.0",
-  "description": "Payment validation",
+  "description": "Angular Testing",
   "main": "server/server.js",
   "scripts": {
     "test": "mocha --reporter doc \"server/**/test/*.spec.js\"",
@@ -12,10 +12,10 @@
     "gulp": "gulp"
   },
   "keywords": [
-    "postcode",
-    "search"
+    "testing",
+    "angular"
   ],
-  "author": "gbunter@teachersassurance.co.uk",
+  "author": "aliengoo",
   "license": "ISC",
   "dependencies": {
     "clone": "^1.0.2",

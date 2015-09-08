@@ -36,6 +36,10 @@ gulp.task('default', ['styles', 'build', 'bower'], function () {
       helper.log("Running in production mode");
     }
   }
+
+  if (commonConfig.serve) {
+    gulp.start("webserver");
+  }
 });
 
 
