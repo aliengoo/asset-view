@@ -6,7 +6,11 @@ var lp = require('gulp-load-plugins')({
   lazy: true
 });
 
+var Server = require('karma').Server;
+
 var path = require("path");
+
+var runSequence = require("run-sequence");
 
 var helper = require("./gulp-helper");
 var commonConfig = require("./gulp-common-config");
@@ -131,21 +135,50 @@ gulp.task('build:templates', ['clean:templates-js'], function () {
     .pipe(htmlFilter)
     .pipe(helper.angularTemplateCacheTask())
     .pipe(htmlFilter.restore())
-    .pipe(jadeFilter)
+    .pipe(jadeFilter) // No restore required - if you restore, all hell breaks loose
     .pipe(lp.jade(commonConfig.npmConfig.jade))
     .pipe(helper.angularTemplateCacheTask())
     .pipe(lp.concat(outputJs.temporaryTemplateFileName))
     .pipe(gulp.dest(temporaryFiles));
 });
 
-/*
- MAIN BUILD TASK
- */
-gulp.task('build', ['build:js', 'build:templates'], function () {
+// Combines and possibly uglifies temporary JavaScript build files
+gulp.task('build:combine', function () {
   return gulp.src(outputJs.temporaryFilesGlob)
     .pipe(helper.jsTaskFn(outputJs.fileName)())
     .pipe(gulp.dest(commonConfig.publicPaths.js))
     .pipe(helper.livereloadTask());
+});
+
+// Test
+gulp.task("build:test", function (done) {
+  new Server({
+    configFile: path.join(__dirname, "test/test.conf.js")
+  }, done).start();
+});
+
+// entry point for the build, using run-sequence to ensure build:test runs after the rest of the build has finished
+gulp.task("build", function (done) {
+
+  if (commonConfig.test) {
+    runSequence(
+      ['build:js', 'build:templates'],
+      "build:combine",
+      "build:test",
+      function () {
+        helper.log("Build/test completed.");
+        done();
+      });
+  } else {
+    runSequence(
+      ['build:js', 'build:templates'],
+      "build:combine",
+      function () {
+        helper.log("Build completed.");
+        done();
+      });
+  }
+
 });
 
 

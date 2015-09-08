@@ -31,6 +31,16 @@ var styles = {
 styles.glob = path.join(styles.root, "**/*");
 
 /*
+ ------------------ TEST PATH CONFIGURATION ------------------
+ */
+var karma = {
+  root: "test"
+};
+
+karma.glob = path.join(karma.root, "**/*spec.js");
+
+
+/*
  ------------------ PUBLIC PATHS CONFIGURATION ------------------
  */
 var publicPaths = {
@@ -53,11 +63,15 @@ publicPaths.css = publicPaths.assets;
 module.exports = {
   src: src,
   styles: styles,
+  karma: karma,
 
   // starts a web server
   serve: !!args.serve && !(!!args.production),
 
   servePort: args.servePort || 8000,
+
+  // runs karma test
+  test: !!args.test && !(!!args.production),
 
   // when watch is enabled and not in production, run livereload
   watchReloadEnabled: !!args.watch && !(!!args.production),
@@ -89,6 +103,11 @@ module.exports = {
 
     // https://www.npmjs.com/package/gulp-jade
     jade: {},
+
+    karma: {
+      configFile: "test/test.conf.js",
+      action: "run"
+    },
 
     // https://www.npmjs.com/package/gulp-less
     less: undefined,
