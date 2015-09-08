@@ -14,6 +14,13 @@ describe("HomeController", function () {
 
     it("should say 'Hello, World!'", function () {
 
+      // module() takes functions or strings (module aliases)
+      module(function($provide) {
+        $provide.value('homeService', {
+          sayHello: "Hello, World"
+        }); // override version here
+      });
+
       var controller = $controller('HomeController', {});
 
       expect(controller.message).toEqual("Hello, World");

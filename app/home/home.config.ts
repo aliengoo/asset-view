@@ -12,7 +12,6 @@ module atd.home {
         controller: "HomeController as vm",
         templateUrl: "home/home.html"
       });
-
     }
   }
 }
