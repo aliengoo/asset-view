@@ -8,6 +8,8 @@ var lp = require('gulp-load-plugins')({
 
 var Server = require('karma').Server;
 
+var packageJson = require("./package.json");
+
 var path = require("path");
 
 var runSequence = require("run-sequence");
@@ -170,24 +172,22 @@ gulp.task("build:test", function (done) {
 
 // entry point for the build, using run-sequence to ensure build:test runs after the rest of the build has finished
 gulp.task("build", function (done) {
+  var completionCallback = function() {
+    helper.log(packageJson.name + " build completed", true);
+    done();
+  };
 
   if (commonConfig.test) {
     runSequence(
       ['build:js', 'build:templates'],
       "build:combine",
       "build:test",
-      function () {
-        helper.log("Build/test completed.");
-        done();
-      });
+      completionCallback);
   } else {
     runSequence(
       ['build:js', 'build:templates'],
       "build:combine",
-      function () {
-        helper.log("Build completed.");
-        done();
-      });
+      completionCallback);
   }
 
 });

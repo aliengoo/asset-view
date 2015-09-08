@@ -7,7 +7,7 @@ module atd.home {
     constructor() {
       var vm = this;
 
-      vm.message = "Hello, World!";
+      vm.message = "Hello, World";
     }
   }
 }

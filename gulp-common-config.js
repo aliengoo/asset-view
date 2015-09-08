@@ -7,6 +7,9 @@ var lp = require("gulp-load-plugins")({
   }
 );
 
+var notifier = require("node-notifier");
+var fs = require("fs");
+
 /*
  ------------------ TEMPLATE MODULE PATH CONFIGURATION ------------------
  */
@@ -121,7 +124,15 @@ module.exports = {
     ngAnnotate: {},
 
     //https://www.npmjs.com/package/gulp-plumber
-    plumber: {},
+    plumber: {
+      errorHandler: function(error){
+        notifier.notify({
+          icon:  __dirname + "/img/error.png",
+          title: "ERROR",
+          message: error
+        });
+      }
+    },
 
     // https://www.npmjs.com/package/gulp-print
     print: {},

@@ -5,6 +5,10 @@ var lp = require('gulp-load-plugins')({
   lazy: true
 });
 
+var notifier = require("node-notifier");
+
+var packageJson = require("./package.json");
+
 var commonConfig = require("./gulp-common-config");
 
 var lazypipe = require("lazypipe");
@@ -150,7 +154,7 @@ function clean(path, done) {
  * Writes a log message
  * @param message - the message
  */
-function log(message) {
+function log(message, notify, isError) {
   var printFn = lp.util.colors.cyan.bold;
 
   if (typeof (message) === "object") {
@@ -161,6 +165,17 @@ function log(message) {
     }
   } else {
     lp.util.log(printFn(message));
+
+    if (notify) {
+
+      var icon = isError ? __dirname + "/img/error.png" : __dirname + "/img/success.png";
+      notifier.notify({
+        icon: icon,
+        title: packageJson.name,
+        message: message
+      });
+    }
+
   }
 }
 
