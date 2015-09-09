@@ -16,7 +16,7 @@ describe("HomeController", function () {
 
       var controller = $controller('HomeController', {});
 
-      expect(controller.message).toEqual("Hello, World!");
+      expect(controller.message).toEqual("Hello, World");
     });
   });
 });

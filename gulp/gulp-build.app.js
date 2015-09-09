@@ -132,7 +132,7 @@ gulp.task('app:combine', function () {
 // Test
 gulp.task("app:test", function (done) {
   var server = new Server({
-    configFile: client.test.karma.config
+    configFile: path.join(__dirname, client.test.karma.config)
   }, function(){
     helper.log("Karma server exited");
     done();
