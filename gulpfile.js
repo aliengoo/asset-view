@@ -1,59 +1,47 @@
 var gulp = require('gulp');
 
-var args = require('yargs').argv;
 var lp = require('gulp-load-plugins')({
   lazy: true
 });
 
-var Server = require('karma').Server;
-
 var path = require("path");
 
-var commonConfig = require("./gulp-common-config");
-var app = require("./gulp-app");
-var bower = require("./gulp-bower");
-var helper = require("./gulp-helper");
+var indexHtml = require("./gulp/gulp-build.index-html");
+var args = require("./gulp/gulp-config.command-line-args");
+var app = require("./gulp/gulp-build.app");
+var vendor = require("./gulp/gulp-build.vendor");
+var helper = require("./gulp/gulp-build.helper");
+var serve = require("./gulp/gulp-serve");
 
-gulp.task('webserver', function () {
-  gulp.src('public').pipe(lp.webserver({
-    fallback: 'index.html',
-    port: commonConfig.servePort
-  }));
-});
+var client = require("./package.json").workflow.client;
 
-gulp.task('default', ['styles', 'build', 'bower'], function () {
+var glob = "**/*";
+
+gulp.task('default', ['index-html', 'app:styles', 'app', 'vendor'], function () {
 
   if (!args.production) {
     // web server
-    if (commonConfig.serve) {
-      if (args.servePort) {
-        helper.log("Running web server on port " + args.servePort);
-      } else {
-        helper.log("Running web server on default port " + commonConfig.servePort);
-      }
-
-      gulp.start("webserver");
-    } else {
-      helper.log("To start a web server, use the --serve argument");
+    if (args.serve) {
+      gulp.start("serve");
     }
 
     // testing
-    if (commonConfig.test) {
+    if (args.test) {
       helper.log("Karma tests enabled");
     } else {
       helper.log("To run karma tests, use the --test argument");
     }
 
     // watch
-    if (commonConfig.watchReloadEnabled) {
+    if (args.watchReloadEnabled) {
 
       lp.livereload.listen({
         start: true
       });
 
-      gulp.watch(commonConfig.src.glob, ['build']);
-      gulp.watch(commonConfig.styles.glob, ['styles']);
-      gulp.watch(commonConfig.karma.glob, ['build:test']);
+      gulp.watch(path.join(client.src.js.root, glob), ['app']);
+      gulp.watch(path.join(client.src.styles.root, glob), ['app:styles']);
+      gulp.watch(path.join(client.test.root, glob), ['app:test']);
 
       helper.log("Watching for changes, and ready to reload...");
       helper.log("READY PLAYER ONE...");
@@ -64,8 +52,6 @@ gulp.task('default', ['styles', 'build', 'bower'], function () {
   } else {
     helper.log("Running in production mode");
   }
-
-
 });
 
 

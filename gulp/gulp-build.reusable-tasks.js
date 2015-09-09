@@ -1,27 +1,23 @@
 "use strict";
 
-var args = require('yargs').argv;
-var lp = require('gulp-load-plugins')({
+var lp = require("gulp-load-plugins")({
   lazy: true
 });
 
-var notifier = require("node-notifier");
-
-var packageJson = require("./package.json");
-
-var commonConfig = require("./gulp-common-config");
-
 var lazypipe = require("lazypipe");
 
-var del = require('del');
+var client = require("../package.json").workflow.client;
 
+var args = require("./gulp-config.command-line-args");
+var npm = require("./gulp-config.npm");
+var filters = require("./gulp-config.filters");
 
 /*
  -------------- REUSABLE PIPE OPERATIONS --------------
  */
 
 var plumberTask = lazypipe().pipe(function () {
-  return lp.plumber(commonConfig.npmConfig.plumber);
+  return lp.plumber(npm.plumber);
 });
 
 
@@ -35,13 +31,13 @@ var autoprefixerTask = lazypipe()
   .pipe(printTask)
   .pipe(plumberTask)
   .pipe(function () {
-    return lp.autoprefixer(commonConfig.npmConfig.autoprefixer);
+    return lp.autoprefixer(npm.autoprefixer);
   });
 
 // locates and fixes locations of fonts
 var fixFontLocationTask = lazypipe()
   .pipe(function () {
-    return lp.if(commonConfig.fontLocation, lp.replace(commonConfig.fontLocation.find, commonConfig.fontLocation.replaceWith));
+    return lp.if(client.fontLocation, lp.replace(client.fontLocation.find, client.fontLocation.replaceWith));
   });
 
 // concatenates and uglify
@@ -56,7 +52,7 @@ var jsTaskFn = function (outputFileName) {
       return lp.if(args.production, lp.sourcemaps.init());
     })
     .pipe(function () {
-      return lp.if(args.production, lp.uglify(commonConfig.npmConfig.ugilfy));
+      return lp.if(args.production, lp.uglify(npm.ugilfy));
     })
     .pipe(function () {
       return lp.if(args.production, lp.sourcemaps.write());
@@ -66,7 +62,7 @@ var jsTaskFn = function (outputFileName) {
 // concatenates and minifies CSS
 var cssTaskFn = function (concatenatedFileName) {
 
-  var cssFilter = lp.filter(commonConfig.filters.include.css);
+  var cssFilter = lp.filter(filters.css);
   return lazypipe()
     .pipe(plumberTask)
     .pipe(function () {
@@ -81,7 +77,7 @@ var cssTaskFn = function (concatenatedFileName) {
 
 var sassTaskFn = function () {
 
-  var scssFilter = lp.filter(commonConfig.filters.include.scss);
+  var scssFilter = lp.filter(filters.scss);
 
   return lazypipe()
     .pipe(plumberTask)
@@ -89,14 +85,14 @@ var sassTaskFn = function () {
       return scssFilter;
     })
     .pipe(function () {
-      return lp.sass(commonConfig.npmConfig.sass);
+      return lp.sass(npm.sass);
     })
     .pipe(autoprefixerTask);
 };
 
 var lessTaskFn = function () {
 
-  var lessFilter = lp.filter(commonConfig.filters.include.less);
+  var lessFilter = lp.filter(filters.less);
 
   return lazypipe()
     .pipe(plumberTask)
@@ -104,7 +100,7 @@ var lessTaskFn = function () {
       return lessFilter;
     })
     .pipe(function () {
-      return lp.less(commonConfig.npmConfig.less);
+      return lp.less(npm.less);
     })
     .pipe(autoprefixerTask);
 
@@ -112,73 +108,28 @@ var lessTaskFn = function () {
 
 var livereloadTask = lazypipe()
   .pipe(function () {
-    return lp.if(commonConfig.watchReloadEnabled, lp.livereload());
+    return lp.if(args.watchReloadEnabled, lp.livereload());
   });
 
 var angularTemplateCacheTask = lazypipe()
   .pipe(printTask)
   .pipe(plumberTask)
   .pipe(function () {
-    return lp.angularTemplatecache(commonConfig.npmConfig.angularTemplateCache)
+    return lp.angularTemplatecache(npm.angularTemplateCache)
   });
 
+// lazypipe functions should be called like this
+// .pipe(plumberTask())
 module.exports.plumberTask = plumberTask;
 module.exports.printTask = printTask;
 module.exports.autoprefixerTask = autoprefixerTask;
 module.exports.fixFontLocationTask = fixFontLocationTask;
+module.exports.livereloadTask = livereloadTask;
+module.exports.angularTemplateCacheTask = angularTemplateCacheTask;
+
+// functions should be called like this
+// .pipe(jsTaskFunc("filename.js")())
 module.exports.jsTaskFn = jsTaskFn;
 module.exports.cssTaskFn = cssTaskFn;
 module.exports.lessTaskFn = lessTaskFn;
 module.exports.sassTaskFn = sassTaskFn;
-module.exports.livereloadTask = livereloadTask;
-module.exports.angularTemplateCacheTask = angularTemplateCacheTask;
-
-
-/*
- -------------- HELPFUL FUNCTIONS --------------
- */
-
-module.exports.clean = clean;
-module.exports.log = log;
-
-/**
- * Cleans the path
- * @param path
- * @param done
- */
-function clean(path, done) {
-  del(path, done);
-}
-
-/**
- * Writes a log message
- * @param message - the message
- */
-function log(message, notify, isError) {
-  var printFn = lp.util.colors.cyan.bold;
-
-  if (typeof (message) === "object") {
-    for (var item in message) {
-      if (message.hasOwnProperty(item)) {
-        lp.util.log(printFn(message[item]));
-      }
-    }
-  } else {
-    lp.util.log(printFn(message));
-
-    if (notify) {
-
-      var icon = isError ? __dirname + "/img/error.png" : __dirname + "/img/success.png";
-      notifier.notify({
-        icon: icon,
-        title: packageJson.name,
-        message: message
-      });
-    }
-
-  }
-}
-
-function verbose() {
-  return lp.if(args.verbose, lp.print())
-}

@@ -2,6 +2,64 @@
   "name": "angular-testing-demo",
   "version": "1.0.0",
   "description": "Angular Testing",
+  "workflow": {
+    "_description": "workflow: your workflow configuration",
+    "client": {
+      "_description": "client: specifically related to the client-side, e.g. the angularjs code",
+      "temp": {
+        "_description": "temp: where temporary build files should be stored",
+        "root": ".temp"
+      },
+      "src": {
+        "_description": "src: roots of your source code",
+        "js": {
+          "root": "app",
+          "outputFileName": "app.js"
+        },
+        "styles": {
+          "root": "styles",
+          "outputFileName": "app.css"
+        },
+        "index": {
+          "templateFileUri": "app/index.tmpl"
+        }
+      },
+      "angular": {
+        "_description": "Angular configuration, where the mainModule is the root module for your application",
+        "mainModule": "atd",
+        "templates": {
+          "_description": "angular.templates: where templates are stored",
+          "module": "atd.templates"
+        }
+      },
+      "fontLocation": {
+        "_description": "You may need to change the font path in CSS files - this does a simple find and replace in, e.g. bootstrap.css",
+        "find": "../fonts/",
+        "replaceWith": "./"
+      },
+      "vendor": {
+        "src": {
+          "_description": "additionalFiles: Include files not already include by main-bower-files",
+          "additionalFiles": [],
+          "js": {
+            "outputFileName": "vendor.js"
+          },
+          "styles": {
+            "outputFileName": "vendor.css"
+          }
+        }
+      },
+      "serve": {
+        "port": 5150
+      },
+      "test": {
+        "root": "test",
+        "karma": {
+          "config": "../karma.conf.js"
+        }
+      }
+    }
+  },
   "main": "server/server.js",
   "scripts": {
     "test": "gulp --silent --color --watch --test --serve",
@@ -18,7 +76,7 @@
     "clone": "^1.0.2",
     "cors": "^2.7.1",
     "express": "^4.13.0",
-    "lodash": "^3.9.3",
+    "lodash": "^3.10.1",
     "mongoose": "^4.0.6",
     "netmask": "^1.0.5",
     "pm2": "^0.14.3",
@@ -50,11 +108,13 @@
     "gulp-ng-annotate": "^1.0.0",
     "gulp-plumber": "^1.0.1",
     "gulp-print": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-replace": "^0.5.3",
     "gulp-ruby-sass": "^1.0.5",
     "gulp-sass": "^2.0.4",
     "gulp-shell": "^0.4.2",
     "gulp-sourcemaps": "^1.5.2",
+    "gulp-template": "^3.0.0",
     "gulp-typescript": "^2.7.8",
     "gulp-uglify": "^1.2.0",
     "gulp-util": "^3.0.6",
