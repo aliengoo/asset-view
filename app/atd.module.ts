@@ -1,9 +1,9 @@
-///<reference path="../../typings/angularjs/angular.d.ts"/>
+///<reference path="../typings/tsd.d.ts"/>
 
 ///<reference path="atd.controller.ts"/>
 ///<reference path="atd.config.ts"/>
 
-///<reference path="../home/home.module.ts"/>
+///<reference path="home/home.module.ts"/>
 
 
 module atd {
