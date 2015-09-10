@@ -1,42 +1,69 @@
 "use strict";
 
 var gulp = require("gulp");
-var sftp = require("gulp-sftp");
 var path = require("path");
+var lp = require("gulp-load-plugins")({
+  lazy: true
+});
 
 var args = require("./gulp-config.command-line-args");
 var publicPaths = require("./gulp-config.public-paths");
 var reusableTasks = require("./gulp-build.reusable-tasks");
 var helper = require("./gulp-build.helper");
+var client = require("../package.json").workflow.client;
 
-gulp.task("deploy", function (done) {
+var deploymentOptions = {
+    remotePath: args.remotePath,
+    host: args.hostname,
+    user: args.user
+};
 
-  if (args.deploy) {
+// TODO: Simplify deployments...
 
-    // requires SSH authentication to work
-    helper.log("Deploying to " + args.hostname);
+gulp.task("deploy:all", function () {
 
-    var src = path.join(__dirname, "../", publicPaths.glob);
+  // requires SSH authentication to work
+  helper.log("Deploying to " + args.hostname);
 
-    helper.log("Uploading: " + src + " to " + args.remotePath);
+  var src = path.join(__dirname, "../", publicPaths.glob);
 
-    var options = {
-      remotePath: args.remotePath,
-      host: args.hostname,
-      user: "siteadmin"
-    };
+  helper.log("Uploading: " + src + " to " + args.remotePath);
 
-    gulp.src(src)
-      .pipe(reusableTasks.printTask())
-      .pipe(reusableTasks.plumberTask())
-      .pipe(sftp(options))
-      .on("end", done).on("error", function(err){
-        helper.log(err, true, true);
-      });
+  return gulp.src(src)
+    .pipe(reusableTasks.printTask())
+    .pipe(reusableTasks.plumberTask())
+    .pipe(lp.sftp(deploymentOptions));
+});
 
-  } else {
-    done();
-  }
+
+gulp.task("deploy:src", function () {
+
+  // requires SSH authentication to work
+  helper.log("Deploying to " + args.hostname);
+
+  var src = path.join(__dirname, "../", publicPaths.js, client.src.js.outputFileName);
+
+  helper.log("Uploading: " + src + " to " + args.remotePath);
+
+  return gulp.src(src)
+    .pipe(reusableTasks.printTask())
+    .pipe(reusableTasks.plumberTask())
+    .pipe(lp.sftp(deploymentOptions));
+});
+
+gulp.task("deploy:styles", function () {
+
+  // requires SSH authentication to work
+  helper.log("Deploying styles to " + args.hostname);
+
+  var src = path.join(__dirname, "../", publicPaths.css, client.src.css.outputFileName);
+
+  helper.log("Uploading: " + src + " to " + args.remotePath);
+
+  return gulp.src(src)
+    .pipe(reusableTasks.printTask())
+    .pipe(reusableTasks.plumberTask())
+    .pipe(lp.sftp(deploymentOptions));
 });
 
 

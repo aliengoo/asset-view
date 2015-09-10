@@ -34,5 +34,7 @@ module.exports = {
 
   hostname: hostname,
 
-  remotePath: packageJson.workflow.client.deploy.remotePath
+  remotePath: packageJson.workflow.client.deploy.remotePath,
+
+  user: packageJson.workflow.client.deploy.user
 };

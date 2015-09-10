@@ -168,13 +168,11 @@ gulp.task("app", function (done) {
       ['app:js', 'app:templates'],
       "app:combine",
       "app:test",
-      "deploy",
       completionCallback);
   } else {
     runSequence(
       ['app:js', 'app:templates'],
       "app:combine",
-      "deploy",
       completionCallback);
   }
 });

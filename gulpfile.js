@@ -14,6 +14,9 @@ var helper = require("./gulp/gulp-build.helper");
 var serve = require("./gulp/gulp-serve");
 var deploy = require("./gulp/gulp-deploy");
 
+
+var publicPaths = require("./gulp/gulp-config.public-paths");
+
 var client = require("./package.json").workflow.client;
 
 var glob = "**/*";
