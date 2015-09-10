@@ -3,14 +3,13 @@ var args = require("yargs").argv;
 var packageJson = require("../package.json");
 
 var deploy = !!args.deploy;
-var hostname, destination;
+var hostname, remotePath;
 
 if (deploy) {
   hostname = args.hostname || packageJson.workflow.client.deploy.hostname;
-  destination = args.destination || packageJson.workflow.client.deploy.destination;
 
-  if (!hostname || !destination) {
-    throw new Error("You want to deploy, but you didn't tell the hostname or destination");
+  if (!hostname || !packageJson.workflow.client.deploy.remotePath) {
+    throw new Error("You want to deploy, but you didn't tell the hostname or the remotePath (see package.json)");
   }
 }
 
@@ -35,5 +34,5 @@ module.exports = {
 
   hostname: hostname,
 
-  destination: destination
+  remotePath: packageJson.workflow.client.deploy.remotePath
 };

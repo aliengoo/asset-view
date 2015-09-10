@@ -55,7 +55,7 @@
       "deploy": {
         "_description": "Arguments can be specified in the command-line, or set here - requires the --deploy argument",
         "hostname": "",
-        "destination": ""
+        "remotePath": "/var/www"
       },
       "test": {
         "root": "test",
@@ -126,6 +126,7 @@
     "gulp-util": "^3.0.6",
     "gulp-watch": "^4.2.4",
     "gulp-webserver": "^0.9.1",
+    "ip": "^1.0.1",
     "istanbul": "^0.3.17",
     "jasmine": "^2.3.2",
     "jasmine-core": "^2.3.4",

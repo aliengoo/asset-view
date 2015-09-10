@@ -10,6 +10,7 @@ module atd.home {
 
   export class HomeService implements IHomeService {
 
+    /* @ngInject */
     constructor(private $q:angular.IQService) {
     }
 
