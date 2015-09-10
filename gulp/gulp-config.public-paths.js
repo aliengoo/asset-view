@@ -16,4 +16,6 @@ publicPaths.assets = path.join(publicPaths.root, "assets");
 // css gets plonked in the same location as the assets
 publicPaths.css = publicPaths.assets;
 
+publicPaths.glob = path.join(publicPaths.root, "**/*");
+
 module.exports = publicPaths;

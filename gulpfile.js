@@ -12,6 +12,7 @@ var app = require("./gulp/gulp-build.app");
 var vendor = require("./gulp/gulp-build.vendor");
 var helper = require("./gulp/gulp-build.helper");
 var serve = require("./gulp/gulp-serve");
+var deploy = require("./gulp/gulp-deploy");
 
 var client = require("./package.json").workflow.client;
 
@@ -46,7 +47,12 @@ gulp.task('default', ['index-html', 'app:styles', 'app', 'vendor'], function () 
       helper.log("Watching for changes, and ready to reload...");
       helper.log("READY PLAYER ONE...");
     } else {
-      helper.log("Not watching for changes.  To enable watching and reloading, use the --watch argument");
+      if (args.test) {
+        helper.log("Not watching for your changes, but I am watching for test changes.  To enable watching and reloading, use the --watch argument");
+      } else {
+        helper.log("Not watching for your changes.  To enable watching and reloading, use the --watch argument");
+      }
+
     }
 
   } else {

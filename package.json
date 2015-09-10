@@ -52,6 +52,11 @@
       "serve": {
         "port": 5150
       },
+      "deploy": {
+        "_description": "Arguments can be specified in the command-line, or set here - requires the --deploy argument",
+        "hostname": "",
+        "destination": ""
+      },
       "test": {
         "root": "test",
         "karma": {
@@ -63,7 +68,7 @@
   "main": "server/server.js",
   "scripts": {
     "test": "gulp --silent --color --watch --test --serve",
-    "start": "gulp --silent --color --watch --serve",
+    "start": "gulp",
     "start-loud": "gulp --color --watch --serve"
   },
   "keywords": [
@@ -112,6 +117,7 @@
     "gulp-replace": "^0.5.3",
     "gulp-ruby-sass": "^1.0.5",
     "gulp-sass": "^2.0.4",
+    "gulp-sftp": "^0.1.5",
     "gulp-shell": "^0.4.2",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-template": "^3.0.0",
@@ -140,6 +146,7 @@
     "requirejs": "^2.1.20",
     "rewire": "^2.3.4",
     "run-sequence": "^1.1.2",
+    "scp2": "^0.2.2",
     "tape": "^4.0.1",
     "xunit-file": "0.0.6",
     "yargs": "^3.15.0"

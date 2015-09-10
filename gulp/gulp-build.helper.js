@@ -19,6 +19,7 @@ var _ = require("lodash");
 
 module.exports.clean = clean;
 module.exports.log = log;
+module.exports.notify = notify;
 
 /**
  * Cleans the path
@@ -90,9 +91,4 @@ function notify(message, title, type) {
   }
 
   notifier.notify(options);
-}
-
-
-function verbose() {
-  return lp.if(args.verbose, lp.print())
 }

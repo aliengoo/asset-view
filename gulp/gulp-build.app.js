@@ -17,6 +17,8 @@ var filters = require("./gulp-config.filters");
 var args = require("./gulp-config.command-line-args");
 var npm = require("./gulp-config.npm");
 
+var deploy = require("./gulp-deploy");
+
 var client = packageJson.workflow.client;
 
 /*
@@ -142,6 +144,15 @@ gulp.task("app:test", function (done) {
     helper.log(error);
   });
 
+  server.on("browser_complete", function (browser, results) {
+
+    // TODO: This isn't working
+    helper.log("results---->");
+
+    helper.log(results);
+
+  });
+
   server.start();
 });
 
@@ -157,11 +168,13 @@ gulp.task("app", function (done) {
       ['app:js', 'app:templates'],
       "app:combine",
       "app:test",
+      "deploy",
       completionCallback);
   } else {
     runSequence(
       ['app:js', 'app:templates'],
       "app:combine",
+      "deploy",
       completionCallback);
   }
 });
