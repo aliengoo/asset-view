@@ -6,6 +6,7 @@
 ///<reference path="home/home.module.ts"/>
 ///<reference path="entity/entity.module.ts"/>
 ///<reference path="common/common.module.ts"/>
+///<reference path="av.run.ts"/>
 
 
 
@@ -19,5 +20,6 @@ module av {
 
   angular.module("av", dependencies)
     .controller("AvController", AvController)
+    .run(avRun)
     .config(AvConfig);
 }

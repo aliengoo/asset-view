@@ -1,3 +1,4 @@
+///<reference path="../../typings/tsd.d.ts"/>
 ///<reference path="entity.ts"/>
 
 "use strict";
@@ -49,7 +50,7 @@ module av.entity {
       var defer:angular.IDeferred<Array<IEntity>> = this.$q.defer();
 
       var config = <angular.IRequestShortcutConfig> {
-        cache: true
+        cache: false
       };
 
       this.$http.get("api/entity/adjectives", config).success((response:Array<IEntity>): void =>{

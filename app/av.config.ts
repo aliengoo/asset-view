@@ -7,7 +7,7 @@ module av {
       private $urlRouterProvider: angular.ui.IUrlRouterProvider,
       private $httpProvider: any){
 
-      this.$urlRouterProvider.otherwise('/home');
+      this.$urlRouterProvider.otherwise('/entity/find');
 
       // enable CORS
       this.$httpProvider.defaults.useXDomain = true;

@@ -7,7 +7,6 @@ module av.entity {
 
     /* @ngInject */
     constructor(public adjectiveEntities:Array<IEntity>) {
-
     }
   }
 }
