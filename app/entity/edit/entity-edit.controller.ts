@@ -6,7 +6,7 @@ module av.entity {
   export class EntityEditController {
 
     /* @ngInject */
-    constructor(adjectiveEntities:Array<IEntity>) {
+    constructor(public adjectiveEntities:Array<IEntity>) {
 
     }
   }

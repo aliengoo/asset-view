@@ -14,6 +14,7 @@ module av.entity {
 
       $stateProvider.state(<angular.ui.IState>{
         name: "entity",
+        abstract: true,
         controller: "EntityController as vm",
         templateUrl: "entity/entity.html"
       });
