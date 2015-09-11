@@ -1,0 +1,5 @@
+{
+  "name": "db-init",
+  "main": "./lib/db-init",
+  "description": "Initialises a connection to the mongodb database"
+}

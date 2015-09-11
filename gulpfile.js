@@ -13,6 +13,7 @@ var vendor = require("./gulp/gulp-build.vendor");
 var helper = require("./gulp/gulp-build.helper");
 var serve = require("./gulp/gulp-serve");
 var deploy = require("./gulp/gulp-deploy");
+var nodemon = require("./gulp/gulp-nodemon");
 
 
 var publicPaths = require("./gulp/gulp-config.public-paths");
@@ -27,6 +28,10 @@ gulp.task('default', ['index-html', 'app:styles', 'app', 'vendor'], function () 
     // web server
     if (args.serve) {
       gulp.start("serve");
+    }
+
+    if (args.nodemon) {
+      gulp.start("nodemon");
     }
 
     // testing

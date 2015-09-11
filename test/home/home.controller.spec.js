@@ -4,7 +4,7 @@ describe("HomeController", function () {
   var $controller, $q;
 
 
-  beforeEach(module("atd.home"));
+  beforeEach(module("av.home"));
 
   beforeEach(module(function($provide){
     $provide.service("homeService", function () {

@@ -1,6 +1,6 @@
 ///<reference path="../../typings/tsd.d.ts"/>
 
-module atd.home {
+module av.home {
 
   export interface IHomeService {
     sayHello(name:string): string;

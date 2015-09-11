@@ -4,7 +4,7 @@ describe("HomeService", function () {
 
   var homeService, $rootScope;
 
-  beforeEach(module("atd.home"));
+  beforeEach(module("av.home"));
 
   beforeEach(inject(function (_homeService_, _$rootScope_) {
     homeService = _homeService_;

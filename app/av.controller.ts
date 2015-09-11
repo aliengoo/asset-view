@@ -1,5 +1,5 @@
-module atd {
-  export class AtdController {
+module av {
+  export class AvController {
 
     // @ngInject
     constructor() {

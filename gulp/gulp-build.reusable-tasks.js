@@ -35,10 +35,12 @@ var autoprefixerTask = lazypipe()
   });
 
 // locates and fixes locations of fonts
-var fixFontLocationTask = lazypipe()
-  .pipe(function () {
-    return lp.if(client.fontLocation, lp.replace(client.fontLocation.find, client.fontLocation.replaceWith));
-  });
+var replaceFn = function(replaceThis, withThat){
+    return lazypipe()
+      .pipe(function () {
+        return lp.replace(replaceThis, withThat);
+      });
+};
 
 // concatenates and uglify
 var jsTaskFn = function (outputFileName) {
@@ -71,7 +73,9 @@ var cssTaskFn = function (concatenatedFileName) {
     .pipe(function () {
       return lp.concat(concatenatedFileName);
     })
-    .pipe(fixFontLocationTask)
+    .pipe(function(){
+      return lp.if(client.fontLocation, replaceFn(client.fontLocation.find, client.fontLocation.replaceWith)());
+    })
     .pipe(lp.minifyCss);
 };
 
@@ -123,7 +127,7 @@ var angularTemplateCacheTask = lazypipe()
 module.exports.plumberTask = plumberTask;
 module.exports.printTask = printTask;
 module.exports.autoprefixerTask = autoprefixerTask;
-module.exports.fixFontLocationTask = fixFontLocationTask;
+module.exports.replaceFn = replaceFn;
 module.exports.livereloadTask = livereloadTask;
 module.exports.angularTemplateCacheTask = angularTemplateCacheTask;
 

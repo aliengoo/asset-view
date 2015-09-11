@@ -4,9 +4,9 @@
 ///<reference path="home.controller.ts"/>
 ///<reference path="home.service.ts"/>
 
-module atd.home {
+module av.home {
 
-  angular.module("atd.home", ["ui.router", "atd.templates"])
+  angular.module("av.home", ["ui.router", "av.templates"])
     .controller("HomeController", HomeController)
     .service("homeService", HomeService)
     .config(HomeConfig);

@@ -1,7 +1,7 @@
 ///<reference path="../typings/tsd.d.ts"/>
 
-module atd {
-  export class AtdConfig {
+module av {
+  export class AvConfig {
     // @ngInject
     constructor(
       private $urlRouterProvider: angular.ui.IUrlRouterProvider,

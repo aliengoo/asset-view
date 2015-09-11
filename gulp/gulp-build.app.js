@@ -156,6 +156,8 @@ gulp.task("app:test", function (done) {
   server.start();
 });
 
+
+
 // entry point for the build, using run-sequence to ensure build:test runs after the rest of the build has finished
 gulp.task("app", function (done) {
   var completionCallback = function() {

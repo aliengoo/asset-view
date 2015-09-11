@@ -17,6 +17,7 @@ var filters = require("./gulp-config.filters");
 var npm = require("./gulp-config.npm");
 
 var temporaryFilesPath = path.join(client.temp.root, "vendor");
+var icomoonFilesGlob = path.join(client.vendor.icomoon.root, "**");
 
 /*
  ------------------ GULP TASKS ------------------
@@ -45,19 +46,31 @@ gulp.task("vendor:sass", function () {
 gulp.task("vendor:less", function () {
   return gulp.src(mbf(npm.mainBowerFiles))
     .pipe(reusableTasks.lessTaskFn()())
-    .pipe(gulp.dest(path.join(temporaryFilesPath)));
+    .pipe(gulp.dest(temporaryFilesPath));
 });
 
-gulp.task("vendor:css", ["vendor:sass", "vendor:less"], function () {
+gulp.task("vendor:icomoon-fix", function() {
+
+  var cssFilter = lp.filter(filters.css);
+  var icomoon = client.vendor.icomoon;
+
+  return gulp.src(icomoonFilesGlob)
+    .pipe(cssFilter)
+    .pipe(reusableTasks.replaceFn(icomoon.replace.thisValue, icomoon.replace.withThis)())
+    .pipe(gulp.dest(temporaryFilesPath));
+});
+
+gulp.task("vendor:css", ["vendor:icomoon-fix", "vendor:sass", "vendor:less"], function () {
 
   var temporaryCssFilesGlob = path.join(temporaryFilesPath, "**/*.css");
-  
+
   return gulp.src(mbf(npm.mainBowerFiles))
     .pipe(lp.addSrc(client.vendor.src.additionalFiles))
     .pipe(lp.addSrc(temporaryCssFilesGlob))
     .pipe(reusableTasks.cssTaskFn(client.vendor.src.styles.outputFileName)())
     .pipe(gulp.dest(publicPaths.css));
 });
+
 
 // move any other files that are not JS or CSS into the assets folder
 gulp.task("vendor:assets", function () {
@@ -66,6 +79,7 @@ gulp.task("vendor:assets", function () {
 
   return gulp.src(mbf(npm.mainBowerFiles))
     .pipe(lp.addSrc(client.vendor.src.additionalFiles))
+    .pipe(lp.addSrc(icomoonFilesGlob)) // include icomoon in assets
     .pipe(assetsFilter)
     .pipe(gulp.dest(publicPaths.assets));
 });

@@ -1,7 +1,7 @@
 {
-  "name": "angular-testing-demo",
+  "name": "asset-view",
   "version": "1.0.0",
-  "description": "Angular Testing Demo",
+  "description": "Asset View",
   "workflow": {
     "_description": "workflow: your workflow configuration",
     "client": {
@@ -26,10 +26,10 @@
       },
       "angular": {
         "_description": "Angular configuration, where the mainModule is the root module for your application",
-        "mainModule": "atd",
+        "mainModule": "av",
         "templates": {
           "_description": "angular.templates: where templates are stored",
-          "module": "atd.templates"
+          "module": "av.templates"
         }
       },
       "fontLocation": {
@@ -47,6 +47,14 @@
           "styles": {
             "outputFileName": "vendor.css"
           }
+        },
+        "icomoon": {
+          "root": "icomoon",
+          "replace": {
+            "thisValue": "fonts/",
+            "withThis": "./"
+          },
+          "css": "icomoon.css"
         }
       },
       "serve": {
@@ -54,7 +62,7 @@
       },
       "deploy": {
         "_description": "Arguments can be specified in the command-line, or set here - requires the --deploy argument",
-        "hostname": "angular.guru",
+        "hostname": "<TODO>",
         "remotePath": "/var/www",
         "user": "siteadmin"
       },
@@ -68,9 +76,9 @@
   },
   "main": "server/server.js",
   "scripts": {
-    "test": "gulp --silent --color --watch --test --serve",
-    "start": "gulp",
-    "start-loud": "gulp --color --watch --serve"
+    "test": "gulp --silent --color --watch --test",
+    "start": "set NODE_ENV=development && set MONGO_URL_ASSET_VIEW=mongodb://localhost/asset-view && gulp --silent --color --watch --test",
+    "start-loud": "set NODE_ENV=development && set MONGO_URL_ASSET_VIEW=mongodb://localhost/asset-view && gulp --color --watch --test"
   },
   "keywords": [
     "testing",
@@ -79,9 +87,11 @@
   "author": "aliengoo",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.13.3",
     "clone": "^1.0.2",
     "cors": "^2.7.1",
-    "express": "^4.13.0",
+    "express": "^4.13.3",
+    "express-validator": "^2.17.1",
     "lodash": "^3.10.1",
     "mongoose": "^4.0.6",
     "netmask": "^1.0.5",
@@ -113,6 +123,7 @@
     "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-minify-css": "^1.2.0",
     "gulp-ng-annotate": "^1.0.0",
+    "gulp-nodemon": "^2.0.4",
     "gulp-plumber": "^1.0.1",
     "gulp-print": "^1.1.0",
     "gulp-rename": "^1.2.2",
@@ -144,6 +155,7 @@
     "mocha": "^2.2.5",
     "mocha-jenkins-reporter": "^0.1.9",
     "node-notifier": "^4.2.3",
+    "node-sass": "^3.3.2",
     "nodemon": "^1.3.7",
     "phantomjs": "^1.9.18",
     "requirejs": "^2.1.20",

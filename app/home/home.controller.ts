@@ -1,7 +1,7 @@
 ///<reference path="home.service.ts"/>
 
 
-module atd.home {
+module av.home {
   export class HomeController {
 
     public message: string;

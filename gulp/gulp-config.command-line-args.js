@@ -15,8 +15,12 @@ if (deploy) {
 
 
 module.exports = {
+
   // starts a web server
   serve: !!args.serve && !(!!args.production),
+
+  // You have a server-side components, and that's what serving the content
+  nodemon: !!args.nodemon,
 
   servePort: args.servePort || 8000,
 
