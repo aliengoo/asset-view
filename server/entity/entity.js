@@ -23,23 +23,13 @@ var entitySchema = new Schema({
     required: true
   },
 
-  entityType: {
-    type: Schema.Types.ObjectId,
-    "enum": entityTypes,
-    required: true,
-    index: true
-  },
-
-  environment: {
-    type: Schema.Types.ObjectId,
-    "enum": environments,
-    sparse: true
+  uri: {
+    type: String
   },
 
   labels: {
     type: [String]
   },
-
 
   // The description
   description: {
@@ -57,8 +47,6 @@ var entitySchema = new Schema({
 
 // Text index
 entitySchema.index({
-  entityType: "text",
-  environment: "text",
   name: "text",
   labels: "text"
 });

@@ -13,7 +13,7 @@ var entityLinkSchema = new Schema({
     type: Schema.Types.ObjectId,
     required: true
   },
-  linkingEntity: {
+  link: {
     // Must have a entity.classification of "adjective"
     type: Schema.Types.ObjectId,
     required: true
@@ -23,7 +23,7 @@ var entityLinkSchema = new Schema({
   }
 
 }, {
-  collection: "entity"
+  collection: "entityLink"
 });
 
 var entityLinkModel = mongoose.model("EntityLink", entityLinkSchema);

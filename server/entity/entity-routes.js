@@ -6,17 +6,20 @@ var format = util.format;
 var mongoose = require("mongoose");
 
 var Entity = require("./entity").Entity;
-var entityTypes = require("./entity-types");
-var entityEnvironments = require("./entity-environments");
+var EntityLink = require("./entity-link").EntityLink;
 
 module.exports = function (app) {
 
-  app.get("/api/entity/types", function (req, res) {
-    res.send(entityTypes);
-  });
-
-  app.get("/api/entity/environments", function (req, res) {
-    res.send(entityEnvironments);
+   app.get("/api/entity/adjectives", function (req, res) {
+    Entity.find({
+      classification: "adjective"
+    }, function(err, results) {
+      if (err) {
+        res.status(500).send(err);
+      } else {
+        res.send(results);
+      }
+    });
   });
 
   // saves the entity
@@ -26,10 +29,7 @@ module.exports = function (app) {
 
     entity.save(function (err, result) {
       if (err) {
-        res.status(500).send({
-          ok: false,
-          message: util.inspect(err)
-        });
+        res.status(500).send(err);
       } else {
         res.send(result);
       }
@@ -41,6 +41,43 @@ module.exports = function (app) {
 
   // for existing documents - same operation, but different URI
   app.post("/api/entity/:id", postHandler);
+
+  app.get("/api/entity/:id", function (req, res) {
+
+    Entity.findById(req.params.id, function (err, result) {
+      if(err) {
+        res.status(500).send(err);
+      } else {
+        res.send(result);
+      }
+    });
+  });
+
+  app.get("/api/entity/:id/links/lhs", function(req, res) {
+
+    EntityLink.find({
+      lhs: mongoose.Types.ObjectId(req.params.id)
+    }, function(err, results){
+      if (err) {
+        res.status(500).send(err);
+      } else {
+        res.send(results);
+      }
+    });
+  });
+
+  app.get("/api/entity/:id/links/rhs", function(req, res) {
+
+    EntityLink.find({
+      rhs: mongoose.Types.ObjectId(req.params.id)
+    }, function(err, results){
+      if (err) {
+        res.status(500).send(err);
+      } else {
+        res.send(results);
+      }
+    });
+  });
 
   app.delete("/api/entity/:id", function(req, res) {
 
@@ -72,10 +109,7 @@ module.exports = function (app) {
     var errors = req.validationErrors();
 
     if (errors) {
-      res.status(500).send({
-        ok: false,
-        message: util.inspect(errors)
-      });
+      res.status(500).send(errors);
     } else {
 
       // TODO: Add weights
@@ -96,10 +130,7 @@ module.exports = function (app) {
           }
         }).exec(function (err, results) {
           if(err) {
-            res.status(500).send({
-              ok: false,
-              message: util.inspect(err)
-            });
+            res.status(500).send(err);
           }
 
           res.send(results);

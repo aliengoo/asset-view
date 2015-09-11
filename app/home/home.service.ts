@@ -28,8 +28,6 @@ module av.home {
     }
 
     sayHello(name:string):string {
-
-
       return "Hello, " + name;
     }
   }
