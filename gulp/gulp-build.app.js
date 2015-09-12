@@ -92,6 +92,8 @@ gulp.task('app:js', ['app:ts'], function () {
   return gulp.src(temporaryJavaScriptFilesGlob)
     .pipe(reusableTasks.plumberTask())
     .pipe(lp.ngAnnotate(npm.ngAnnotate))
+    .pipe(lp.stripComments())
+    .pipe(lp.removeEmptyLines())
     .pipe(gulp.dest(temporaryFilesPath));
 });
 
