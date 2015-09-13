@@ -10,11 +10,9 @@ module av.entity {
 
     get(id:string): angular.IPromise<IEntity>;
 
-    getAdjectives(): angular.IPromise<Array<IEntity>>;
+    getAdjectives(): angular.IPromise<IEntity[]>;
 
-    getLhsLinks(id:string): angular.IPromise<Array<IEntityLink>>;
-
-    getRhsLinks(id:string): angular.IPromise<Array<IEntityLink>>;
+    search(name:string): angular.IPromise<IEntity[]>;
   }
 
   export class EntityService implements IEntityService{
@@ -44,16 +42,16 @@ module av.entity {
 
     /**
      * Retrieves entities with a classification of adjective
-     * @returns {IPromise<Array<IEntity>>}
+     * @returns {IPromise<IEntity[]>}
      */
-    getAdjectives(): angular.IPromise<Array<IEntity>> {
-      var defer:angular.IDeferred<Array<IEntity>> = this.$q.defer();
+    getAdjectives(): angular.IPromise<IEntity[]> {
+      var defer:angular.IDeferred<IEntity[]> = this.$q.defer();
 
       var config = <angular.IRequestShortcutConfig> {
         cache: false
       };
 
-      this.$http.get("api/entity/adjectives", config).success((response:Array<IEntity>): void =>{
+      this.$http.get("api/entity/adjectives", config).success((response:IEntity[]): void =>{
         defer.resolve(response);
       }).error(():void => {
         defer.reject();
@@ -85,46 +83,22 @@ module av.entity {
       return defer.promise;
     }
 
-    /**
-     * Retrieve links from one side
-     * @param side
-     * @param id
-     * @returns {IPromise<Array<IEntityLink>>}
-     */
-    private getLinks(side:string, id:string):angular.IPromise<Array<IEntityLink>> {
-      var defer:angular.IDeferred<Array<IEntityLink>> = this.$q.defer();
+    search(name:string): angular.IPromise<IEntity[]> {
+      var defer:angular.IDeferred<IEntity[]> = this.$q.defer();
 
       var config = <angular.IRequestShortcutConfig>{
         params: {
-          id: id
+          name: name
         }
       };
 
-      this.$http.get(`api/entity/:id/${side}`, config).success((response:Array<IEntityLink>): void =>{
+      this.$http.get("api/entity", config).success((response:IEntity[]): void =>{
         defer.resolve(response);
       }).error(():void => {
         defer.reject();
       });
 
       return defer.promise;
-    }
-
-    /**
-     * Retrieve links from the left-hand side
-     * @param id
-     * @returns {angular.IPromise<Array<IEntityLink>>}
-     */
-    getLhsLinks(id:string):angular.IPromise<Array<IEntityLink>> {
-      return this.getLinks("lhs", id);
-    }
-
-    /**
-     * Retrieve links from the right-hand side
-     * @param id
-     * @returns {angular.IPromise<Array<IEntityLink>>}
-     */
-    getRhsLinks(id:string):angular.IPromise<Array<av.entity.IEntityLink>> {
-      return this.getLinks("rhs", id);
     }
   }
 }

@@ -1,5 +1,7 @@
 var gulp = require('gulp');
 
+var os = require("os");
+
 var lp = require('gulp-load-plugins')({
   lazy: true
 });
@@ -14,6 +16,8 @@ var helper = require("./gulp/gulp-build.helper");
 var serve = require("./gulp/gulp-serve");
 var deploy = require("./gulp/gulp-deploy");
 var nodemon = require("./gulp/gulp-nodemon");
+var format = require("util").format;
+
 
 
 var publicPaths = require("./gulp/gulp-config.public-paths");
@@ -21,6 +25,8 @@ var publicPaths = require("./gulp/gulp-config.public-paths");
 var client = require("./package.json").workflow.client;
 
 var glob = "**/*";
+
+helper.log(format("Running on %s v%s", os.platform(), os.release()));
 
 gulp.task('default', ['index-html', 'app:styles', 'app', 'vendor'], function () {
 

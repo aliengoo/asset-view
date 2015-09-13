@@ -1,4 +1,10 @@
-div.col-sm-12
-   header
-    h2 Find {{vm.message}}
+div#entity-find.col-sm-12
+  header.text-center
+    h2 Locate Entities
+
+  form(name="findForm")
+    .form-group
+      input(name="search" placeholder="Enter a search term" entity-find-input).form-control.input-lg
+
+
 

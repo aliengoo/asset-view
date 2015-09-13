@@ -6,10 +6,10 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "angularjs/angular.d.ts": {
-      "commit": "64bb122eb95c7c3c6908e01f713e766b41e28d32"
+      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
     },
     "jquery/jquery.d.ts": {
-      "commit": "64bb122eb95c7c3c6908e01f713e766b41e28d32"
+      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
     },
     "angularjs/angular-animate.d.ts": {
       "commit": "64bb122eb95c7c3c6908e01f713e766b41e28d32"
@@ -19,6 +19,15 @@
     },
     "bootstrap/bootstrap.d.ts": {
       "commit": "64bb122eb95c7c3c6908e01f713e766b41e28d32"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    },
+    "typeahead/typeahead.d.ts": {
+      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "7a3ca1f0b8a0960af9fc1838f3234cc9d6ce0645"
     }
   }
 }

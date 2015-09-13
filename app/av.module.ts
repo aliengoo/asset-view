@@ -9,11 +9,11 @@
 ///<reference path="av.run.ts"/>
 
 
-
 module av {
 
   var dependencies:Array<string> = [
     "ui.router",
+    "ngMockE2E",
     "av.home",
     "av.common",
     "av.entity"];

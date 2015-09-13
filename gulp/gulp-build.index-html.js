@@ -23,7 +23,8 @@ gulp.task("index-html", function () {
     vendorJsFileUri: pathify(publicPaths.js, client.vendor.src.js.outputFileName),
     appCssFileUri: pathify(publicPaths.css, client.src.styles.outputFileName),
     appJsFileUri: pathify(publicPaths.js, client.src.js.outputFileName),
-    livereload: "<!-- livereload not enabled -->"
+    livereload: "<!-- livereload not enabled -->",
+    fakeBackend: args.fakeBackend
   };
 
   if (args.watchReloadEnabled) {

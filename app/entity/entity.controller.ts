@@ -8,7 +8,7 @@ module av.entity {
   export class EntityController {
 
     /* @ngInject */
-    constructor() {
+    constructor(public adjectiveEntities:IEntity[]) {
     }
   }
 }

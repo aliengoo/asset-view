@@ -14,6 +14,7 @@ if (deploy) {
 }
 
 
+
 module.exports = {
 
   // starts a web server
@@ -40,5 +41,7 @@ module.exports = {
 
   remotePath: packageJson.workflow.client.deploy.remotePath,
 
-  user: packageJson.workflow.client.deploy.user
+  user: packageJson.workflow.client.deploy.user,
+
+  fakeBackend: !!args.fakeBackend
 };
