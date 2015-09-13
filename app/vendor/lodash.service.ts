@@ -4,6 +4,6 @@
 module av.vendor {
   /* @ngInject */
   export function lodashService($window:angular.IWindowService): _.LoDashStatic {
-    return $window["lodash"]
+    return <_.LoDashStatic>$window["_"];
   }
 }

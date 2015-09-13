@@ -13,8 +13,20 @@ module av {
       _id: "an_entity",
       name: "container"
     }, {
-      _id: "an_server",
+      _id: "server1",
       name: "server1"
+    },{
+      _id: "server2",
+      name: "server2"
+    },{
+      _id: "server3",
+      name: "server3"
+    },{
+      _id: "server4",
+      name: "server4"
+    },{
+      _id: "server5",
+      name: "server5"
     }, {
       _id: "an_team",
       name: "team1"
