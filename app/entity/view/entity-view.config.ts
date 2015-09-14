@@ -12,6 +12,7 @@ module av.entity {
       /* @ngInject */
       var entityResolve = ($stateParams:angular.ui.IStateParamsService,
                            entityService:av.entity.IEntityService):angular.IPromise<IEntity> => {
+
         return entityService.get(<string>$stateParams["id"]);
       };
 

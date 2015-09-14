@@ -5,6 +5,7 @@ module.exports = {
   css: ["**/*.css"],
   less: ["**/*.less"],
   scss: ["**/*.scss"],
+  json: ["**/*.json"],
   assets: [
     '*',
     '!**/*.css',
@@ -12,5 +13,6 @@ module.exports = {
     '!**/*.js',
     '!**/*.jade',
     '!**/*.scss',
+    '!**/*.json',
     '!**/*.less']
 };

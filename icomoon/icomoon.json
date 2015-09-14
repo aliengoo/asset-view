@@ -1,0 +1,8037 @@
+[
+  {
+    "className": "icon-home",
+    "hexCode": "&#xe900",
+    "niceName": "Home"
+  },
+  {
+    "className": "icon-home2",
+    "hexCode": "&#xe901",
+    "niceName": "Home2"
+  },
+  {
+    "className": "icon-home3",
+    "hexCode": "&#xe902",
+    "niceName": "Home3"
+  },
+  {
+    "className": "icon-home4",
+    "hexCode": "&#xe903",
+    "niceName": "Home4"
+  },
+  {
+    "className": "icon-home5",
+    "hexCode": "&#xe904",
+    "niceName": "Home5"
+  },
+  {
+    "className": "icon-home6",
+    "hexCode": "&#xe905",
+    "niceName": "Home6"
+  },
+  {
+    "className": "icon-home7",
+    "hexCode": "&#xe906",
+    "niceName": "Home7"
+  },
+  {
+    "className": "icon-home8",
+    "hexCode": "&#xe907",
+    "niceName": "Home8"
+  },
+  {
+    "className": "icon-home9",
+    "hexCode": "&#xe908",
+    "niceName": "Home9"
+  },
+  {
+    "className": "icon-office",
+    "hexCode": "&#xe909",
+    "niceName": "Office"
+  },
+  {
+    "className": "icon-city",
+    "hexCode": "&#xe90a",
+    "niceName": "City"
+  },
+  {
+    "className": "icon-newspaper",
+    "hexCode": "&#xe90b",
+    "niceName": "Newspaper"
+  },
+  {
+    "className": "icon-magazine",
+    "hexCode": "&#xe90c",
+    "niceName": "Magazine"
+  },
+  {
+    "className": "icon-design",
+    "hexCode": "&#xe90d",
+    "niceName": "Design"
+  },
+  {
+    "className": "icon-pencil",
+    "hexCode": "&#xe90e",
+    "niceName": "Pencil"
+  },
+  {
+    "className": "icon-pencil2",
+    "hexCode": "&#xe90f",
+    "niceName": "Pencil2"
+  },
+  {
+    "className": "icon-pencil3",
+    "hexCode": "&#xe910",
+    "niceName": "Pencil3"
+  },
+  {
+    "className": "icon-pencil4",
+    "hexCode": "&#xe911",
+    "niceName": "Pencil4"
+  },
+  {
+    "className": "icon-pencil5",
+    "hexCode": "&#xe912",
+    "niceName": "Pencil5"
+  },
+  {
+    "className": "icon-pencil6",
+    "hexCode": "&#xe913",
+    "niceName": "Pencil6"
+  },
+  {
+    "className": "icon-pencil7",
+    "hexCode": "&#xe914",
+    "niceName": "Pencil7"
+  },
+  {
+    "className": "icon-eraser",
+    "hexCode": "&#xe915",
+    "niceName": "Eraser"
+  },
+  {
+    "className": "icon-eraser2",
+    "hexCode": "&#xe916",
+    "niceName": "Eraser2"
+  },
+  {
+    "className": "icon-eraser3",
+    "hexCode": "&#xe917",
+    "niceName": "Eraser3"
+  },
+  {
+    "className": "icon-quill",
+    "hexCode": "&#xe918",
+    "niceName": "Quill"
+  },
+  {
+    "className": "icon-quill2",
+    "hexCode": "&#xe919",
+    "niceName": "Quill2"
+  },
+  {
+    "className": "icon-quill3",
+    "hexCode": "&#xe91a",
+    "niceName": "Quill3"
+  },
+  {
+    "className": "icon-quill4",
+    "hexCode": "&#xe91b",
+    "niceName": "Quill4"
+  },
+  {
+    "className": "icon-pen",
+    "hexCode": "&#xe91c",
+    "niceName": "Pen"
+  },
+  {
+    "className": "icon-pen-plus",
+    "hexCode": "&#xe91d",
+    "niceName": "Pen Plus"
+  },
+  {
+    "className": "icon-pen-minus",
+    "hexCode": "&#xe91e",
+    "niceName": "Pen Minus"
+  },
+  {
+    "className": "icon-pen2",
+    "hexCode": "&#xe91f",
+    "niceName": "Pen2"
+  },
+  {
+    "className": "icon-pen3",
+    "hexCode": "&#xe920",
+    "niceName": "Pen3"
+  },
+  {
+    "className": "icon-pen4",
+    "hexCode": "&#xe921",
+    "niceName": "Pen4"
+  },
+  {
+    "className": "icon-pen5",
+    "hexCode": "&#xe922",
+    "niceName": "Pen5"
+  },
+  {
+    "className": "icon-marker",
+    "hexCode": "&#xe923",
+    "niceName": "Marker"
+  },
+  {
+    "className": "icon-marker2",
+    "hexCode": "&#xe924",
+    "niceName": "Marker2"
+  },
+  {
+    "className": "icon-blog",
+    "hexCode": "&#xe925",
+    "niceName": "Blog"
+  },
+  {
+    "className": "icon-blog2",
+    "hexCode": "&#xe926",
+    "niceName": "Blog2"
+  },
+  {
+    "className": "icon-pen6",
+    "hexCode": "&#xe927",
+    "niceName": "Pen6"
+  },
+  {
+    "className": "icon-brush",
+    "hexCode": "&#xe928",
+    "niceName": "Brush"
+  },
+  {
+    "className": "icon-spray",
+    "hexCode": "&#xe929",
+    "niceName": "Spray"
+  },
+  {
+    "className": "icon-palette",
+    "hexCode": "&#xe92a",
+    "niceName": "Palette"
+  },
+  {
+    "className": "icon-palette2",
+    "hexCode": "&#xe92b",
+    "niceName": "Palette2"
+  },
+  {
+    "className": "icon-color-sampler",
+    "hexCode": "&#xe92c",
+    "niceName": "Color Sampler"
+  },
+  {
+    "className": "icon-toggle",
+    "hexCode": "&#xe92d",
+    "niceName": "Toggle"
+  },
+  {
+    "className": "icon-bucket",
+    "hexCode": "&#xe92e",
+    "niceName": "Bucket"
+  },
+  {
+    "className": "icon-bucket2",
+    "hexCode": "&#xe92f",
+    "niceName": "Bucket2"
+  },
+  {
+    "className": "icon-gradient",
+    "hexCode": "&#xe930",
+    "niceName": "Gradient"
+  },
+  {
+    "className": "icon-eyedropper",
+    "hexCode": "&#xe931",
+    "niceName": "Eyedropper"
+  },
+  {
+    "className": "icon-eyedropper2",
+    "hexCode": "&#xe932",
+    "niceName": "Eyedropper2"
+  },
+  {
+    "className": "icon-eyedropper3",
+    "hexCode": "&#xe933",
+    "niceName": "Eyedropper3"
+  },
+  {
+    "className": "icon-droplet",
+    "hexCode": "&#xe934",
+    "niceName": "Droplet"
+  },
+  {
+    "className": "icon-droplet2",
+    "hexCode": "&#xe935",
+    "niceName": "Droplet2"
+  },
+  {
+    "className": "icon-droplet-contrast",
+    "hexCode": "&#xe936",
+    "niceName": "Droplet Contrast"
+  },
+  {
+    "className": "icon-color-clear",
+    "hexCode": "&#xe937",
+    "niceName": "Color Clear"
+  },
+  {
+    "className": "icon-paint-format",
+    "hexCode": "&#xe938",
+    "niceName": "Paint Format"
+  },
+  {
+    "className": "icon-stamp",
+    "hexCode": "&#xe939",
+    "niceName": "Stamp"
+  },
+  {
+    "className": "icon-images",
+    "hexCode": "&#xe93a",
+    "niceName": "Images"
+  },
+  {
+    "className": "icon-image",
+    "hexCode": "&#xe93b",
+    "niceName": "Image"
+  },
+  {
+    "className": "icon-image2",
+    "hexCode": "&#xe93c",
+    "niceName": "Image2"
+  },
+  {
+    "className": "icon-image-compare",
+    "hexCode": "&#xe93d",
+    "niceName": "Image Compare"
+  },
+  {
+    "className": "icon-images2",
+    "hexCode": "&#xe93e",
+    "niceName": "Images2"
+  },
+  {
+    "className": "icon-image3",
+    "hexCode": "&#xe93f",
+    "niceName": "Image3"
+  },
+  {
+    "className": "icon-images3",
+    "hexCode": "&#xe940",
+    "niceName": "Images3"
+  },
+  {
+    "className": "icon-image4",
+    "hexCode": "&#xe941",
+    "niceName": "Image4"
+  },
+  {
+    "className": "icon-image5",
+    "hexCode": "&#xe942",
+    "niceName": "Image5"
+  },
+  {
+    "className": "icon-image6",
+    "hexCode": "&#xe943",
+    "niceName": "Image6"
+  },
+  {
+    "className": "icon-camera",
+    "hexCode": "&#xe944",
+    "niceName": "Camera"
+  },
+  {
+    "className": "icon-camera2",
+    "hexCode": "&#xe945",
+    "niceName": "Camera2"
+  },
+  {
+    "className": "icon-camera3",
+    "hexCode": "&#xe946",
+    "niceName": "Camera3"
+  },
+  {
+    "className": "icon-shutter",
+    "hexCode": "&#xe947",
+    "niceName": "Shutter"
+  },
+  {
+    "className": "icon-headphones",
+    "hexCode": "&#xe948",
+    "niceName": "Headphones"
+  },
+  {
+    "className": "icon-headset",
+    "hexCode": "&#xe949",
+    "niceName": "Headset"
+  },
+  {
+    "className": "icon-music",
+    "hexCode": "&#xe94a",
+    "niceName": "Music"
+  },
+  {
+    "className": "icon-music2",
+    "hexCode": "&#xe94b",
+    "niceName": "Music2"
+  },
+  {
+    "className": "icon-music3",
+    "hexCode": "&#xe94c",
+    "niceName": "Music3"
+  },
+  {
+    "className": "icon-music4",
+    "hexCode": "&#xe94d",
+    "niceName": "Music4"
+  },
+  {
+    "className": "icon-music5",
+    "hexCode": "&#xe94e",
+    "niceName": "Music5"
+  },
+  {
+    "className": "icon-music6",
+    "hexCode": "&#xe94f",
+    "niceName": "Music6"
+  },
+  {
+    "className": "icon-album",
+    "hexCode": "&#xe950",
+    "niceName": "Album"
+  },
+  {
+    "className": "icon-cassette",
+    "hexCode": "&#xe951",
+    "niceName": "Cassette"
+  },
+  {
+    "className": "icon-tape",
+    "hexCode": "&#xe952",
+    "niceName": "Tape"
+  },
+  {
+    "className": "icon-piano",
+    "hexCode": "&#xe953",
+    "niceName": "Piano"
+  },
+  {
+    "className": "icon-guitar",
+    "hexCode": "&#xe954",
+    "niceName": "Guitar"
+  },
+  {
+    "className": "icon-trumpet",
+    "hexCode": "&#xe955",
+    "niceName": "Trumpet"
+  },
+  {
+    "className": "icon-speakers",
+    "hexCode": "&#xe956",
+    "niceName": "Speakers"
+  },
+  {
+    "className": "icon-play",
+    "hexCode": "&#xe957",
+    "niceName": "Play"
+  },
+  {
+    "className": "icon-play2",
+    "hexCode": "&#xe958",
+    "niceName": "Play2"
+  },
+  {
+    "className": "icon-clapboard-play",
+    "hexCode": "&#xe959",
+    "niceName": "Clapboard Play"
+  },
+  {
+    "className": "icon-clapboard",
+    "hexCode": "&#xe95a",
+    "niceName": "Clapboard"
+  },
+  {
+    "className": "icon-media",
+    "hexCode": "&#xe95b",
+    "niceName": "Media"
+  },
+  {
+    "className": "icon-presentation",
+    "hexCode": "&#xe95c",
+    "niceName": "Presentation"
+  },
+  {
+    "className": "icon-movie",
+    "hexCode": "&#xe95d",
+    "niceName": "Movie"
+  },
+  {
+    "className": "icon-film",
+    "hexCode": "&#xe95e",
+    "niceName": "Film"
+  },
+  {
+    "className": "icon-film2",
+    "hexCode": "&#xe95f",
+    "niceName": "Film2"
+  },
+  {
+    "className": "icon-film3",
+    "hexCode": "&#xe960",
+    "niceName": "Film3"
+  },
+  {
+    "className": "icon-film4",
+    "hexCode": "&#xe961",
+    "niceName": "Film4"
+  },
+  {
+    "className": "icon-video-camera",
+    "hexCode": "&#xe962",
+    "niceName": "Video Camera"
+  },
+  {
+    "className": "icon-video-camera2",
+    "hexCode": "&#xe963",
+    "niceName": "Video Camera2"
+  },
+  {
+    "className": "icon-video-camera-slash",
+    "hexCode": "&#xe964",
+    "niceName": "Video Camera Slash"
+  },
+  {
+    "className": "icon-video-camera3",
+    "hexCode": "&#xe965",
+    "niceName": "Video Camera3"
+  },
+  {
+    "className": "icon-video-camera4",
+    "hexCode": "&#xe966",
+    "niceName": "Video Camera4"
+  },
+  {
+    "className": "icon-video-camera-slash2",
+    "hexCode": "&#xe967",
+    "niceName": "Video Camera Slash2"
+  },
+  {
+    "className": "icon-video-camera5",
+    "hexCode": "&#xe968",
+    "niceName": "Video Camera5"
+  },
+  {
+    "className": "icon-recording",
+    "hexCode": "&#xe969",
+    "niceName": "Recording"
+  },
+  {
+    "className": "icon-dice",
+    "hexCode": "&#xe96a",
+    "niceName": "Dice"
+  },
+  {
+    "className": "icon-gamepad",
+    "hexCode": "&#xe96b",
+    "niceName": "Gamepad"
+  },
+  {
+    "className": "icon-gamepad2",
+    "hexCode": "&#xe96c",
+    "niceName": "Gamepad2"
+  },
+  {
+    "className": "icon-gamepad3",
+    "hexCode": "&#xe96d",
+    "niceName": "Gamepad3"
+  },
+  {
+    "className": "icon-pacman",
+    "hexCode": "&#xe96e",
+    "niceName": "Pacman"
+  },
+  {
+    "className": "icon-spades",
+    "hexCode": "&#xe96f",
+    "niceName": "Spades"
+  },
+  {
+    "className": "icon-clubs",
+    "hexCode": "&#xe970",
+    "niceName": "Clubs"
+  },
+  {
+    "className": "icon-diamonds",
+    "hexCode": "&#xe971",
+    "niceName": "Diamonds"
+  },
+  {
+    "className": "icon-chess-king",
+    "hexCode": "&#xe972",
+    "niceName": "Chess King"
+  },
+  {
+    "className": "icon-chess-queen",
+    "hexCode": "&#xe973",
+    "niceName": "Chess Queen"
+  },
+  {
+    "className": "icon-chess-rock",
+    "hexCode": "&#xe974",
+    "niceName": "Chess Rock"
+  },
+  {
+    "className": "icon-chess-bishop",
+    "hexCode": "&#xe975",
+    "niceName": "Chess Bishop"
+  },
+  {
+    "className": "icon-chess-knight",
+    "hexCode": "&#xe976",
+    "niceName": "Chess Knight"
+  },
+  {
+    "className": "icon-chess-pawn",
+    "hexCode": "&#xe977",
+    "niceName": "Chess Pawn"
+  },
+  {
+    "className": "icon-chess",
+    "hexCode": "&#xe978",
+    "niceName": "Chess"
+  },
+  {
+    "className": "icon-bullhorn",
+    "hexCode": "&#xe979",
+    "niceName": "Bullhorn"
+  },
+  {
+    "className": "icon-megaphone",
+    "hexCode": "&#xe97a",
+    "niceName": "Megaphone"
+  },
+  {
+    "className": "icon-new",
+    "hexCode": "&#xe97b",
+    "niceName": "New"
+  },
+  {
+    "className": "icon-connection",
+    "hexCode": "&#xe97c",
+    "niceName": "Connection"
+  },
+  {
+    "className": "icon-connection2",
+    "hexCode": "&#xe97d",
+    "niceName": "Connection2"
+  },
+  {
+    "className": "icon-connection3",
+    "hexCode": "&#xe97e",
+    "niceName": "Connection3"
+  },
+  {
+    "className": "icon-connection4",
+    "hexCode": "&#xe97f",
+    "niceName": "Connection4"
+  },
+  {
+    "className": "icon-podcast",
+    "hexCode": "&#xe980",
+    "niceName": "Podcast"
+  },
+  {
+    "className": "icon-station",
+    "hexCode": "&#xe981",
+    "niceName": "Station"
+  },
+  {
+    "className": "icon-station2",
+    "hexCode": "&#xe982",
+    "niceName": "Station2"
+  },
+  {
+    "className": "icon-antenna",
+    "hexCode": "&#xe983",
+    "niceName": "Antenna"
+  },
+  {
+    "className": "icon-satellite-dish",
+    "hexCode": "&#xe984",
+    "niceName": "Satellite Dish"
+  },
+  {
+    "className": "icon-satellite-dish2",
+    "hexCode": "&#xe985",
+    "niceName": "Satellite Dish2"
+  },
+  {
+    "className": "icon-feed",
+    "hexCode": "&#xe986",
+    "niceName": "Feed"
+  },
+  {
+    "className": "icon-podcast2",
+    "hexCode": "&#xe987",
+    "niceName": "Podcast2"
+  },
+  {
+    "className": "icon-antenna2",
+    "hexCode": "&#xe988",
+    "niceName": "Antenna2"
+  },
+  {
+    "className": "icon-mic",
+    "hexCode": "&#xe989",
+    "niceName": "Mic"
+  },
+  {
+    "className": "icon-mic-off",
+    "hexCode": "&#xe98a",
+    "niceName": "Mic Off"
+  },
+  {
+    "className": "icon-mic2",
+    "hexCode": "&#xe98b",
+    "niceName": "Mic2"
+  },
+  {
+    "className": "icon-mic-off2",
+    "hexCode": "&#xe98c",
+    "niceName": "Mic Off2"
+  },
+  {
+    "className": "icon-mic3",
+    "hexCode": "&#xe98d",
+    "niceName": "Mic3"
+  },
+  {
+    "className": "icon-mic4",
+    "hexCode": "&#xe98e",
+    "niceName": "Mic4"
+  },
+  {
+    "className": "icon-mic5",
+    "hexCode": "&#xe98f",
+    "niceName": "Mic5"
+  },
+  {
+    "className": "icon-book",
+    "hexCode": "&#xe990",
+    "niceName": "Book"
+  },
+  {
+    "className": "icon-book2",
+    "hexCode": "&#xe991",
+    "niceName": "Book2"
+  },
+  {
+    "className": "icon-book-play",
+    "hexCode": "&#xe992",
+    "niceName": "Book Play"
+  },
+  {
+    "className": "icon-book3",
+    "hexCode": "&#xe993",
+    "niceName": "Book3"
+  },
+  {
+    "className": "icon-bookmark",
+    "hexCode": "&#xe994",
+    "niceName": "Bookmark"
+  },
+  {
+    "className": "icon-books",
+    "hexCode": "&#xe995",
+    "niceName": "Books"
+  },
+  {
+    "className": "icon-archive",
+    "hexCode": "&#xe996",
+    "niceName": "Archive"
+  },
+  {
+    "className": "icon-reading",
+    "hexCode": "&#xe997",
+    "niceName": "Reading"
+  },
+  {
+    "className": "icon-library",
+    "hexCode": "&#xe998",
+    "niceName": "Library"
+  },
+  {
+    "className": "icon-library2",
+    "hexCode": "&#xe999",
+    "niceName": "Library2"
+  },
+  {
+    "className": "icon-graduation",
+    "hexCode": "&#xe99a",
+    "niceName": "Graduation"
+  },
+  {
+    "className": "icon-file-text",
+    "hexCode": "&#xe99b",
+    "niceName": "File Text"
+  },
+  {
+    "className": "icon-profile",
+    "hexCode": "&#xe99c",
+    "niceName": "Profile"
+  },
+  {
+    "className": "icon-file-empty",
+    "hexCode": "&#xe99d",
+    "niceName": "File Empty"
+  },
+  {
+    "className": "icon-file-empty2",
+    "hexCode": "&#xe99e",
+    "niceName": "File Empty2"
+  },
+  {
+    "className": "icon-files-empty",
+    "hexCode": "&#xe99f",
+    "niceName": "Files Empty"
+  },
+  {
+    "className": "icon-files-empty2",
+    "hexCode": "&#xe9a0",
+    "niceName": "Files Empty2"
+  },
+  {
+    "className": "icon-file-plus",
+    "hexCode": "&#xe9a1",
+    "niceName": "File Plus"
+  },
+  {
+    "className": "icon-file-plus2",
+    "hexCode": "&#xe9a2",
+    "niceName": "File Plus2"
+  },
+  {
+    "className": "icon-file-minus",
+    "hexCode": "&#xe9a3",
+    "niceName": "File Minus"
+  },
+  {
+    "className": "icon-file-minus2",
+    "hexCode": "&#xe9a4",
+    "niceName": "File Minus2"
+  },
+  {
+    "className": "icon-file-download",
+    "hexCode": "&#xe9a5",
+    "niceName": "File Download"
+  },
+  {
+    "className": "icon-file-download2",
+    "hexCode": "&#xe9a6",
+    "niceName": "File Download2"
+  },
+  {
+    "className": "icon-file-upload",
+    "hexCode": "&#xe9a7",
+    "niceName": "File Upload"
+  },
+  {
+    "className": "icon-file-upload2",
+    "hexCode": "&#xe9a8",
+    "niceName": "File Upload2"
+  },
+  {
+    "className": "icon-file-check",
+    "hexCode": "&#xe9a9",
+    "niceName": "File Check"
+  },
+  {
+    "className": "icon-file-check2",
+    "hexCode": "&#xe9aa",
+    "niceName": "File Check2"
+  },
+  {
+    "className": "icon-file-eye",
+    "hexCode": "&#xe9ab",
+    "niceName": "File Eye"
+  },
+  {
+    "className": "icon-file-eye2",
+    "hexCode": "&#xe9ac",
+    "niceName": "File Eye2"
+  },
+  {
+    "className": "icon-file-text2",
+    "hexCode": "&#xe9ad",
+    "niceName": "File Text2"
+  },
+  {
+    "className": "icon-file-text3",
+    "hexCode": "&#xe9ae",
+    "niceName": "File Text3"
+  },
+  {
+    "className": "icon-file-picture",
+    "hexCode": "&#xe9af",
+    "niceName": "File Picture"
+  },
+  {
+    "className": "icon-file-picture2",
+    "hexCode": "&#xe9b0",
+    "niceName": "File Picture2"
+  },
+  {
+    "className": "icon-file-music",
+    "hexCode": "&#xe9b1",
+    "niceName": "File Music"
+  },
+  {
+    "className": "icon-file-music2",
+    "hexCode": "&#xe9b2",
+    "niceName": "File Music2"
+  },
+  {
+    "className": "icon-file-play",
+    "hexCode": "&#xe9b3",
+    "niceName": "File Play"
+  },
+  {
+    "className": "icon-file-play2",
+    "hexCode": "&#xe9b4",
+    "niceName": "File Play2"
+  },
+  {
+    "className": "icon-file-video",
+    "hexCode": "&#xe9b5",
+    "niceName": "File Video"
+  },
+  {
+    "className": "icon-file-video2",
+    "hexCode": "&#xe9b6",
+    "niceName": "File Video2"
+  },
+  {
+    "className": "icon-copy",
+    "hexCode": "&#xe9b7",
+    "niceName": "Copy"
+  },
+  {
+    "className": "icon-copy2",
+    "hexCode": "&#xe9b8",
+    "niceName": "Copy2"
+  },
+  {
+    "className": "icon-file-zip",
+    "hexCode": "&#xe9b9",
+    "niceName": "File Zip"
+  },
+  {
+    "className": "icon-file-zip2",
+    "hexCode": "&#xe9ba",
+    "niceName": "File Zip2"
+  },
+  {
+    "className": "icon-file-xml",
+    "hexCode": "&#xe9bb",
+    "niceName": "File Xml"
+  },
+  {
+    "className": "icon-file-xml2",
+    "hexCode": "&#xe9bc",
+    "niceName": "File Xml2"
+  },
+  {
+    "className": "icon-file-css",
+    "hexCode": "&#xe9bd",
+    "niceName": "File Css"
+  },
+  {
+    "className": "icon-file-css2",
+    "hexCode": "&#xe9be",
+    "niceName": "File Css2"
+  },
+  {
+    "className": "icon-file-presentation",
+    "hexCode": "&#xe9bf",
+    "niceName": "File Presentation"
+  },
+  {
+    "className": "icon-file-presentation2",
+    "hexCode": "&#xe9c0",
+    "niceName": "File Presentation2"
+  },
+  {
+    "className": "icon-file-stats",
+    "hexCode": "&#xe9c1",
+    "niceName": "File Stats"
+  },
+  {
+    "className": "icon-file-stats2",
+    "hexCode": "&#xe9c2",
+    "niceName": "File Stats2"
+  },
+  {
+    "className": "icon-file-locked",
+    "hexCode": "&#xe9c3",
+    "niceName": "File Locked"
+  },
+  {
+    "className": "icon-file-locked2",
+    "hexCode": "&#xe9c4",
+    "niceName": "File Locked2"
+  },
+  {
+    "className": "icon-file-spreadsheet",
+    "hexCode": "&#xe9c5",
+    "niceName": "File Spreadsheet"
+  },
+  {
+    "className": "icon-file-spreadsheet2",
+    "hexCode": "&#xe9c6",
+    "niceName": "File Spreadsheet2"
+  },
+  {
+    "className": "icon-copy3",
+    "hexCode": "&#xe9c7",
+    "niceName": "Copy3"
+  },
+  {
+    "className": "icon-copy4",
+    "hexCode": "&#xe9c8",
+    "niceName": "Copy4"
+  },
+  {
+    "className": "icon-paste",
+    "hexCode": "&#xe9c9",
+    "niceName": "Paste"
+  },
+  {
+    "className": "icon-paste2",
+    "hexCode": "&#xe9ca",
+    "niceName": "Paste2"
+  },
+  {
+    "className": "icon-paste3",
+    "hexCode": "&#xe9cb",
+    "niceName": "Paste3"
+  },
+  {
+    "className": "icon-paste4",
+    "hexCode": "&#xe9cc",
+    "niceName": "Paste4"
+  },
+  {
+    "className": "icon-stack",
+    "hexCode": "&#xe9cd",
+    "niceName": "Stack"
+  },
+  {
+    "className": "icon-stack2",
+    "hexCode": "&#xe9ce",
+    "niceName": "Stack2"
+  },
+  {
+    "className": "icon-stack3",
+    "hexCode": "&#xe9cf",
+    "niceName": "Stack3"
+  },
+  {
+    "className": "icon-folder",
+    "hexCode": "&#xe9d0",
+    "niceName": "Folder"
+  },
+  {
+    "className": "icon-folder-search",
+    "hexCode": "&#xe9d1",
+    "niceName": "Folder Search"
+  },
+  {
+    "className": "icon-folder-download",
+    "hexCode": "&#xe9d2",
+    "niceName": "Folder Download"
+  },
+  {
+    "className": "icon-folder-upload",
+    "hexCode": "&#xe9d3",
+    "niceName": "Folder Upload"
+  },
+  {
+    "className": "icon-folder-plus",
+    "hexCode": "&#xe9d4",
+    "niceName": "Folder Plus"
+  },
+  {
+    "className": "icon-folder-plus2",
+    "hexCode": "&#xe9d5",
+    "niceName": "Folder Plus2"
+  },
+  {
+    "className": "icon-folder-minus",
+    "hexCode": "&#xe9d6",
+    "niceName": "Folder Minus"
+  },
+  {
+    "className": "icon-folder-minus2",
+    "hexCode": "&#xe9d7",
+    "niceName": "Folder Minus2"
+  },
+  {
+    "className": "icon-folder-check",
+    "hexCode": "&#xe9d8",
+    "niceName": "Folder Check"
+  },
+  {
+    "className": "icon-folder-heart",
+    "hexCode": "&#xe9d9",
+    "niceName": "Folder Heart"
+  },
+  {
+    "className": "icon-folder-remove",
+    "hexCode": "&#xe9da",
+    "niceName": "Folder Remove"
+  },
+  {
+    "className": "icon-folder2",
+    "hexCode": "&#xe9db",
+    "niceName": "Folder2"
+  },
+  {
+    "className": "icon-folder-open",
+    "hexCode": "&#xe9dc",
+    "niceName": "Folder Open"
+  },
+  {
+    "className": "icon-folder3",
+    "hexCode": "&#xe9dd",
+    "niceName": "Folder3"
+  },
+  {
+    "className": "icon-folder4",
+    "hexCode": "&#xe9de",
+    "niceName": "Folder4"
+  },
+  {
+    "className": "icon-folder-plus3",
+    "hexCode": "&#xe9df",
+    "niceName": "Folder Plus3"
+  },
+  {
+    "className": "icon-folder-minus3",
+    "hexCode": "&#xe9e0",
+    "niceName": "Folder Minus3"
+  },
+  {
+    "className": "icon-folder-plus4",
+    "hexCode": "&#xe9e1",
+    "niceName": "Folder Plus4"
+  },
+  {
+    "className": "icon-folder-minus4",
+    "hexCode": "&#xe9e2",
+    "niceName": "Folder Minus4"
+  },
+  {
+    "className": "icon-folder-download2",
+    "hexCode": "&#xe9e3",
+    "niceName": "Folder Download2"
+  },
+  {
+    "className": "icon-folder-upload2",
+    "hexCode": "&#xe9e4",
+    "niceName": "Folder Upload2"
+  },
+  {
+    "className": "icon-folder-download3",
+    "hexCode": "&#xe9e5",
+    "niceName": "Folder Download3"
+  },
+  {
+    "className": "icon-folder-upload3",
+    "hexCode": "&#xe9e6",
+    "niceName": "Folder Upload3"
+  },
+  {
+    "className": "icon-folder5",
+    "hexCode": "&#xe9e7",
+    "niceName": "Folder5"
+  },
+  {
+    "className": "icon-folder-open2",
+    "hexCode": "&#xe9e8",
+    "niceName": "Folder Open2"
+  },
+  {
+    "className": "icon-folder6",
+    "hexCode": "&#xe9e9",
+    "niceName": "Folder6"
+  },
+  {
+    "className": "icon-folder-open3",
+    "hexCode": "&#xe9ea",
+    "niceName": "Folder Open3"
+  },
+  {
+    "className": "icon-certificate",
+    "hexCode": "&#xe9eb",
+    "niceName": "Certificate"
+  },
+  {
+    "className": "icon-cc",
+    "hexCode": "&#xe9ec",
+    "niceName": "Cc"
+  },
+  {
+    "className": "icon-price-tag",
+    "hexCode": "&#xe9ed",
+    "niceName": "Price Tag"
+  },
+  {
+    "className": "icon-price-tag2",
+    "hexCode": "&#xe9ee",
+    "niceName": "Price Tag2"
+  },
+  {
+    "className": "icon-price-tags",
+    "hexCode": "&#xe9ef",
+    "niceName": "Price Tags"
+  },
+  {
+    "className": "icon-price-tag3",
+    "hexCode": "&#xe9f0",
+    "niceName": "Price Tag3"
+  },
+  {
+    "className": "icon-price-tags2",
+    "hexCode": "&#xe9f1",
+    "niceName": "Price Tags2"
+  },
+  {
+    "className": "icon-price-tag4",
+    "hexCode": "&#xe9f2",
+    "niceName": "Price Tag4"
+  },
+  {
+    "className": "icon-price-tags3",
+    "hexCode": "&#xe9f3",
+    "niceName": "Price Tags3"
+  },
+  {
+    "className": "icon-price-tag5",
+    "hexCode": "&#xe9f4",
+    "niceName": "Price Tag5"
+  },
+  {
+    "className": "icon-price-tags4",
+    "hexCode": "&#xe9f5",
+    "niceName": "Price Tags4"
+  },
+  {
+    "className": "icon-barcode",
+    "hexCode": "&#xe9f6",
+    "niceName": "Barcode"
+  },
+  {
+    "className": "icon-barcode2",
+    "hexCode": "&#xe9f7",
+    "niceName": "Barcode2"
+  },
+  {
+    "className": "icon-qrcode",
+    "hexCode": "&#xe9f8",
+    "niceName": "Qrcode"
+  },
+  {
+    "className": "icon-ticket",
+    "hexCode": "&#xe9f9",
+    "niceName": "Ticket"
+  },
+  {
+    "className": "icon-ticket2",
+    "hexCode": "&#xe9fa",
+    "niceName": "Ticket2"
+  },
+  {
+    "className": "icon-theater",
+    "hexCode": "&#xe9fb",
+    "niceName": "Theater"
+  },
+  {
+    "className": "icon-store",
+    "hexCode": "&#xe9fc",
+    "niceName": "Store"
+  },
+  {
+    "className": "icon-store2",
+    "hexCode": "&#xe9fd",
+    "niceName": "Store2"
+  },
+  {
+    "className": "icon-cart",
+    "hexCode": "&#xe9fe",
+    "niceName": "Cart"
+  },
+  {
+    "className": "icon-cart2",
+    "hexCode": "&#xe9ff",
+    "niceName": "Cart2"
+  },
+  {
+    "className": "icon-cart3",
+    "hexCode": "&#xea00",
+    "niceName": "Cart3"
+  },
+  {
+    "className": "icon-cart4",
+    "hexCode": "&#xea01",
+    "niceName": "Cart4"
+  },
+  {
+    "className": "icon-cart5",
+    "hexCode": "&#xea02",
+    "niceName": "Cart5"
+  },
+  {
+    "className": "icon-cart-add",
+    "hexCode": "&#xea03",
+    "niceName": "Cart Add"
+  },
+  {
+    "className": "icon-cart-add2",
+    "hexCode": "&#xea04",
+    "niceName": "Cart Add2"
+  },
+  {
+    "className": "icon-cart-remove",
+    "hexCode": "&#xea05",
+    "niceName": "Cart Remove"
+  },
+  {
+    "className": "icon-basket",
+    "hexCode": "&#xea06",
+    "niceName": "Basket"
+  },
+  {
+    "className": "icon-bag",
+    "hexCode": "&#xea07",
+    "niceName": "Bag"
+  },
+  {
+    "className": "icon-bag2",
+    "hexCode": "&#xea08",
+    "niceName": "Bag2"
+  },
+  {
+    "className": "icon-percent",
+    "hexCode": "&#xea09",
+    "niceName": "Percent"
+  },
+  {
+    "className": "icon-coins",
+    "hexCode": "&#xea0a",
+    "niceName": "Coins"
+  },
+  {
+    "className": "icon-coin-dollar",
+    "hexCode": "&#xea0b",
+    "niceName": "Coin Dollar"
+  },
+  {
+    "className": "icon-coin-euro",
+    "hexCode": "&#xea0c",
+    "niceName": "Coin Euro"
+  },
+  {
+    "className": "icon-coin-pound",
+    "hexCode": "&#xea0d",
+    "niceName": "Coin Pound"
+  },
+  {
+    "className": "icon-coin-yen",
+    "hexCode": "&#xea0e",
+    "niceName": "Coin Yen"
+  },
+  {
+    "className": "icon-piggy-bank",
+    "hexCode": "&#xea0f",
+    "niceName": "Piggy Bank"
+  },
+  {
+    "className": "icon-wallet",
+    "hexCode": "&#xea10",
+    "niceName": "Wallet"
+  },
+  {
+    "className": "icon-cash",
+    "hexCode": "&#xea11",
+    "niceName": "Cash"
+  },
+  {
+    "className": "icon-cash2",
+    "hexCode": "&#xea12",
+    "niceName": "Cash2"
+  },
+  {
+    "className": "icon-cash3",
+    "hexCode": "&#xea13",
+    "niceName": "Cash3"
+  },
+  {
+    "className": "icon-cash4",
+    "hexCode": "&#xea14",
+    "niceName": "Cash4"
+  },
+  {
+    "className": "icon-credit-card",
+    "hexCode": "&#xea15",
+    "niceName": "Credit Card"
+  },
+  {
+    "className": "icon-credit-card2",
+    "hexCode": "&#xea16",
+    "niceName": "Credit Card2"
+  },
+  {
+    "className": "icon-calculator",
+    "hexCode": "&#xea17",
+    "niceName": "Calculator"
+  },
+  {
+    "className": "icon-calculator2",
+    "hexCode": "&#xea18",
+    "niceName": "Calculator2"
+  },
+  {
+    "className": "icon-calculator3",
+    "hexCode": "&#xea19",
+    "niceName": "Calculator3"
+  },
+  {
+    "className": "icon-chip",
+    "hexCode": "&#xea1a",
+    "niceName": "Chip"
+  },
+  {
+    "className": "icon-lifebuoy",
+    "hexCode": "&#xea1b",
+    "niceName": "Lifebuoy"
+  },
+  {
+    "className": "icon-phone",
+    "hexCode": "&#xea1c",
+    "niceName": "Phone"
+  },
+  {
+    "className": "icon-phone2",
+    "hexCode": "&#xea1d",
+    "niceName": "Phone2"
+  },
+  {
+    "className": "icon-phone-slash",
+    "hexCode": "&#xea1e",
+    "niceName": "Phone Slash"
+  },
+  {
+    "className": "icon-phone-wave",
+    "hexCode": "&#xea1f",
+    "niceName": "Phone Wave"
+  },
+  {
+    "className": "icon-phone-plus",
+    "hexCode": "&#xea20",
+    "niceName": "Phone Plus"
+  },
+  {
+    "className": "icon-phone-minus",
+    "hexCode": "&#xea21",
+    "niceName": "Phone Minus"
+  },
+  {
+    "className": "icon-phone-plus2",
+    "hexCode": "&#xea22",
+    "niceName": "Phone Plus2"
+  },
+  {
+    "className": "icon-phone-minus2",
+    "hexCode": "&#xea23",
+    "niceName": "Phone Minus2"
+  },
+  {
+    "className": "icon-phone-incoming",
+    "hexCode": "&#xea24",
+    "niceName": "Phone Incoming"
+  },
+  {
+    "className": "icon-phone-outgoing",
+    "hexCode": "&#xea25",
+    "niceName": "Phone Outgoing"
+  },
+  {
+    "className": "icon-phone3",
+    "hexCode": "&#xea26",
+    "niceName": "Phone3"
+  },
+  {
+    "className": "icon-phone-slash2",
+    "hexCode": "&#xea27",
+    "niceName": "Phone Slash2"
+  },
+  {
+    "className": "icon-phone-wave2",
+    "hexCode": "&#xea28",
+    "niceName": "Phone Wave2"
+  },
+  {
+    "className": "icon-phone-hang-up",
+    "hexCode": "&#xea29",
+    "niceName": "Phone Hang Up"
+  },
+  {
+    "className": "icon-phone-hang-up2",
+    "hexCode": "&#xea2a",
+    "niceName": "Phone Hang Up2"
+  },
+  {
+    "className": "icon-address-book",
+    "hexCode": "&#xea2b",
+    "niceName": "Address Book"
+  },
+  {
+    "className": "icon-address-book2",
+    "hexCode": "&#xea2c",
+    "niceName": "Address Book2"
+  },
+  {
+    "className": "icon-address-book3",
+    "hexCode": "&#xea2d",
+    "niceName": "Address Book3"
+  },
+  {
+    "className": "icon-notebook",
+    "hexCode": "&#xea2e",
+    "niceName": "Notebook"
+  },
+  {
+    "className": "icon-at-sign",
+    "hexCode": "&#xea2f",
+    "niceName": "At Sign"
+  },
+  {
+    "className": "icon-envelop",
+    "hexCode": "&#xea30",
+    "niceName": "Envelop"
+  },
+  {
+    "className": "icon-envelop2",
+    "hexCode": "&#xea31",
+    "niceName": "Envelop2"
+  },
+  {
+    "className": "icon-envelop3",
+    "hexCode": "&#xea32",
+    "niceName": "Envelop3"
+  },
+  {
+    "className": "icon-envelop4",
+    "hexCode": "&#xea33",
+    "niceName": "Envelop4"
+  },
+  {
+    "className": "icon-envelop5",
+    "hexCode": "&#xea34",
+    "niceName": "Envelop5"
+  },
+  {
+    "className": "icon-mailbox",
+    "hexCode": "&#xea35",
+    "niceName": "Mailbox"
+  },
+  {
+    "className": "icon-pushpin",
+    "hexCode": "&#xea36",
+    "niceName": "Pushpin"
+  },
+  {
+    "className": "icon-pushpin2",
+    "hexCode": "&#xea37",
+    "niceName": "Pushpin2"
+  },
+  {
+    "className": "icon-location",
+    "hexCode": "&#xea38",
+    "niceName": "Location"
+  },
+  {
+    "className": "icon-location2",
+    "hexCode": "&#xea39",
+    "niceName": "Location2"
+  },
+  {
+    "className": "icon-location3",
+    "hexCode": "&#xea3a",
+    "niceName": "Location3"
+  },
+  {
+    "className": "icon-location4",
+    "hexCode": "&#xea3b",
+    "niceName": "Location4"
+  },
+  {
+    "className": "icon-location5",
+    "hexCode": "&#xea3c",
+    "niceName": "Location5"
+  },
+  {
+    "className": "icon-location6",
+    "hexCode": "&#xea3d",
+    "niceName": "Location6"
+  },
+  {
+    "className": "icon-location7",
+    "hexCode": "&#xea3e",
+    "niceName": "Location7"
+  },
+  {
+    "className": "icon-compass",
+    "hexCode": "&#xea3f",
+    "niceName": "Compass"
+  },
+  {
+    "className": "icon-compass2",
+    "hexCode": "&#xea40",
+    "niceName": "Compass2"
+  },
+  {
+    "className": "icon-compass3",
+    "hexCode": "&#xea41",
+    "niceName": "Compass3"
+  },
+  {
+    "className": "icon-compass4",
+    "hexCode": "&#xea42",
+    "niceName": "Compass4"
+  },
+  {
+    "className": "icon-compass5",
+    "hexCode": "&#xea43",
+    "niceName": "Compass5"
+  },
+  {
+    "className": "icon-compass6",
+    "hexCode": "&#xea44",
+    "niceName": "Compass6"
+  },
+  {
+    "className": "icon-map",
+    "hexCode": "&#xea45",
+    "niceName": "Map"
+  },
+  {
+    "className": "icon-map2",
+    "hexCode": "&#xea46",
+    "niceName": "Map2"
+  },
+  {
+    "className": "icon-map3",
+    "hexCode": "&#xea47",
+    "niceName": "Map3"
+  },
+  {
+    "className": "icon-map4",
+    "hexCode": "&#xea48",
+    "niceName": "Map4"
+  },
+  {
+    "className": "icon-map5",
+    "hexCode": "&#xea49",
+    "niceName": "Map5"
+  },
+  {
+    "className": "icon-direction",
+    "hexCode": "&#xea4a",
+    "niceName": "Direction"
+  },
+  {
+    "className": "icon-reset",
+    "hexCode": "&#xea4b",
+    "niceName": "Reset"
+  },
+  {
+    "className": "icon-history",
+    "hexCode": "&#xea4c",
+    "niceName": "History"
+  },
+  {
+    "className": "icon-clock",
+    "hexCode": "&#xea4d",
+    "niceName": "Clock"
+  },
+  {
+    "className": "icon-clock2",
+    "hexCode": "&#xea4e",
+    "niceName": "Clock2"
+  },
+  {
+    "className": "icon-clock3",
+    "hexCode": "&#xea4f",
+    "niceName": "Clock3"
+  },
+  {
+    "className": "icon-clock4",
+    "hexCode": "&#xea50",
+    "niceName": "Clock4"
+  },
+  {
+    "className": "icon-watch",
+    "hexCode": "&#xea51",
+    "niceName": "Watch"
+  },
+  {
+    "className": "icon-watch2",
+    "hexCode": "&#xea52",
+    "niceName": "Watch2"
+  },
+  {
+    "className": "icon-alarm",
+    "hexCode": "&#xea53",
+    "niceName": "Alarm"
+  },
+  {
+    "className": "icon-alarm-add",
+    "hexCode": "&#xea54",
+    "niceName": "Alarm Add"
+  },
+  {
+    "className": "icon-alarm-check",
+    "hexCode": "&#xea55",
+    "niceName": "Alarm Check"
+  },
+  {
+    "className": "icon-alarm-cancel",
+    "hexCode": "&#xea56",
+    "niceName": "Alarm Cancel"
+  },
+  {
+    "className": "icon-bell",
+    "hexCode": "&#xea57",
+    "niceName": "Bell"
+  },
+  {
+    "className": "icon-bell2",
+    "hexCode": "&#xea58",
+    "niceName": "Bell2"
+  },
+  {
+    "className": "icon-bell3",
+    "hexCode": "&#xea59",
+    "niceName": "Bell3"
+  },
+  {
+    "className": "icon-bell-plus",
+    "hexCode": "&#xea5a",
+    "niceName": "Bell Plus"
+  },
+  {
+    "className": "icon-bell-minus",
+    "hexCode": "&#xea5b",
+    "niceName": "Bell Minus"
+  },
+  {
+    "className": "icon-bell-check",
+    "hexCode": "&#xea5c",
+    "niceName": "Bell Check"
+  },
+  {
+    "className": "icon-bell-cross",
+    "hexCode": "&#xea5d",
+    "niceName": "Bell Cross"
+  },
+  {
+    "className": "icon-stopwatch",
+    "hexCode": "&#xea5e",
+    "niceName": "Stopwatch"
+  },
+  {
+    "className": "icon-calendar",
+    "hexCode": "&#xea5f",
+    "niceName": "Calendar"
+  },
+  {
+    "className": "icon-calendar2",
+    "hexCode": "&#xea60",
+    "niceName": "Calendar2"
+  },
+  {
+    "className": "icon-calendar3",
+    "hexCode": "&#xea61",
+    "niceName": "Calendar3"
+  },
+  {
+    "className": "icon-calendar4",
+    "hexCode": "&#xea62",
+    "niceName": "Calendar4"
+  },
+  {
+    "className": "icon-calendar5",
+    "hexCode": "&#xea63",
+    "niceName": "Calendar5"
+  },
+  {
+    "className": "icon-printer",
+    "hexCode": "&#xea64",
+    "niceName": "Printer"
+  },
+  {
+    "className": "icon-printer2",
+    "hexCode": "&#xea65",
+    "niceName": "Printer2"
+  },
+  {
+    "className": "icon-printer3",
+    "hexCode": "&#xea66",
+    "niceName": "Printer3"
+  },
+  {
+    "className": "icon-printer4",
+    "hexCode": "&#xea67",
+    "niceName": "Printer4"
+  },
+  {
+    "className": "icon-shredder",
+    "hexCode": "&#xea68",
+    "niceName": "Shredder"
+  },
+  {
+    "className": "icon-mouse",
+    "hexCode": "&#xea69",
+    "niceName": "Mouse"
+  },
+  {
+    "className": "icon-mouse2",
+    "hexCode": "&#xea6a",
+    "niceName": "Mouse2"
+  },
+  {
+    "className": "icon-mouse-left",
+    "hexCode": "&#xea6b",
+    "niceName": "Mouse Left"
+  },
+  {
+    "className": "icon-mouse-right",
+    "hexCode": "&#xea6c",
+    "niceName": "Mouse Right"
+  },
+  {
+    "className": "icon-keyboard",
+    "hexCode": "&#xea6d",
+    "niceName": "Keyboard"
+  },
+  {
+    "className": "icon-keyboard2",
+    "hexCode": "&#xea6e",
+    "niceName": "Keyboard2"
+  },
+  {
+    "className": "icon-typewriter",
+    "hexCode": "&#xea6f",
+    "niceName": "Typewriter"
+  },
+  {
+    "className": "icon-display",
+    "hexCode": "&#xea70",
+    "niceName": "Display"
+  },
+  {
+    "className": "icon-display2",
+    "hexCode": "&#xea71",
+    "niceName": "Display2"
+  },
+  {
+    "className": "icon-display3",
+    "hexCode": "&#xea72",
+    "niceName": "Display3"
+  },
+  {
+    "className": "icon-display4",
+    "hexCode": "&#xea73",
+    "niceName": "Display4"
+  },
+  {
+    "className": "icon-laptop",
+    "hexCode": "&#xea74",
+    "niceName": "Laptop"
+  },
+  {
+    "className": "icon-mobile",
+    "hexCode": "&#xea75",
+    "niceName": "Mobile"
+  },
+  {
+    "className": "icon-mobile2",
+    "hexCode": "&#xea76",
+    "niceName": "Mobile2"
+  },
+  {
+    "className": "icon-tablet",
+    "hexCode": "&#xea77",
+    "niceName": "Tablet"
+  },
+  {
+    "className": "icon-mobile3",
+    "hexCode": "&#xea78",
+    "niceName": "Mobile3"
+  },
+  {
+    "className": "icon-tv",
+    "hexCode": "&#xea79",
+    "niceName": "Tv"
+  },
+  {
+    "className": "icon-radio",
+    "hexCode": "&#xea7a",
+    "niceName": "Radio"
+  },
+  {
+    "className": "icon-cabinet",
+    "hexCode": "&#xea7b",
+    "niceName": "Cabinet"
+  },
+  {
+    "className": "icon-drawer",
+    "hexCode": "&#xea7c",
+    "niceName": "Drawer"
+  },
+  {
+    "className": "icon-drawer2",
+    "hexCode": "&#xea7d",
+    "niceName": "Drawer2"
+  },
+  {
+    "className": "icon-drawer-out",
+    "hexCode": "&#xea7e",
+    "niceName": "Drawer Out"
+  },
+  {
+    "className": "icon-drawer-in",
+    "hexCode": "&#xea7f",
+    "niceName": "Drawer In"
+  },
+  {
+    "className": "icon-drawer3",
+    "hexCode": "&#xea80",
+    "niceName": "Drawer3"
+  },
+  {
+    "className": "icon-box",
+    "hexCode": "&#xea81",
+    "niceName": "Box"
+  },
+  {
+    "className": "icon-box-add",
+    "hexCode": "&#xea82",
+    "niceName": "Box Add"
+  },
+  {
+    "className": "icon-box-remove",
+    "hexCode": "&#xea83",
+    "niceName": "Box Remove"
+  },
+  {
+    "className": "icon-download",
+    "hexCode": "&#xea84",
+    "niceName": "Download"
+  },
+  {
+    "className": "icon-upload",
+    "hexCode": "&#xea85",
+    "niceName": "Upload"
+  },
+  {
+    "className": "icon-floppy-disk",
+    "hexCode": "&#xea86",
+    "niceName": "Floppy Disk"
+  },
+  {
+    "className": "icon-floppy-disks",
+    "hexCode": "&#xea87",
+    "niceName": "Floppy Disks"
+  },
+  {
+    "className": "icon-floppy-disks2",
+    "hexCode": "&#xea88",
+    "niceName": "Floppy Disks2"
+  },
+  {
+    "className": "icon-floppy-disk2",
+    "hexCode": "&#xea89",
+    "niceName": "Floppy Disk2"
+  },
+  {
+    "className": "icon-floppy-disk3",
+    "hexCode": "&#xea8a",
+    "niceName": "Floppy Disk3"
+  },
+  {
+    "className": "icon-disk",
+    "hexCode": "&#xea8b",
+    "niceName": "Disk"
+  },
+  {
+    "className": "icon-disk2",
+    "hexCode": "&#xea8c",
+    "niceName": "Disk2"
+  },
+  {
+    "className": "icon-usb-stick",
+    "hexCode": "&#xea8d",
+    "niceName": "Usb Stick"
+  },
+  {
+    "className": "icon-drive",
+    "hexCode": "&#xea8e",
+    "niceName": "Drive"
+  },
+  {
+    "className": "icon-server",
+    "hexCode": "&#xea8f",
+    "niceName": "Server"
+  },
+  {
+    "className": "icon-database",
+    "hexCode": "&#xea90",
+    "niceName": "Database"
+  },
+  {
+    "className": "icon-database2",
+    "hexCode": "&#xea91",
+    "niceName": "Database2"
+  },
+  {
+    "className": "icon-database3",
+    "hexCode": "&#xea92",
+    "niceName": "Database3"
+  },
+  {
+    "className": "icon-database4",
+    "hexCode": "&#xea93",
+    "niceName": "Database4"
+  },
+  {
+    "className": "icon-database-menu",
+    "hexCode": "&#xea94",
+    "niceName": "Database Menu"
+  },
+  {
+    "className": "icon-database-add",
+    "hexCode": "&#xea95",
+    "niceName": "Database Add"
+  },
+  {
+    "className": "icon-database-remove",
+    "hexCode": "&#xea96",
+    "niceName": "Database Remove"
+  },
+  {
+    "className": "icon-database-insert",
+    "hexCode": "&#xea97",
+    "niceName": "Database Insert"
+  },
+  {
+    "className": "icon-database-export",
+    "hexCode": "&#xea98",
+    "niceName": "Database Export"
+  },
+  {
+    "className": "icon-database-upload",
+    "hexCode": "&#xea99",
+    "niceName": "Database Upload"
+  },
+  {
+    "className": "icon-database-refresh",
+    "hexCode": "&#xea9a",
+    "niceName": "Database Refresh"
+  },
+  {
+    "className": "icon-database-diff",
+    "hexCode": "&#xea9b",
+    "niceName": "Database Diff"
+  },
+  {
+    "className": "icon-database-edit",
+    "hexCode": "&#xea9c",
+    "niceName": "Database Edit"
+  },
+  {
+    "className": "icon-database-edit2",
+    "hexCode": "&#xea9d",
+    "niceName": "Database Edit2"
+  },
+  {
+    "className": "icon-database-check",
+    "hexCode": "&#xea9e",
+    "niceName": "Database Check"
+  },
+  {
+    "className": "icon-database-arrow",
+    "hexCode": "&#xea9f",
+    "niceName": "Database Arrow"
+  },
+  {
+    "className": "icon-database-time",
+    "hexCode": "&#xeaa0",
+    "niceName": "Database Time"
+  },
+  {
+    "className": "icon-database-time2",
+    "hexCode": "&#xeaa1",
+    "niceName": "Database Time2"
+  },
+  {
+    "className": "icon-undo",
+    "hexCode": "&#xeaa2",
+    "niceName": "Undo"
+  },
+  {
+    "className": "icon-redo",
+    "hexCode": "&#xeaa3",
+    "niceName": "Redo"
+  },
+  {
+    "className": "icon-rotate-ccw",
+    "hexCode": "&#xeaa4",
+    "niceName": "Rotate Ccw"
+  },
+  {
+    "className": "icon-rotate-cw",
+    "hexCode": "&#xeaa5",
+    "niceName": "Rotate Cw"
+  },
+  {
+    "className": "icon-rotate-ccw2",
+    "hexCode": "&#xeaa6",
+    "niceName": "Rotate Ccw2"
+  },
+  {
+    "className": "icon-rotate-cw2",
+    "hexCode": "&#xeaa7",
+    "niceName": "Rotate Cw2"
+  },
+  {
+    "className": "icon-rotate-ccw3",
+    "hexCode": "&#xeaa8",
+    "niceName": "Rotate Ccw3"
+  },
+  {
+    "className": "icon-rotate-cw3",
+    "hexCode": "&#xeaa9",
+    "niceName": "Rotate Cw3"
+  },
+  {
+    "className": "icon-flip-vertical",
+    "hexCode": "&#xeaaa",
+    "niceName": "Flip Vertical"
+  },
+  {
+    "className": "icon-flip-vertical2",
+    "hexCode": "&#xeaab",
+    "niceName": "Flip Vertical2"
+  },
+  {
+    "className": "icon-flip-horizontal",
+    "hexCode": "&#xeaac",
+    "niceName": "Flip Horizontal"
+  },
+  {
+    "className": "icon-flip-horizontal2",
+    "hexCode": "&#xeaad",
+    "niceName": "Flip Horizontal2"
+  },
+  {
+    "className": "icon-flip-vertical3",
+    "hexCode": "&#xeaae",
+    "niceName": "Flip Vertical3"
+  },
+  {
+    "className": "icon-flip-vertical4",
+    "hexCode": "&#xeaaf",
+    "niceName": "Flip Vertical4"
+  },
+  {
+    "className": "icon-angle",
+    "hexCode": "&#xeab0",
+    "niceName": "Angle"
+  },
+  {
+    "className": "icon-shear",
+    "hexCode": "&#xeab1",
+    "niceName": "Shear"
+  },
+  {
+    "className": "icon-unite",
+    "hexCode": "&#xeab2",
+    "niceName": "Unite"
+  },
+  {
+    "className": "icon-subtract",
+    "hexCode": "&#xeab3",
+    "niceName": "Subtract"
+  },
+  {
+    "className": "icon-interset",
+    "hexCode": "&#xeab4",
+    "niceName": "Interset"
+  },
+  {
+    "className": "icon-exclude",
+    "hexCode": "&#xeab5",
+    "niceName": "Exclude"
+  },
+  {
+    "className": "icon-align-left",
+    "hexCode": "&#xeab6",
+    "niceName": "Align Left"
+  },
+  {
+    "className": "icon-align-center-horizontal",
+    "hexCode": "&#xeab7",
+    "niceName": "Align Center Horizontal"
+  },
+  {
+    "className": "icon-align-right",
+    "hexCode": "&#xeab8",
+    "niceName": "Align Right"
+  },
+  {
+    "className": "icon-align-top",
+    "hexCode": "&#xeab9",
+    "niceName": "Align Top"
+  },
+  {
+    "className": "icon-align-center-vertical",
+    "hexCode": "&#xeaba",
+    "niceName": "Align Center Vertical"
+  },
+  {
+    "className": "icon-align-bottom",
+    "hexCode": "&#xeabb",
+    "niceName": "Align Bottom"
+  },
+  {
+    "className": "icon-undo2",
+    "hexCode": "&#xeabc",
+    "niceName": "Undo2"
+  },
+  {
+    "className": "icon-redo2",
+    "hexCode": "&#xeabd",
+    "niceName": "Redo2"
+  },
+  {
+    "className": "icon-forward",
+    "hexCode": "&#xeabe",
+    "niceName": "Forward"
+  },
+  {
+    "className": "icon-reply",
+    "hexCode": "&#xeabf",
+    "niceName": "Reply"
+  },
+  {
+    "className": "icon-reply-all",
+    "hexCode": "&#xeac0",
+    "niceName": "Reply All"
+  },
+  {
+    "className": "icon-bubble",
+    "hexCode": "&#xeac1",
+    "niceName": "Bubble"
+  },
+  {
+    "className": "icon-bubbles",
+    "hexCode": "&#xeac2",
+    "niceName": "Bubbles"
+  },
+  {
+    "className": "icon-bubbles2",
+    "hexCode": "&#xeac3",
+    "niceName": "Bubbles2"
+  },
+  {
+    "className": "icon-bubble2",
+    "hexCode": "&#xeac4",
+    "niceName": "Bubble2"
+  },
+  {
+    "className": "icon-bubbles3",
+    "hexCode": "&#xeac5",
+    "niceName": "Bubbles3"
+  },
+  {
+    "className": "icon-bubbles4",
+    "hexCode": "&#xeac6",
+    "niceName": "Bubbles4"
+  },
+  {
+    "className": "icon-bubble-notification",
+    "hexCode": "&#xeac7",
+    "niceName": "Bubble Notification"
+  },
+  {
+    "className": "icon-bubbles5",
+    "hexCode": "&#xeac8",
+    "niceName": "Bubbles5"
+  },
+  {
+    "className": "icon-bubbles6",
+    "hexCode": "&#xeac9",
+    "niceName": "Bubbles6"
+  },
+  {
+    "className": "icon-bubble3",
+    "hexCode": "&#xeaca",
+    "niceName": "Bubble3"
+  },
+  {
+    "className": "icon-bubble-dots",
+    "hexCode": "&#xeacb",
+    "niceName": "Bubble Dots"
+  },
+  {
+    "className": "icon-bubble-lines",
+    "hexCode": "&#xeacc",
+    "niceName": "Bubble Lines"
+  },
+  {
+    "className": "icon-bubble4",
+    "hexCode": "&#xeacd",
+    "niceName": "Bubble4"
+  },
+  {
+    "className": "icon-bubble-dots2",
+    "hexCode": "&#xeace",
+    "niceName": "Bubble Dots2"
+  },
+  {
+    "className": "icon-bubble-lines2",
+    "hexCode": "&#xeacf",
+    "niceName": "Bubble Lines2"
+  },
+  {
+    "className": "icon-bubble5",
+    "hexCode": "&#xead0",
+    "niceName": "Bubble5"
+  },
+  {
+    "className": "icon-bubble6",
+    "hexCode": "&#xead1",
+    "niceName": "Bubble6"
+  },
+  {
+    "className": "icon-bubbles7",
+    "hexCode": "&#xead2",
+    "niceName": "Bubbles7"
+  },
+  {
+    "className": "icon-bubble7",
+    "hexCode": "&#xead3",
+    "niceName": "Bubble7"
+  },
+  {
+    "className": "icon-bubbles8",
+    "hexCode": "&#xead4",
+    "niceName": "Bubbles8"
+  },
+  {
+    "className": "icon-bubble8",
+    "hexCode": "&#xead5",
+    "niceName": "Bubble8"
+  },
+  {
+    "className": "icon-bubble-dots3",
+    "hexCode": "&#xead6",
+    "niceName": "Bubble Dots3"
+  },
+  {
+    "className": "icon-bubble-lines3",
+    "hexCode": "&#xead7",
+    "niceName": "Bubble Lines3"
+  },
+  {
+    "className": "icon-bubble9",
+    "hexCode": "&#xead8",
+    "niceName": "Bubble9"
+  },
+  {
+    "className": "icon-bubble-dots4",
+    "hexCode": "&#xead9",
+    "niceName": "Bubble Dots4"
+  },
+  {
+    "className": "icon-bubble-lines4",
+    "hexCode": "&#xeada",
+    "niceName": "Bubble Lines4"
+  },
+  {
+    "className": "icon-bubbles9",
+    "hexCode": "&#xeadb",
+    "niceName": "Bubbles9"
+  },
+  {
+    "className": "icon-bubbles10",
+    "hexCode": "&#xeadc",
+    "niceName": "Bubbles10"
+  },
+  {
+    "className": "icon-bubble-blocked",
+    "hexCode": "&#xeadd",
+    "niceName": "Bubble Blocked"
+  },
+  {
+    "className": "icon-bubble-quote",
+    "hexCode": "&#xeade",
+    "niceName": "Bubble Quote"
+  },
+  {
+    "className": "icon-bubble-user",
+    "hexCode": "&#xeadf",
+    "niceName": "Bubble User"
+  },
+  {
+    "className": "icon-bubble-smiley",
+    "hexCode": "&#xeae0",
+    "niceName": "Bubble Smiley"
+  },
+  {
+    "className": "icon-bubble-check",
+    "hexCode": "&#xeae1",
+    "niceName": "Bubble Check"
+  },
+  {
+    "className": "icon-bubble-video",
+    "hexCode": "&#xeae2",
+    "niceName": "Bubble Video"
+  },
+  {
+    "className": "icon-bubble-link",
+    "hexCode": "&#xeae3",
+    "niceName": "Bubble Link"
+  },
+  {
+    "className": "icon-bubble-lock",
+    "hexCode": "&#xeae4",
+    "niceName": "Bubble Lock"
+  },
+  {
+    "className": "icon-bubble-star",
+    "hexCode": "&#xeae5",
+    "niceName": "Bubble Star"
+  },
+  {
+    "className": "icon-bubble-heart",
+    "hexCode": "&#xeae6",
+    "niceName": "Bubble Heart"
+  },
+  {
+    "className": "icon-bubble-paperclip",
+    "hexCode": "&#xeae7",
+    "niceName": "Bubble Paperclip"
+  },
+  {
+    "className": "icon-bubble-cancel",
+    "hexCode": "&#xeae8",
+    "niceName": "Bubble Cancel"
+  },
+  {
+    "className": "icon-bubble-plus",
+    "hexCode": "&#xeae9",
+    "niceName": "Bubble Plus"
+  },
+  {
+    "className": "icon-bubble-minus",
+    "hexCode": "&#xeaea",
+    "niceName": "Bubble Minus"
+  },
+  {
+    "className": "icon-bubble-notification2",
+    "hexCode": "&#xeaeb",
+    "niceName": "Bubble Notification2"
+  },
+  {
+    "className": "icon-bubble-left",
+    "hexCode": "&#xeaec",
+    "niceName": "Bubble Left"
+  },
+  {
+    "className": "icon-bubble-right",
+    "hexCode": "&#xeaed",
+    "niceName": "Bubble Right"
+  },
+  {
+    "className": "icon-bubble-first",
+    "hexCode": "&#xeaee",
+    "niceName": "Bubble First"
+  },
+  {
+    "className": "icon-bubble-last",
+    "hexCode": "&#xeaef",
+    "niceName": "Bubble Last"
+  },
+  {
+    "className": "icon-bubble-reply",
+    "hexCode": "&#xeaf0",
+    "niceName": "Bubble Reply"
+  },
+  {
+    "className": "icon-bubble-forward",
+    "hexCode": "&#xeaf1",
+    "niceName": "Bubble Forward"
+  },
+  {
+    "className": "icon-bubble-reply2",
+    "hexCode": "&#xeaf2",
+    "niceName": "Bubble Reply2"
+  },
+  {
+    "className": "icon-bubble-forward2",
+    "hexCode": "&#xeaf3",
+    "niceName": "Bubble Forward2"
+  },
+  {
+    "className": "icon-user",
+    "hexCode": "&#xeaf4",
+    "niceName": "User"
+  },
+  {
+    "className": "icon-users",
+    "hexCode": "&#xeaf5",
+    "niceName": "Users"
+  },
+  {
+    "className": "icon-user-plus",
+    "hexCode": "&#xeaf6",
+    "niceName": "User Plus"
+  },
+  {
+    "className": "icon-user-minus",
+    "hexCode": "&#xeaf7",
+    "niceName": "User Minus"
+  },
+  {
+    "className": "icon-user-cancel",
+    "hexCode": "&#xeaf8",
+    "niceName": "User Cancel"
+  },
+  {
+    "className": "icon-user-block",
+    "hexCode": "&#xeaf9",
+    "niceName": "User Block"
+  },
+  {
+    "className": "icon-user-lock",
+    "hexCode": "&#xeafa",
+    "niceName": "User Lock"
+  },
+  {
+    "className": "icon-user-check",
+    "hexCode": "&#xeafb",
+    "niceName": "User Check"
+  },
+  {
+    "className": "icon-users2",
+    "hexCode": "&#xeafc",
+    "niceName": "Users2"
+  },
+  {
+    "className": "icon-user2",
+    "hexCode": "&#xeafd",
+    "niceName": "User2"
+  },
+  {
+    "className": "icon-users3",
+    "hexCode": "&#xeafe",
+    "niceName": "Users3"
+  },
+  {
+    "className": "icon-user-plus2",
+    "hexCode": "&#xeaff",
+    "niceName": "User Plus2"
+  },
+  {
+    "className": "icon-user-minus2",
+    "hexCode": "&#xeb00",
+    "niceName": "User Minus2"
+  },
+  {
+    "className": "icon-user-cancel2",
+    "hexCode": "&#xeb01",
+    "niceName": "User Cancel2"
+  },
+  {
+    "className": "icon-user-block2",
+    "hexCode": "&#xeb02",
+    "niceName": "User Block2"
+  },
+  {
+    "className": "icon-user-lock2",
+    "hexCode": "&#xeb03",
+    "niceName": "User Lock2"
+  },
+  {
+    "className": "icon-user-check2",
+    "hexCode": "&#xeb04",
+    "niceName": "User Check2"
+  },
+  {
+    "className": "icon-user3",
+    "hexCode": "&#xeb05",
+    "niceName": "User3"
+  },
+  {
+    "className": "icon-user4",
+    "hexCode": "&#xeb06",
+    "niceName": "User4"
+  },
+  {
+    "className": "icon-user5",
+    "hexCode": "&#xeb07",
+    "niceName": "User5"
+  },
+  {
+    "className": "icon-user6",
+    "hexCode": "&#xeb08",
+    "niceName": "User6"
+  },
+  {
+    "className": "icon-users4",
+    "hexCode": "&#xeb09",
+    "niceName": "Users4"
+  },
+  {
+    "className": "icon-user-tie",
+    "hexCode": "&#xeb0a",
+    "niceName": "User Tie"
+  },
+  {
+    "className": "icon-user7",
+    "hexCode": "&#xeb0b",
+    "niceName": "User7"
+  },
+  {
+    "className": "icon-users5",
+    "hexCode": "&#xeb0c",
+    "niceName": "Users5"
+  },
+  {
+    "className": "icon-collaboration",
+    "hexCode": "&#xeb0d",
+    "niceName": "Collaboration"
+  },
+  {
+    "className": "icon-vcard",
+    "hexCode": "&#xeb0e",
+    "niceName": "Vcard"
+  },
+  {
+    "className": "icon-hat",
+    "hexCode": "&#xeb0f",
+    "niceName": "Hat"
+  },
+  {
+    "className": "icon-bowtie",
+    "hexCode": "&#xeb10",
+    "niceName": "Bowtie"
+  },
+  {
+    "className": "icon-tie",
+    "hexCode": "&#xeb11",
+    "niceName": "Tie"
+  },
+  {
+    "className": "icon-hanger",
+    "hexCode": "&#xeb12",
+    "niceName": "Hanger"
+  },
+  {
+    "className": "icon-tshirt",
+    "hexCode": "&#xeb13",
+    "niceName": "Tshirt"
+  },
+  {
+    "className": "icon-pants",
+    "hexCode": "&#xeb14",
+    "niceName": "Pants"
+  },
+  {
+    "className": "icon-shorts",
+    "hexCode": "&#xeb15",
+    "niceName": "Shorts"
+  },
+  {
+    "className": "icon-sock",
+    "hexCode": "&#xeb16",
+    "niceName": "Sock"
+  },
+  {
+    "className": "icon-laundry",
+    "hexCode": "&#xeb17",
+    "niceName": "Laundry"
+  },
+  {
+    "className": "icon-quotes-left",
+    "hexCode": "&#xeb18",
+    "niceName": "Quotes Left"
+  },
+  {
+    "className": "icon-quotes-right",
+    "hexCode": "&#xeb19",
+    "niceName": "Quotes Right"
+  },
+  {
+    "className": "icon-quotes-left2",
+    "hexCode": "&#xeb1a",
+    "niceName": "Quotes Left2"
+  },
+  {
+    "className": "icon-quotes-right2",
+    "hexCode": "&#xeb1b",
+    "niceName": "Quotes Right2"
+  },
+  {
+    "className": "icon-hour-glass",
+    "hexCode": "&#xeb1c",
+    "niceName": "Hour Glass"
+  },
+  {
+    "className": "icon-hour-glass2",
+    "hexCode": "&#xeb1d",
+    "niceName": "Hour Glass2"
+  },
+  {
+    "className": "icon-hour-glass3",
+    "hexCode": "&#xeb1e",
+    "niceName": "Hour Glass3"
+  },
+  {
+    "className": "icon-spinner",
+    "hexCode": "&#xeb1f",
+    "niceName": "Spinner"
+  },
+  {
+    "className": "icon-spinner2",
+    "hexCode": "&#xeb20",
+    "niceName": "Spinner2"
+  },
+  {
+    "className": "icon-spinner3",
+    "hexCode": "&#xeb21",
+    "niceName": "Spinner3"
+  },
+  {
+    "className": "icon-spinner4",
+    "hexCode": "&#xeb22",
+    "niceName": "Spinner4"
+  },
+  {
+    "className": "icon-spinner5",
+    "hexCode": "&#xeb23",
+    "niceName": "Spinner5"
+  },
+  {
+    "className": "icon-spinner6",
+    "hexCode": "&#xeb24",
+    "niceName": "Spinner6"
+  },
+  {
+    "className": "icon-spinner7",
+    "hexCode": "&#xeb25",
+    "niceName": "Spinner7"
+  },
+  {
+    "className": "icon-spinner8",
+    "hexCode": "&#xeb26",
+    "niceName": "Spinner8"
+  },
+  {
+    "className": "icon-spinner9",
+    "hexCode": "&#xeb27",
+    "niceName": "Spinner9"
+  },
+  {
+    "className": "icon-spinner10",
+    "hexCode": "&#xeb28",
+    "niceName": "Spinner10"
+  },
+  {
+    "className": "icon-spinner11",
+    "hexCode": "&#xeb29",
+    "niceName": "Spinner11"
+  },
+  {
+    "className": "icon-microscope",
+    "hexCode": "&#xeb2a",
+    "niceName": "Microscope"
+  },
+  {
+    "className": "icon-binoculars",
+    "hexCode": "&#xeb2b",
+    "niceName": "Binoculars"
+  },
+  {
+    "className": "icon-binoculars2",
+    "hexCode": "&#xeb2c",
+    "niceName": "Binoculars2"
+  },
+  {
+    "className": "icon-search",
+    "hexCode": "&#xeb2d",
+    "niceName": "Search"
+  },
+  {
+    "className": "icon-zoom-in",
+    "hexCode": "&#xeb2e",
+    "niceName": "Zoom In"
+  },
+  {
+    "className": "icon-zoom-out",
+    "hexCode": "&#xeb2f",
+    "niceName": "Zoom Out"
+  },
+  {
+    "className": "icon-search2",
+    "hexCode": "&#xeb30",
+    "niceName": "Search2"
+  },
+  {
+    "className": "icon-zoom-in2",
+    "hexCode": "&#xeb31",
+    "niceName": "Zoom In2"
+  },
+  {
+    "className": "icon-zoom-out2",
+    "hexCode": "&#xeb32",
+    "niceName": "Zoom Out2"
+  },
+  {
+    "className": "icon-search3",
+    "hexCode": "&#xeb33",
+    "niceName": "Search3"
+  },
+  {
+    "className": "icon-search4",
+    "hexCode": "&#xeb34",
+    "niceName": "Search4"
+  },
+  {
+    "className": "icon-zoom-in3",
+    "hexCode": "&#xeb35",
+    "niceName": "Zoom In3"
+  },
+  {
+    "className": "icon-zoom-out3",
+    "hexCode": "&#xeb36",
+    "niceName": "Zoom Out3"
+  },
+  {
+    "className": "icon-search5",
+    "hexCode": "&#xeb37",
+    "niceName": "Search5"
+  },
+  {
+    "className": "icon-search6",
+    "hexCode": "&#xeb38",
+    "niceName": "Search6"
+  },
+  {
+    "className": "icon-enlarge",
+    "hexCode": "&#xeb39",
+    "niceName": "Enlarge"
+  },
+  {
+    "className": "icon-shrink",
+    "hexCode": "&#xeb3a",
+    "niceName": "Shrink"
+  },
+  {
+    "className": "icon-enlarge2",
+    "hexCode": "&#xeb3b",
+    "niceName": "Enlarge2"
+  },
+  {
+    "className": "icon-shrink2",
+    "hexCode": "&#xeb3c",
+    "niceName": "Shrink2"
+  },
+  {
+    "className": "icon-enlarge3",
+    "hexCode": "&#xeb3d",
+    "niceName": "Enlarge3"
+  },
+  {
+    "className": "icon-shrink3",
+    "hexCode": "&#xeb3e",
+    "niceName": "Shrink3"
+  },
+  {
+    "className": "icon-enlarge4",
+    "hexCode": "&#xeb3f",
+    "niceName": "Enlarge4"
+  },
+  {
+    "className": "icon-shrink4",
+    "hexCode": "&#xeb40",
+    "niceName": "Shrink4"
+  },
+  {
+    "className": "icon-enlarge5",
+    "hexCode": "&#xeb41",
+    "niceName": "Enlarge5"
+  },
+  {
+    "className": "icon-shrink5",
+    "hexCode": "&#xeb42",
+    "niceName": "Shrink5"
+  },
+  {
+    "className": "icon-enlarge6",
+    "hexCode": "&#xeb43",
+    "niceName": "Enlarge6"
+  },
+  {
+    "className": "icon-shrink6",
+    "hexCode": "&#xeb44",
+    "niceName": "Shrink6"
+  },
+  {
+    "className": "icon-enlarge7",
+    "hexCode": "&#xeb45",
+    "niceName": "Enlarge7"
+  },
+  {
+    "className": "icon-shrink7",
+    "hexCode": "&#xeb46",
+    "niceName": "Shrink7"
+  },
+  {
+    "className": "icon-key",
+    "hexCode": "&#xeb47",
+    "niceName": "Key"
+  },
+  {
+    "className": "icon-key2",
+    "hexCode": "&#xeb48",
+    "niceName": "Key2"
+  },
+  {
+    "className": "icon-key3",
+    "hexCode": "&#xeb49",
+    "niceName": "Key3"
+  },
+  {
+    "className": "icon-key4",
+    "hexCode": "&#xeb4a",
+    "niceName": "Key4"
+  },
+  {
+    "className": "icon-key5",
+    "hexCode": "&#xeb4b",
+    "niceName": "Key5"
+  },
+  {
+    "className": "icon-keyhole",
+    "hexCode": "&#xeb4c",
+    "niceName": "Keyhole"
+  },
+  {
+    "className": "icon-lock",
+    "hexCode": "&#xeb4d",
+    "niceName": "Lock"
+  },
+  {
+    "className": "icon-lock2",
+    "hexCode": "&#xeb4e",
+    "niceName": "Lock2"
+  },
+  {
+    "className": "icon-lock3",
+    "hexCode": "&#xeb4f",
+    "niceName": "Lock3"
+  },
+  {
+    "className": "icon-lock4",
+    "hexCode": "&#xeb50",
+    "niceName": "Lock4"
+  },
+  {
+    "className": "icon-unlocked",
+    "hexCode": "&#xeb51",
+    "niceName": "Unlocked"
+  },
+  {
+    "className": "icon-lock5",
+    "hexCode": "&#xeb52",
+    "niceName": "Lock5"
+  },
+  {
+    "className": "icon-unlocked2",
+    "hexCode": "&#xeb53",
+    "niceName": "Unlocked2"
+  },
+  {
+    "className": "icon-safe",
+    "hexCode": "&#xeb54",
+    "niceName": "Safe"
+  },
+  {
+    "className": "icon-wrench",
+    "hexCode": "&#xeb55",
+    "niceName": "Wrench"
+  },
+  {
+    "className": "icon-wrench2",
+    "hexCode": "&#xeb56",
+    "niceName": "Wrench2"
+  },
+  {
+    "className": "icon-wrench3",
+    "hexCode": "&#xeb57",
+    "niceName": "Wrench3"
+  },
+  {
+    "className": "icon-equalizer",
+    "hexCode": "&#xeb58",
+    "niceName": "Equalizer"
+  },
+  {
+    "className": "icon-equalizer2",
+    "hexCode": "&#xeb59",
+    "niceName": "Equalizer2"
+  },
+  {
+    "className": "icon-equalizer3",
+    "hexCode": "&#xeb5a",
+    "niceName": "Equalizer3"
+  },
+  {
+    "className": "icon-equalizer4",
+    "hexCode": "&#xeb5b",
+    "niceName": "Equalizer4"
+  },
+  {
+    "className": "icon-cog",
+    "hexCode": "&#xeb5c",
+    "niceName": "Cog"
+  },
+  {
+    "className": "icon-cogs",
+    "hexCode": "&#xeb5d",
+    "niceName": "Cogs"
+  },
+  {
+    "className": "icon-cog2",
+    "hexCode": "&#xeb5e",
+    "niceName": "Cog2"
+  },
+  {
+    "className": "icon-cog3",
+    "hexCode": "&#xeb5f",
+    "niceName": "Cog3"
+  },
+  {
+    "className": "icon-cog4",
+    "hexCode": "&#xeb60",
+    "niceName": "Cog4"
+  },
+  {
+    "className": "icon-cog5",
+    "hexCode": "&#xeb61",
+    "niceName": "Cog5"
+  },
+  {
+    "className": "icon-cog6",
+    "hexCode": "&#xeb62",
+    "niceName": "Cog6"
+  },
+  {
+    "className": "icon-cog7",
+    "hexCode": "&#xeb63",
+    "niceName": "Cog7"
+  },
+  {
+    "className": "icon-factory",
+    "hexCode": "&#xeb64",
+    "niceName": "Factory"
+  },
+  {
+    "className": "icon-hammer",
+    "hexCode": "&#xeb65",
+    "niceName": "Hammer"
+  },
+  {
+    "className": "icon-hammer-wrench",
+    "hexCode": "&#xeb66",
+    "niceName": "Hammer Wrench"
+  },
+  {
+    "className": "icon-knife",
+    "hexCode": "&#xeb67",
+    "niceName": "Knife"
+  },
+  {
+    "className": "icon-screwdriver",
+    "hexCode": "&#xeb68",
+    "niceName": "Screwdriver"
+  },
+  {
+    "className": "icon-screwdriver2",
+    "hexCode": "&#xeb69",
+    "niceName": "Screwdriver2"
+  },
+  {
+    "className": "icon-magic-wand",
+    "hexCode": "&#xeb6a",
+    "niceName": "Magic Wand"
+  },
+  {
+    "className": "icon-magic-wand2",
+    "hexCode": "&#xeb6b",
+    "niceName": "Magic Wand2"
+  },
+  {
+    "className": "icon-pulse",
+    "hexCode": "&#xeb6c",
+    "niceName": "Pulse"
+  },
+  {
+    "className": "icon-pulse2",
+    "hexCode": "&#xeb6d",
+    "niceName": "Pulse2"
+  },
+  {
+    "className": "icon-aid-kit",
+    "hexCode": "&#xeb6e",
+    "niceName": "Aid Kit"
+  },
+  {
+    "className": "icon-aid-kit2",
+    "hexCode": "&#xeb6f",
+    "niceName": "Aid Kit2"
+  },
+  {
+    "className": "icon-stethoscope",
+    "hexCode": "&#xeb70",
+    "niceName": "Stethoscope"
+  },
+  {
+    "className": "icon-ambulance",
+    "hexCode": "&#xeb71",
+    "niceName": "Ambulance"
+  },
+  {
+    "className": "icon-alarm2",
+    "hexCode": "&#xeb72",
+    "niceName": "Alarm2"
+  },
+  {
+    "className": "icon-pandage",
+    "hexCode": "&#xeb73",
+    "niceName": "Pandage"
+  },
+  {
+    "className": "icon-pandage2",
+    "hexCode": "&#xeb74",
+    "niceName": "Pandage2"
+  },
+  {
+    "className": "icon-bug",
+    "hexCode": "&#xeb75",
+    "niceName": "Bug"
+  },
+  {
+    "className": "icon-bug2",
+    "hexCode": "&#xeb76",
+    "niceName": "Bug2"
+  },
+  {
+    "className": "icon-syringe",
+    "hexCode": "&#xeb77",
+    "niceName": "Syringe"
+  },
+  {
+    "className": "icon-syringe2",
+    "hexCode": "&#xeb78",
+    "niceName": "Syringe2"
+  },
+  {
+    "className": "icon-pill",
+    "hexCode": "&#xeb79",
+    "niceName": "Pill"
+  },
+  {
+    "className": "icon-construction",
+    "hexCode": "&#xeb7a",
+    "niceName": "Construction"
+  },
+  {
+    "className": "icon-traffic-cone",
+    "hexCode": "&#xeb7b",
+    "niceName": "Traffic Cone"
+  },
+  {
+    "className": "icon-traffic-lights",
+    "hexCode": "&#xeb7c",
+    "niceName": "Traffic Lights"
+  },
+  {
+    "className": "icon-pie-chart",
+    "hexCode": "&#xeb7d",
+    "niceName": "Pie Chart"
+  },
+  {
+    "className": "icon-pie-chart2",
+    "hexCode": "&#xeb7e",
+    "niceName": "Pie Chart2"
+  },
+  {
+    "className": "icon-pie-chart3",
+    "hexCode": "&#xeb7f",
+    "niceName": "Pie Chart3"
+  },
+  {
+    "className": "icon-pie-chart4",
+    "hexCode": "&#xeb80",
+    "niceName": "Pie Chart4"
+  },
+  {
+    "className": "icon-pie-chart5",
+    "hexCode": "&#xeb81",
+    "niceName": "Pie Chart5"
+  },
+  {
+    "className": "icon-pie-chart6",
+    "hexCode": "&#xeb82",
+    "niceName": "Pie Chart6"
+  },
+  {
+    "className": "icon-pie-chart7",
+    "hexCode": "&#xeb83",
+    "niceName": "Pie Chart7"
+  },
+  {
+    "className": "icon-stats-dots",
+    "hexCode": "&#xeb84",
+    "niceName": "Stats Dots"
+  },
+  {
+    "className": "icon-stats-bars",
+    "hexCode": "&#xeb85",
+    "niceName": "Stats Bars"
+  },
+  {
+    "className": "icon-pie-chart8",
+    "hexCode": "&#xeb86",
+    "niceName": "Pie Chart8"
+  },
+  {
+    "className": "icon-stats-bars2",
+    "hexCode": "&#xeb87",
+    "niceName": "Stats Bars2"
+  },
+  {
+    "className": "icon-stats-bars3",
+    "hexCode": "&#xeb88",
+    "niceName": "Stats Bars3"
+  },
+  {
+    "className": "icon-stats-bars4",
+    "hexCode": "&#xeb89",
+    "niceName": "Stats Bars4"
+  },
+  {
+    "className": "icon-stats-bars5",
+    "hexCode": "&#xeb8a",
+    "niceName": "Stats Bars5"
+  },
+  {
+    "className": "icon-stats-bars6",
+    "hexCode": "&#xeb8b",
+    "niceName": "Stats Bars6"
+  },
+  {
+    "className": "icon-chart",
+    "hexCode": "&#xeb8c",
+    "niceName": "Chart"
+  },
+  {
+    "className": "icon-stats-growth",
+    "hexCode": "&#xeb8d",
+    "niceName": "Stats Growth"
+  },
+  {
+    "className": "icon-stats-decline",
+    "hexCode": "&#xeb8e",
+    "niceName": "Stats Decline"
+  },
+  {
+    "className": "icon-stats-growth2",
+    "hexCode": "&#xeb8f",
+    "niceName": "Stats Growth2"
+  },
+  {
+    "className": "icon-stats-decline2",
+    "hexCode": "&#xeb90",
+    "niceName": "Stats Decline2"
+  },
+  {
+    "className": "icon-stairs-up",
+    "hexCode": "&#xeb91",
+    "niceName": "Stairs Up"
+  },
+  {
+    "className": "icon-stairs-down",
+    "hexCode": "&#xeb92",
+    "niceName": "Stairs Down"
+  },
+  {
+    "className": "icon-stairs",
+    "hexCode": "&#xeb93",
+    "niceName": "Stairs"
+  },
+  {
+    "className": "icon-stairs2",
+    "hexCode": "&#xeb94",
+    "niceName": "Stairs2"
+  },
+  {
+    "className": "icon-ladder",
+    "hexCode": "&#xeb95",
+    "niceName": "Ladder"
+  },
+  {
+    "className": "icon-rating",
+    "hexCode": "&#xeb96",
+    "niceName": "Rating"
+  },
+  {
+    "className": "icon-rating2",
+    "hexCode": "&#xeb97",
+    "niceName": "Rating2"
+  },
+  {
+    "className": "icon-rating3",
+    "hexCode": "&#xeb98",
+    "niceName": "Rating3"
+  },
+  {
+    "className": "icon-cake",
+    "hexCode": "&#xeb99",
+    "niceName": "Cake"
+  },
+  {
+    "className": "icon-podium",
+    "hexCode": "&#xeb9a",
+    "niceName": "Podium"
+  },
+  {
+    "className": "icon-stars",
+    "hexCode": "&#xeb9b",
+    "niceName": "Stars"
+  },
+  {
+    "className": "icon-medal-star",
+    "hexCode": "&#xeb9c",
+    "niceName": "Medal Star"
+  },
+  {
+    "className": "icon-medal",
+    "hexCode": "&#xeb9d",
+    "niceName": "Medal"
+  },
+  {
+    "className": "icon-medal2",
+    "hexCode": "&#xeb9e",
+    "niceName": "Medal2"
+  },
+  {
+    "className": "icon-medal-first",
+    "hexCode": "&#xeb9f",
+    "niceName": "Medal First"
+  },
+  {
+    "className": "icon-medal-second",
+    "hexCode": "&#xeba0",
+    "niceName": "Medal Second"
+  },
+  {
+    "className": "icon-medal-third",
+    "hexCode": "&#xeba1",
+    "niceName": "Medal Third"
+  },
+  {
+    "className": "icon-crown",
+    "hexCode": "&#xeba2",
+    "niceName": "Crown"
+  },
+  {
+    "className": "icon-trophy",
+    "hexCode": "&#xeba3",
+    "niceName": "Trophy"
+  },
+  {
+    "className": "icon-trophy2",
+    "hexCode": "&#xeba4",
+    "niceName": "Trophy2"
+  },
+  {
+    "className": "icon-trophy3",
+    "hexCode": "&#xeba5",
+    "niceName": "Trophy3"
+  },
+  {
+    "className": "icon-diamond",
+    "hexCode": "&#xeba6",
+    "niceName": "Diamond"
+  },
+  {
+    "className": "icon-diamond2",
+    "hexCode": "&#xeba7",
+    "niceName": "Diamond2"
+  },
+  {
+    "className": "icon-trophy4",
+    "hexCode": "&#xeba8",
+    "niceName": "Trophy4"
+  },
+  {
+    "className": "icon-gift",
+    "hexCode": "&#xeba9",
+    "niceName": "Gift"
+  },
+  {
+    "className": "icon-gift2",
+    "hexCode": "&#xebaa",
+    "niceName": "Gift2"
+  },
+  {
+    "className": "icon-balloon",
+    "hexCode": "&#xebab",
+    "niceName": "Balloon"
+  },
+  {
+    "className": "icon-pipe",
+    "hexCode": "&#xebac",
+    "niceName": "Pipe"
+  },
+  {
+    "className": "icon-mustache",
+    "hexCode": "&#xebad",
+    "niceName": "Mustache"
+  },
+  {
+    "className": "icon-mustache2",
+    "hexCode": "&#xebae",
+    "niceName": "Mustache2"
+  },
+  {
+    "className": "icon-glass",
+    "hexCode": "&#xebaf",
+    "niceName": "Glass"
+  },
+  {
+    "className": "icon-glass2",
+    "hexCode": "&#xebb0",
+    "niceName": "Glass2"
+  },
+  {
+    "className": "icon-glass3",
+    "hexCode": "&#xebb1",
+    "niceName": "Glass3"
+  },
+  {
+    "className": "icon-glass4",
+    "hexCode": "&#xebb2",
+    "niceName": "Glass4"
+  },
+  {
+    "className": "icon-bottle",
+    "hexCode": "&#xebb3",
+    "niceName": "Bottle"
+  },
+  {
+    "className": "icon-bottle2",
+    "hexCode": "&#xebb4",
+    "niceName": "Bottle2"
+  },
+  {
+    "className": "icon-bottle3",
+    "hexCode": "&#xebb5",
+    "niceName": "Bottle3"
+  },
+  {
+    "className": "icon-bottle4",
+    "hexCode": "&#xebb6",
+    "niceName": "Bottle4"
+  },
+  {
+    "className": "icon-mug",
+    "hexCode": "&#xebb7",
+    "niceName": "Mug"
+  },
+  {
+    "className": "icon-fork-knife",
+    "hexCode": "&#xebb8",
+    "niceName": "Fork Knife"
+  },
+  {
+    "className": "icon-spoon-knife",
+    "hexCode": "&#xebb9",
+    "niceName": "Spoon Knife"
+  },
+  {
+    "className": "icon-cook",
+    "hexCode": "&#xebba",
+    "niceName": "Cook"
+  },
+  {
+    "className": "icon-plate",
+    "hexCode": "&#xebbb",
+    "niceName": "Plate"
+  },
+  {
+    "className": "icon-steak",
+    "hexCode": "&#xebbc",
+    "niceName": "Steak"
+  },
+  {
+    "className": "icon-fish",
+    "hexCode": "&#xebbd",
+    "niceName": "Fish"
+  },
+  {
+    "className": "icon-chicken",
+    "hexCode": "&#xebbe",
+    "niceName": "Chicken"
+  },
+  {
+    "className": "icon-hamburger",
+    "hexCode": "&#xebbf",
+    "niceName": "Hamburger"
+  },
+  {
+    "className": "icon-pizza",
+    "hexCode": "&#xebc0",
+    "niceName": "Pizza"
+  },
+  {
+    "className": "icon-cheese",
+    "hexCode": "&#xebc1",
+    "niceName": "Cheese"
+  },
+  {
+    "className": "icon-bread",
+    "hexCode": "&#xebc2",
+    "niceName": "Bread"
+  },
+  {
+    "className": "icon-icecream",
+    "hexCode": "&#xebc3",
+    "niceName": "Icecream"
+  },
+  {
+    "className": "icon-milk",
+    "hexCode": "&#xebc4",
+    "niceName": "Milk"
+  },
+  {
+    "className": "icon-cup",
+    "hexCode": "&#xebc5",
+    "niceName": "Cup"
+  },
+  {
+    "className": "icon-cup2",
+    "hexCode": "&#xebc6",
+    "niceName": "Cup2"
+  },
+  {
+    "className": "icon-coffee-baen",
+    "hexCode": "&#xebc7",
+    "niceName": "Coffee Baen"
+  },
+  {
+    "className": "icon-coffee",
+    "hexCode": "&#xebc8",
+    "niceName": "Coffee"
+  },
+  {
+    "className": "icon-teapot",
+    "hexCode": "&#xebc9",
+    "niceName": "Teapot"
+  },
+  {
+    "className": "icon-leaf",
+    "hexCode": "&#xebca",
+    "niceName": "Leaf"
+  },
+  {
+    "className": "icon-leaf2",
+    "hexCode": "&#xebcb",
+    "niceName": "Leaf2"
+  },
+  {
+    "className": "icon-apple",
+    "hexCode": "&#xebcc",
+    "niceName": "Apple"
+  },
+  {
+    "className": "icon-grapes",
+    "hexCode": "&#xebcd",
+    "niceName": "Grapes"
+  },
+  {
+    "className": "icon-cherry",
+    "hexCode": "&#xebce",
+    "niceName": "Cherry"
+  },
+  {
+    "className": "icon-tree",
+    "hexCode": "&#xebcf",
+    "niceName": "Tree"
+  },
+  {
+    "className": "icon-tree2",
+    "hexCode": "&#xebd0",
+    "niceName": "Tree2"
+  },
+  {
+    "className": "icon-tree3",
+    "hexCode": "&#xebd1",
+    "niceName": "Tree3"
+  },
+  {
+    "className": "icon-tree4",
+    "hexCode": "&#xebd2",
+    "niceName": "Tree4"
+  },
+  {
+    "className": "icon-cactus",
+    "hexCode": "&#xebd3",
+    "niceName": "Cactus"
+  },
+  {
+    "className": "icon-mountains",
+    "hexCode": "&#xebd4",
+    "niceName": "Mountains"
+  },
+  {
+    "className": "icon-paw",
+    "hexCode": "&#xebd5",
+    "niceName": "Paw"
+  },
+  {
+    "className": "icon-footprint",
+    "hexCode": "&#xebd6",
+    "niceName": "Footprint"
+  },
+  {
+    "className": "icon-tent",
+    "hexCode": "&#xebd7",
+    "niceName": "Tent"
+  },
+  {
+    "className": "icon-flower",
+    "hexCode": "&#xebd8",
+    "niceName": "Flower"
+  },
+  {
+    "className": "icon-flower2",
+    "hexCode": "&#xebd9",
+    "niceName": "Flower2"
+  },
+  {
+    "className": "icon-rocket",
+    "hexCode": "&#xebda",
+    "niceName": "Rocket"
+  },
+  {
+    "className": "icon-meter",
+    "hexCode": "&#xebdb",
+    "niceName": "Meter"
+  },
+  {
+    "className": "icon-meter2",
+    "hexCode": "&#xebdc",
+    "niceName": "Meter2"
+  },
+  {
+    "className": "icon-meter-slow",
+    "hexCode": "&#xebdd",
+    "niceName": "Meter Slow"
+  },
+  {
+    "className": "icon-meter-medium",
+    "hexCode": "&#xebde",
+    "niceName": "Meter Medium"
+  },
+  {
+    "className": "icon-meter-fast",
+    "hexCode": "&#xebdf",
+    "niceName": "Meter Fast"
+  },
+  {
+    "className": "icon-meter3",
+    "hexCode": "&#xebe0",
+    "niceName": "Meter3"
+  },
+  {
+    "className": "icon-hammer2",
+    "hexCode": "&#xebe1",
+    "niceName": "Hammer2"
+  },
+  {
+    "className": "icon-balance",
+    "hexCode": "&#xebe2",
+    "niceName": "Balance"
+  },
+  {
+    "className": "icon-scale",
+    "hexCode": "&#xebe3",
+    "niceName": "Scale"
+  },
+  {
+    "className": "icon-bomb",
+    "hexCode": "&#xebe4",
+    "niceName": "Bomb"
+  },
+  {
+    "className": "icon-fire",
+    "hexCode": "&#xebe5",
+    "niceName": "Fire"
+  },
+  {
+    "className": "icon-fire2",
+    "hexCode": "&#xebe6",
+    "niceName": "Fire2"
+  },
+  {
+    "className": "icon-lab",
+    "hexCode": "&#xebe7",
+    "niceName": "Lab"
+  },
+  {
+    "className": "icon-atom",
+    "hexCode": "&#xebe8",
+    "niceName": "Atom"
+  },
+  {
+    "className": "icon-atom2",
+    "hexCode": "&#xebe9",
+    "niceName": "Atom2"
+  },
+  {
+    "className": "icon-magnet",
+    "hexCode": "&#xebea",
+    "niceName": "Magnet"
+  },
+  {
+    "className": "icon-magnet2",
+    "hexCode": "&#xebeb",
+    "niceName": "Magnet2"
+  },
+  {
+    "className": "icon-dumbbell",
+    "hexCode": "&#xebec",
+    "niceName": "Dumbbell"
+  },
+  {
+    "className": "icon-skull",
+    "hexCode": "&#xebed",
+    "niceName": "Skull"
+  },
+  {
+    "className": "icon-skull2",
+    "hexCode": "&#xebee",
+    "niceName": "Skull2"
+  },
+  {
+    "className": "icon-lamp",
+    "hexCode": "&#xebef",
+    "niceName": "Lamp"
+  },
+  {
+    "className": "icon-lamp2",
+    "hexCode": "&#xebf0",
+    "niceName": "Lamp2"
+  },
+  {
+    "className": "icon-lamp3",
+    "hexCode": "&#xebf1",
+    "niceName": "Lamp3"
+  },
+  {
+    "className": "icon-spotlight",
+    "hexCode": "&#xebf2",
+    "niceName": "Spotlight"
+  },
+  {
+    "className": "icon-lamp4",
+    "hexCode": "&#xebf3",
+    "niceName": "Lamp4"
+  },
+  {
+    "className": "icon-lamp5",
+    "hexCode": "&#xebf4",
+    "niceName": "Lamp5"
+  },
+  {
+    "className": "icon-lamp6",
+    "hexCode": "&#xebf5",
+    "niceName": "Lamp6"
+  },
+  {
+    "className": "icon-lamp7",
+    "hexCode": "&#xebf6",
+    "niceName": "Lamp7"
+  },
+  {
+    "className": "icon-lamp8",
+    "hexCode": "&#xebf7",
+    "niceName": "Lamp8"
+  },
+  {
+    "className": "icon-broom",
+    "hexCode": "&#xebf8",
+    "niceName": "Broom"
+  },
+  {
+    "className": "icon-toiletpaper",
+    "hexCode": "&#xebf9",
+    "niceName": "Toiletpaper"
+  },
+  {
+    "className": "icon-bin",
+    "hexCode": "&#xebfa",
+    "niceName": "Bin"
+  },
+  {
+    "className": "icon-bin2",
+    "hexCode": "&#xebfb",
+    "niceName": "Bin2"
+  },
+  {
+    "className": "icon-bin3",
+    "hexCode": "&#xebfc",
+    "niceName": "Bin3"
+  },
+  {
+    "className": "icon-bin4",
+    "hexCode": "&#xebfd",
+    "niceName": "Bin4"
+  },
+  {
+    "className": "icon-bin5",
+    "hexCode": "&#xebfe",
+    "niceName": "Bin5"
+  },
+  {
+    "className": "icon-briefcase",
+    "hexCode": "&#xebff",
+    "niceName": "Briefcase"
+  },
+  {
+    "className": "icon-briefcase2",
+    "hexCode": "&#xec00",
+    "niceName": "Briefcase2"
+  },
+  {
+    "className": "icon-briefcase3",
+    "hexCode": "&#xec01",
+    "niceName": "Briefcase3"
+  },
+  {
+    "className": "icon-airplane",
+    "hexCode": "&#xec02",
+    "niceName": "Airplane"
+  },
+  {
+    "className": "icon-airplane2",
+    "hexCode": "&#xec03",
+    "niceName": "Airplane2"
+  },
+  {
+    "className": "icon-airplane3",
+    "hexCode": "&#xec04",
+    "niceName": "Airplane3"
+  },
+  {
+    "className": "icon-airplane4",
+    "hexCode": "&#xec05",
+    "niceName": "Airplane4"
+  },
+  {
+    "className": "icon-paperplane",
+    "hexCode": "&#xec06",
+    "niceName": "Paperplane"
+  },
+  {
+    "className": "icon-car",
+    "hexCode": "&#xec07",
+    "niceName": "Car"
+  },
+  {
+    "className": "icon-steering-wheel",
+    "hexCode": "&#xec08",
+    "niceName": "Steering Wheel"
+  },
+  {
+    "className": "icon-car2",
+    "hexCode": "&#xec09",
+    "niceName": "Car2"
+  },
+  {
+    "className": "icon-gas",
+    "hexCode": "&#xec0a",
+    "niceName": "Gas"
+  },
+  {
+    "className": "icon-bus",
+    "hexCode": "&#xec0b",
+    "niceName": "Bus"
+  },
+  {
+    "className": "icon-truck",
+    "hexCode": "&#xec0c",
+    "niceName": "Truck"
+  },
+  {
+    "className": "icon-bike",
+    "hexCode": "&#xec0d",
+    "niceName": "Bike"
+  },
+  {
+    "className": "icon-road",
+    "hexCode": "&#xec0e",
+    "niceName": "Road"
+  },
+  {
+    "className": "icon-train",
+    "hexCode": "&#xec0f",
+    "niceName": "Train"
+  },
+  {
+    "className": "icon-train2",
+    "hexCode": "&#xec10",
+    "niceName": "Train2"
+  },
+  {
+    "className": "icon-ship",
+    "hexCode": "&#xec11",
+    "niceName": "Ship"
+  },
+  {
+    "className": "icon-boat",
+    "hexCode": "&#xec12",
+    "niceName": "Boat"
+  },
+  {
+    "className": "icon-chopper",
+    "hexCode": "&#xec13",
+    "niceName": "Chopper"
+  },
+  {
+    "className": "icon-chopper2",
+    "hexCode": "&#xec14",
+    "niceName": "Chopper2"
+  },
+  {
+    "className": "icon-cube",
+    "hexCode": "&#xec15",
+    "niceName": "Cube"
+  },
+  {
+    "className": "icon-cube2",
+    "hexCode": "&#xec16",
+    "niceName": "Cube2"
+  },
+  {
+    "className": "icon-cube3",
+    "hexCode": "&#xec17",
+    "niceName": "Cube3"
+  },
+  {
+    "className": "icon-cube4",
+    "hexCode": "&#xec18",
+    "niceName": "Cube4"
+  },
+  {
+    "className": "icon-pyramid",
+    "hexCode": "&#xec19",
+    "niceName": "Pyramid"
+  },
+  {
+    "className": "icon-pyramid2",
+    "hexCode": "&#xec1a",
+    "niceName": "Pyramid2"
+  },
+  {
+    "className": "icon-package",
+    "hexCode": "&#xec1b",
+    "niceName": "Package"
+  },
+  {
+    "className": "icon-puzzle",
+    "hexCode": "&#xec1c",
+    "niceName": "Puzzle"
+  },
+  {
+    "className": "icon-puzzle2",
+    "hexCode": "&#xec1d",
+    "niceName": "Puzzle2"
+  },
+  {
+    "className": "icon-puzzle3",
+    "hexCode": "&#xec1e",
+    "niceName": "Puzzle3"
+  },
+  {
+    "className": "icon-puzzle4",
+    "hexCode": "&#xec1f",
+    "niceName": "Puzzle4"
+  },
+  {
+    "className": "icon-glasses-3d",
+    "hexCode": "&#xec20",
+    "niceName": "Glasses 3D"
+  },
+  {
+    "className": "icon-glasses-3d2",
+    "hexCode": "&#xec21",
+    "niceName": "Glasses 3D2"
+  },
+  {
+    "className": "icon-glasses",
+    "hexCode": "&#xec22",
+    "niceName": "Glasses"
+  },
+  {
+    "className": "icon-glasses2",
+    "hexCode": "&#xec23",
+    "niceName": "Glasses2"
+  },
+  {
+    "className": "icon-brain",
+    "hexCode": "&#xec24",
+    "niceName": "Brain"
+  },
+  {
+    "className": "icon-accessibility",
+    "hexCode": "&#xec25",
+    "niceName": "Accessibility"
+  },
+  {
+    "className": "icon-accessibility2",
+    "hexCode": "&#xec26",
+    "niceName": "Accessibility2"
+  },
+  {
+    "className": "icon-strategy",
+    "hexCode": "&#xec27",
+    "niceName": "Strategy"
+  },
+  {
+    "className": "icon-target",
+    "hexCode": "&#xec28",
+    "niceName": "Target"
+  },
+  {
+    "className": "icon-target2",
+    "hexCode": "&#xec29",
+    "niceName": "Target2"
+  },
+  {
+    "className": "icon-target3",
+    "hexCode": "&#xec2a",
+    "niceName": "Target3"
+  },
+  {
+    "className": "icon-ammo",
+    "hexCode": "&#xec2b",
+    "niceName": "Ammo"
+  },
+  {
+    "className": "icon-gun",
+    "hexCode": "&#xec2c",
+    "niceName": "Gun"
+  },
+  {
+    "className": "icon-gun-forbidden",
+    "hexCode": "&#xec2d",
+    "niceName": "Gun Forbidden"
+  },
+  {
+    "className": "icon-shield",
+    "hexCode": "&#xec2e",
+    "niceName": "Shield"
+  },
+  {
+    "className": "icon-shield-check",
+    "hexCode": "&#xec2f",
+    "niceName": "Shield Check"
+  },
+  {
+    "className": "icon-shield-notice",
+    "hexCode": "&#xec30",
+    "niceName": "Shield Notice"
+  },
+  {
+    "className": "icon-shield2",
+    "hexCode": "&#xec31",
+    "niceName": "Shield2"
+  },
+  {
+    "className": "icon-shield3",
+    "hexCode": "&#xec32",
+    "niceName": "Shield3"
+  },
+  {
+    "className": "icon-shield4",
+    "hexCode": "&#xec33",
+    "niceName": "Shield4"
+  },
+  {
+    "className": "icon-soccer",
+    "hexCode": "&#xec34",
+    "niceName": "Soccer"
+  },
+  {
+    "className": "icon-football",
+    "hexCode": "&#xec35",
+    "niceName": "Football"
+  },
+  {
+    "className": "icon-archery",
+    "hexCode": "&#xec36",
+    "niceName": "Archery"
+  },
+  {
+    "className": "icon-bow",
+    "hexCode": "&#xec37",
+    "niceName": "Bow"
+  },
+  {
+    "className": "icon-sword",
+    "hexCode": "&#xec38",
+    "niceName": "Sword"
+  },
+  {
+    "className": "icon-tennis",
+    "hexCode": "&#xec39",
+    "niceName": "Tennis"
+  },
+  {
+    "className": "icon-pingpong",
+    "hexCode": "&#xec3a",
+    "niceName": "Pingpong"
+  },
+  {
+    "className": "icon-baseball",
+    "hexCode": "&#xec3b",
+    "niceName": "Baseball"
+  },
+  {
+    "className": "icon-basketball",
+    "hexCode": "&#xec3c",
+    "niceName": "Basketball"
+  },
+  {
+    "className": "icon-golf",
+    "hexCode": "&#xec3d",
+    "niceName": "Golf"
+  },
+  {
+    "className": "icon-golf2",
+    "hexCode": "&#xec3e",
+    "niceName": "Golf2"
+  },
+  {
+    "className": "icon-hockey",
+    "hexCode": "&#xec3f",
+    "niceName": "Hockey"
+  },
+  {
+    "className": "icon-racing",
+    "hexCode": "&#xec40",
+    "niceName": "Racing"
+  },
+  {
+    "className": "icon-finish",
+    "hexCode": "&#xec41",
+    "niceName": "Finish"
+  },
+  {
+    "className": "icon-eight-ball",
+    "hexCode": "&#xec42",
+    "niceName": "Eight Ball"
+  },
+  {
+    "className": "icon-bowling",
+    "hexCode": "&#xec43",
+    "niceName": "Bowling"
+  },
+  {
+    "className": "icon-bowling2",
+    "hexCode": "&#xec44",
+    "niceName": "Bowling2"
+  },
+  {
+    "className": "icon-power",
+    "hexCode": "&#xec45",
+    "niceName": "Power"
+  },
+  {
+    "className": "icon-power2",
+    "hexCode": "&#xec46",
+    "niceName": "Power2"
+  },
+  {
+    "className": "icon-power3",
+    "hexCode": "&#xec47",
+    "niceName": "Power3"
+  },
+  {
+    "className": "icon-switch",
+    "hexCode": "&#xec48",
+    "niceName": "Switch"
+  },
+  {
+    "className": "icon-switch2",
+    "hexCode": "&#xec49",
+    "niceName": "Switch2"
+  },
+  {
+    "className": "icon-power-cord",
+    "hexCode": "&#xec4a",
+    "niceName": "Power Cord"
+  },
+  {
+    "className": "icon-power-cord2",
+    "hexCode": "&#xec4b",
+    "niceName": "Power Cord2"
+  },
+  {
+    "className": "icon-outlet",
+    "hexCode": "&#xec4c",
+    "niceName": "Outlet"
+  },
+  {
+    "className": "icon-clipboard",
+    "hexCode": "&#xec4d",
+    "niceName": "Clipboard"
+  },
+  {
+    "className": "icon-clipboard2",
+    "hexCode": "&#xec4e",
+    "niceName": "Clipboard2"
+  },
+  {
+    "className": "icon-clipboard3",
+    "hexCode": "&#xec4f",
+    "niceName": "Clipboard3"
+  },
+  {
+    "className": "icon-clipboard4",
+    "hexCode": "&#xec50",
+    "niceName": "Clipboard4"
+  },
+  {
+    "className": "icon-clipboard5",
+    "hexCode": "&#xec51",
+    "niceName": "Clipboard5"
+  },
+  {
+    "className": "icon-clipboard6",
+    "hexCode": "&#xec52",
+    "niceName": "Clipboard6"
+  },
+  {
+    "className": "icon-playlist",
+    "hexCode": "&#xec53",
+    "niceName": "Playlist"
+  },
+  {
+    "className": "icon-playlist-add",
+    "hexCode": "&#xec54",
+    "niceName": "Playlist Add"
+  },
+  {
+    "className": "icon-list-numbered",
+    "hexCode": "&#xec55",
+    "niceName": "List Numbered"
+  },
+  {
+    "className": "icon-list",
+    "hexCode": "&#xec56",
+    "niceName": "List"
+  },
+  {
+    "className": "icon-list2",
+    "hexCode": "&#xec57",
+    "niceName": "List2"
+  },
+  {
+    "className": "icon-more",
+    "hexCode": "&#xec58",
+    "niceName": "More"
+  },
+  {
+    "className": "icon-more2",
+    "hexCode": "&#xec59",
+    "niceName": "More2"
+  },
+  {
+    "className": "icon-grid",
+    "hexCode": "&#xec5a",
+    "niceName": "Grid"
+  },
+  {
+    "className": "icon-grid2",
+    "hexCode": "&#xec5b",
+    "niceName": "Grid2"
+  },
+  {
+    "className": "icon-grid3",
+    "hexCode": "&#xec5c",
+    "niceName": "Grid3"
+  },
+  {
+    "className": "icon-grid4",
+    "hexCode": "&#xec5d",
+    "niceName": "Grid4"
+  },
+  {
+    "className": "icon-grid5",
+    "hexCode": "&#xec5e",
+    "niceName": "Grid5"
+  },
+  {
+    "className": "icon-grid6",
+    "hexCode": "&#xec5f",
+    "niceName": "Grid6"
+  },
+  {
+    "className": "icon-grid7",
+    "hexCode": "&#xec60",
+    "niceName": "Grid7"
+  },
+  {
+    "className": "icon-tree5",
+    "hexCode": "&#xec61",
+    "niceName": "Tree5"
+  },
+  {
+    "className": "icon-tree6",
+    "hexCode": "&#xec62",
+    "niceName": "Tree6"
+  },
+  {
+    "className": "icon-tree7",
+    "hexCode": "&#xec63",
+    "niceName": "Tree7"
+  },
+  {
+    "className": "icon-lan",
+    "hexCode": "&#xec64",
+    "niceName": "Lan"
+  },
+  {
+    "className": "icon-lan2",
+    "hexCode": "&#xec65",
+    "niceName": "Lan2"
+  },
+  {
+    "className": "icon-lan3",
+    "hexCode": "&#xec66",
+    "niceName": "Lan3"
+  },
+  {
+    "className": "icon-menu",
+    "hexCode": "&#xec67",
+    "niceName": "Menu"
+  },
+  {
+    "className": "icon-circle-small",
+    "hexCode": "&#xec68",
+    "niceName": "Circle Small"
+  },
+  {
+    "className": "icon-menu2",
+    "hexCode": "&#xec69",
+    "niceName": "Menu2"
+  },
+  {
+    "className": "icon-menu3",
+    "hexCode": "&#xec6a",
+    "niceName": "Menu3"
+  },
+  {
+    "className": "icon-menu4",
+    "hexCode": "&#xec6b",
+    "niceName": "Menu4"
+  },
+  {
+    "className": "icon-menu5",
+    "hexCode": "&#xec6c",
+    "niceName": "Menu5"
+  },
+  {
+    "className": "icon-menu6",
+    "hexCode": "&#xec6d",
+    "niceName": "Menu6"
+  },
+  {
+    "className": "icon-menu7",
+    "hexCode": "&#xec6e",
+    "niceName": "Menu7"
+  },
+  {
+    "className": "icon-menu8",
+    "hexCode": "&#xec6f",
+    "niceName": "Menu8"
+  },
+  {
+    "className": "icon-menu9",
+    "hexCode": "&#xec70",
+    "niceName": "Menu9"
+  },
+  {
+    "className": "icon-menu10",
+    "hexCode": "&#xec71",
+    "niceName": "Menu10"
+  },
+  {
+    "className": "icon-cloud",
+    "hexCode": "&#xec72",
+    "niceName": "Cloud"
+  },
+  {
+    "className": "icon-cloud-download",
+    "hexCode": "&#xec73",
+    "niceName": "Cloud Download"
+  },
+  {
+    "className": "icon-cloud-upload",
+    "hexCode": "&#xec74",
+    "niceName": "Cloud Upload"
+  },
+  {
+    "className": "icon-cloud-check",
+    "hexCode": "&#xec75",
+    "niceName": "Cloud Check"
+  },
+  {
+    "className": "icon-cloud2",
+    "hexCode": "&#xec76",
+    "niceName": "Cloud2"
+  },
+  {
+    "className": "icon-cloud-download2",
+    "hexCode": "&#xec77",
+    "niceName": "Cloud Download2"
+  },
+  {
+    "className": "icon-cloud-upload2",
+    "hexCode": "&#xec78",
+    "niceName": "Cloud Upload2"
+  },
+  {
+    "className": "icon-cloud-check2",
+    "hexCode": "&#xec79",
+    "niceName": "Cloud Check2"
+  },
+  {
+    "className": "icon-download2",
+    "hexCode": "&#xec7a",
+    "niceName": "Download2"
+  },
+  {
+    "className": "icon-download3",
+    "hexCode": "&#xec7b",
+    "niceName": "Download3"
+  },
+  {
+    "className": "icon-upload2",
+    "hexCode": "&#xec7c",
+    "niceName": "Upload2"
+  },
+  {
+    "className": "icon-upload3",
+    "hexCode": "&#xec7d",
+    "niceName": "Upload3"
+  },
+  {
+    "className": "icon-import",
+    "hexCode": "&#xec7e",
+    "niceName": "Import"
+  },
+  {
+    "className": "icon-import2",
+    "hexCode": "&#xec7f",
+    "niceName": "Import2"
+  },
+  {
+    "className": "icon-download4",
+    "hexCode": "&#xec80",
+    "niceName": "Download4"
+  },
+  {
+    "className": "icon-upload4",
+    "hexCode": "&#xec81",
+    "niceName": "Upload4"
+  },
+  {
+    "className": "icon-download5",
+    "hexCode": "&#xec82",
+    "niceName": "Download5"
+  },
+  {
+    "className": "icon-upload5",
+    "hexCode": "&#xec83",
+    "niceName": "Upload5"
+  },
+  {
+    "className": "icon-download6",
+    "hexCode": "&#xec84",
+    "niceName": "Download6"
+  },
+  {
+    "className": "icon-upload6",
+    "hexCode": "&#xec85",
+    "niceName": "Upload6"
+  },
+  {
+    "className": "icon-download7",
+    "hexCode": "&#xec86",
+    "niceName": "Download7"
+  },
+  {
+    "className": "icon-upload7",
+    "hexCode": "&#xec87",
+    "niceName": "Upload7"
+  },
+  {
+    "className": "icon-download8",
+    "hexCode": "&#xec88",
+    "niceName": "Download8"
+  },
+  {
+    "className": "icon-upload8",
+    "hexCode": "&#xec89",
+    "niceName": "Upload8"
+  },
+  {
+    "className": "icon-download9",
+    "hexCode": "&#xec8a",
+    "niceName": "Download9"
+  },
+  {
+    "className": "icon-upload9",
+    "hexCode": "&#xec8b",
+    "niceName": "Upload9"
+  },
+  {
+    "className": "icon-download10",
+    "hexCode": "&#xec8c",
+    "niceName": "Download10"
+  },
+  {
+    "className": "icon-upload10",
+    "hexCode": "&#xec8d",
+    "niceName": "Upload10"
+  },
+  {
+    "className": "icon-sphere",
+    "hexCode": "&#xec8e",
+    "niceName": "Sphere"
+  },
+  {
+    "className": "icon-sphere2",
+    "hexCode": "&#xec8f",
+    "niceName": "Sphere2"
+  },
+  {
+    "className": "icon-sphere3",
+    "hexCode": "&#xec90",
+    "niceName": "Sphere3"
+  },
+  {
+    "className": "icon-planet",
+    "hexCode": "&#xec91",
+    "niceName": "Planet"
+  },
+  {
+    "className": "icon-planet2",
+    "hexCode": "&#xec92",
+    "niceName": "Planet2"
+  },
+  {
+    "className": "icon-earth",
+    "hexCode": "&#xec93",
+    "niceName": "Earth"
+  },
+  {
+    "className": "icon-earth2",
+    "hexCode": "&#xec94",
+    "niceName": "Earth2"
+  },
+  {
+    "className": "icon-earth3",
+    "hexCode": "&#xec95",
+    "niceName": "Earth3"
+  },
+  {
+    "className": "icon-link",
+    "hexCode": "&#xec96",
+    "niceName": "Link"
+  },
+  {
+    "className": "icon-unlink",
+    "hexCode": "&#xec97",
+    "niceName": "Unlink"
+  },
+  {
+    "className": "icon-link2",
+    "hexCode": "&#xec98",
+    "niceName": "Link2"
+  },
+  {
+    "className": "icon-unlink2",
+    "hexCode": "&#xec99",
+    "niceName": "Unlink2"
+  },
+  {
+    "className": "icon-link3",
+    "hexCode": "&#xec9a",
+    "niceName": "Link3"
+  },
+  {
+    "className": "icon-unlink3",
+    "hexCode": "&#xec9b",
+    "niceName": "Unlink3"
+  },
+  {
+    "className": "icon-link4",
+    "hexCode": "&#xec9c",
+    "niceName": "Link4"
+  },
+  {
+    "className": "icon-unlink4",
+    "hexCode": "&#xec9d",
+    "niceName": "Unlink4"
+  },
+  {
+    "className": "icon-link5",
+    "hexCode": "&#xec9e",
+    "niceName": "Link5"
+  },
+  {
+    "className": "icon-unlink5",
+    "hexCode": "&#xec9f",
+    "niceName": "Unlink5"
+  },
+  {
+    "className": "icon-anchor",
+    "hexCode": "&#xeca0",
+    "niceName": "Anchor"
+  },
+  {
+    "className": "icon-flag",
+    "hexCode": "&#xeca1",
+    "niceName": "Flag"
+  },
+  {
+    "className": "icon-flag2",
+    "hexCode": "&#xeca2",
+    "niceName": "Flag2"
+  },
+  {
+    "className": "icon-flag3",
+    "hexCode": "&#xeca3",
+    "niceName": "Flag3"
+  },
+  {
+    "className": "icon-flag4",
+    "hexCode": "&#xeca4",
+    "niceName": "Flag4"
+  },
+  {
+    "className": "icon-flag5",
+    "hexCode": "&#xeca5",
+    "niceName": "Flag5"
+  },
+  {
+    "className": "icon-flag6",
+    "hexCode": "&#xeca6",
+    "niceName": "Flag6"
+  },
+  {
+    "className": "icon-flag7",
+    "hexCode": "&#xeca7",
+    "niceName": "Flag7"
+  },
+  {
+    "className": "icon-flag8",
+    "hexCode": "&#xeca8",
+    "niceName": "Flag8"
+  },
+  {
+    "className": "icon-attachment",
+    "hexCode": "&#xeca9",
+    "niceName": "Attachment"
+  },
+  {
+    "className": "icon-attachment2",
+    "hexCode": "&#xecaa",
+    "niceName": "Attachment2"
+  },
+  {
+    "className": "icon-eye",
+    "hexCode": "&#xecab",
+    "niceName": "Eye"
+  },
+  {
+    "className": "icon-eye-plus",
+    "hexCode": "&#xecac",
+    "niceName": "Eye Plus"
+  },
+  {
+    "className": "icon-eye-minus",
+    "hexCode": "&#xecad",
+    "niceName": "Eye Minus"
+  },
+  {
+    "className": "icon-eye-blocked",
+    "hexCode": "&#xecae",
+    "niceName": "Eye Blocked"
+  },
+  {
+    "className": "icon-eye2",
+    "hexCode": "&#xecaf",
+    "niceName": "Eye2"
+  },
+  {
+    "className": "icon-eye-blocked2",
+    "hexCode": "&#xecb0",
+    "niceName": "Eye Blocked2"
+  },
+  {
+    "className": "icon-eye3",
+    "hexCode": "&#xecb1",
+    "niceName": "Eye3"
+  },
+  {
+    "className": "icon-eye-blocked3",
+    "hexCode": "&#xecb2",
+    "niceName": "Eye Blocked3"
+  },
+  {
+    "className": "icon-eye4",
+    "hexCode": "&#xecb3",
+    "niceName": "Eye4"
+  },
+  {
+    "className": "icon-bookmark2",
+    "hexCode": "&#xecb4",
+    "niceName": "Bookmark2"
+  },
+  {
+    "className": "icon-bookmark3",
+    "hexCode": "&#xecb5",
+    "niceName": "Bookmark3"
+  },
+  {
+    "className": "icon-bookmarks",
+    "hexCode": "&#xecb6",
+    "niceName": "Bookmarks"
+  },
+  {
+    "className": "icon-bookmark4",
+    "hexCode": "&#xecb7",
+    "niceName": "Bookmark4"
+  },
+  {
+    "className": "icon-spotlight2",
+    "hexCode": "&#xecb8",
+    "niceName": "Spotlight2"
+  },
+  {
+    "className": "icon-starburst",
+    "hexCode": "&#xecb9",
+    "niceName": "Starburst"
+  },
+  {
+    "className": "icon-snowflake",
+    "hexCode": "&#xecba",
+    "niceName": "Snowflake"
+  },
+  {
+    "className": "icon-temperature",
+    "hexCode": "&#xecbb",
+    "niceName": "Temperature"
+  },
+  {
+    "className": "icon-temperature2",
+    "hexCode": "&#xecbc",
+    "niceName": "Temperature2"
+  },
+  {
+    "className": "icon-weather-lightning",
+    "hexCode": "&#xecbd",
+    "niceName": "Weather Lightning"
+  },
+  {
+    "className": "icon-weather-lightning2",
+    "hexCode": "&#xecbe",
+    "niceName": "Weather Lightning2"
+  },
+  {
+    "className": "icon-weather-rain",
+    "hexCode": "&#xecbf",
+    "niceName": "Weather Rain"
+  },
+  {
+    "className": "icon-weather-rain2",
+    "hexCode": "&#xecc0",
+    "niceName": "Weather Rain2"
+  },
+  {
+    "className": "icon-weather-snow",
+    "hexCode": "&#xecc1",
+    "niceName": "Weather Snow"
+  },
+  {
+    "className": "icon-weather-snow2",
+    "hexCode": "&#xecc2",
+    "niceName": "Weather Snow2"
+  },
+  {
+    "className": "icon-weather-cloud-wind",
+    "hexCode": "&#xecc3",
+    "niceName": "Weather Cloud Wind"
+  },
+  {
+    "className": "icon-weather-cloud-wind2",
+    "hexCode": "&#xecc4",
+    "niceName": "Weather Cloud Wind2"
+  },
+  {
+    "className": "icon-weather-cloud-sun",
+    "hexCode": "&#xecc5",
+    "niceName": "Weather Cloud Sun"
+  },
+  {
+    "className": "icon-weather-cloud-sun2",
+    "hexCode": "&#xecc6",
+    "niceName": "Weather Cloud Sun2"
+  },
+  {
+    "className": "icon-weather-cloudy",
+    "hexCode": "&#xecc7",
+    "niceName": "Weather Cloudy"
+  },
+  {
+    "className": "icon-weather-cloudy2",
+    "hexCode": "&#xecc8",
+    "niceName": "Weather Cloudy2"
+  },
+  {
+    "className": "icon-weather-sun-wind",
+    "hexCode": "&#xecc9",
+    "niceName": "Weather Sun Wind"
+  },
+  {
+    "className": "icon-weather-sun-wind2",
+    "hexCode": "&#xecca",
+    "niceName": "Weather Sun Wind2"
+  },
+  {
+    "className": "icon-sun",
+    "hexCode": "&#xeccb",
+    "niceName": "Sun"
+  },
+  {
+    "className": "icon-sun2",
+    "hexCode": "&#xeccc",
+    "niceName": "Sun2"
+  },
+  {
+    "className": "icon-moon",
+    "hexCode": "&#xeccd",
+    "niceName": "Moon"
+  },
+  {
+    "className": "icon-day-night",
+    "hexCode": "&#xecce",
+    "niceName": "Day Night"
+  },
+  {
+    "className": "icon-day-night2",
+    "hexCode": "&#xeccf",
+    "niceName": "Day Night2"
+  },
+  {
+    "className": "icon-weather-windy",
+    "hexCode": "&#xecd0",
+    "niceName": "Weather Windy"
+  },
+  {
+    "className": "icon-fan",
+    "hexCode": "&#xecd1",
+    "niceName": "Fan"
+  },
+  {
+    "className": "icon-umbrella",
+    "hexCode": "&#xecd2",
+    "niceName": "Umbrella"
+  },
+  {
+    "className": "icon-sun3",
+    "hexCode": "&#xecd3",
+    "niceName": "Sun3"
+  },
+  {
+    "className": "icon-contrast",
+    "hexCode": "&#xecd4",
+    "niceName": "Contrast"
+  },
+  {
+    "className": "icon-brightness-contrast",
+    "hexCode": "&#xecd5",
+    "niceName": "Brightness Contrast"
+  },
+  {
+    "className": "icon-brightness-high",
+    "hexCode": "&#xecd6",
+    "niceName": "Brightness High"
+  },
+  {
+    "className": "icon-brightness-medium",
+    "hexCode": "&#xecd7",
+    "niceName": "Brightness Medium"
+  },
+  {
+    "className": "icon-brightness-low",
+    "hexCode": "&#xecd8",
+    "niceName": "Brightness Low"
+  },
+  {
+    "className": "icon-bed",
+    "hexCode": "&#xecd9",
+    "niceName": "Bed"
+  },
+  {
+    "className": "icon-bed2",
+    "hexCode": "&#xecda",
+    "niceName": "Bed2"
+  },
+  {
+    "className": "icon-furniture",
+    "hexCode": "&#xecdb",
+    "niceName": "Furniture"
+  },
+  {
+    "className": "icon-chair",
+    "hexCode": "&#xecdc",
+    "niceName": "Chair"
+  },
+  {
+    "className": "icon-star-empty",
+    "hexCode": "&#xecdd",
+    "niceName": "Star Empty"
+  },
+  {
+    "className": "icon-star-empty2",
+    "hexCode": "&#xecde",
+    "niceName": "Star Empty2"
+  },
+  {
+    "className": "icon-star-full",
+    "hexCode": "&#xecdf",
+    "niceName": "Star Full"
+  },
+  {
+    "className": "icon-star-empty3",
+    "hexCode": "&#xece0",
+    "niceName": "Star Empty3"
+  },
+  {
+    "className": "icon-star-half",
+    "hexCode": "&#xece1",
+    "niceName": "Star Half"
+  },
+  {
+    "className": "icon-star-full2",
+    "hexCode": "&#xece2",
+    "niceName": "Star Full2"
+  },
+  {
+    "className": "icon-star",
+    "hexCode": "&#xece3",
+    "niceName": "Star"
+  },
+  {
+    "className": "icon-heart",
+    "hexCode": "&#xece4",
+    "niceName": "Heart"
+  },
+  {
+    "className": "icon-heart2",
+    "hexCode": "&#xece5",
+    "niceName": "Heart2"
+  },
+  {
+    "className": "icon-heart3",
+    "hexCode": "&#xece6",
+    "niceName": "Heart3"
+  },
+  {
+    "className": "icon-heart4",
+    "hexCode": "&#xece7",
+    "niceName": "Heart4"
+  },
+  {
+    "className": "icon-heart-broken",
+    "hexCode": "&#xece8",
+    "niceName": "Heart Broken"
+  },
+  {
+    "className": "icon-heart5",
+    "hexCode": "&#xece9",
+    "niceName": "Heart5"
+  },
+  {
+    "className": "icon-heart6",
+    "hexCode": "&#xecea",
+    "niceName": "Heart6"
+  },
+  {
+    "className": "icon-heart-broken2",
+    "hexCode": "&#xeceb",
+    "niceName": "Heart Broken2"
+  },
+  {
+    "className": "icon-heart7",
+    "hexCode": "&#xecec",
+    "niceName": "Heart7"
+  },
+  {
+    "className": "icon-heart8",
+    "hexCode": "&#xeced",
+    "niceName": "Heart8"
+  },
+  {
+    "className": "icon-heart-broken3",
+    "hexCode": "&#xecee",
+    "niceName": "Heart Broken3"
+  },
+  {
+    "className": "icon-lips",
+    "hexCode": "&#xecef",
+    "niceName": "Lips"
+  },
+  {
+    "className": "icon-lips2",
+    "hexCode": "&#xecf0",
+    "niceName": "Lips2"
+  },
+  {
+    "className": "icon-thumbs-up",
+    "hexCode": "&#xecf1",
+    "niceName": "Thumbs Up"
+  },
+  {
+    "className": "icon-thumbs-up2",
+    "hexCode": "&#xecf2",
+    "niceName": "Thumbs Up2"
+  },
+  {
+    "className": "icon-thumbs-down",
+    "hexCode": "&#xecf3",
+    "niceName": "Thumbs Down"
+  },
+  {
+    "className": "icon-thumbs-down2",
+    "hexCode": "&#xecf4",
+    "niceName": "Thumbs Down2"
+  },
+  {
+    "className": "icon-thumbs-up3",
+    "hexCode": "&#xecf5",
+    "niceName": "Thumbs Up3"
+  },
+  {
+    "className": "icon-thumbs-down3",
+    "hexCode": "&#xecf6",
+    "niceName": "Thumbs Down3"
+  },
+  {
+    "className": "icon-height",
+    "hexCode": "&#xecf7",
+    "niceName": "Height"
+  },
+  {
+    "className": "icon-man",
+    "hexCode": "&#xecf8",
+    "niceName": "Man"
+  },
+  {
+    "className": "icon-woman",
+    "hexCode": "&#xecf9",
+    "niceName": "Woman"
+  },
+  {
+    "className": "icon-man-woman",
+    "hexCode": "&#xecfa",
+    "niceName": "Man Woman"
+  },
+  {
+    "className": "icon-male",
+    "hexCode": "&#xecfb",
+    "niceName": "Male"
+  },
+  {
+    "className": "icon-female",
+    "hexCode": "&#xecfc",
+    "niceName": "Female"
+  },
+  {
+    "className": "icon-peace",
+    "hexCode": "&#xecfd",
+    "niceName": "Peace"
+  },
+  {
+    "className": "icon-yin-yang",
+    "hexCode": "&#xecfe",
+    "niceName": "Yin Yang"
+  },
+  {
+    "className": "icon-happy",
+    "hexCode": "&#xecff",
+    "niceName": "Happy"
+  },
+  {
+    "className": "icon-happy2",
+    "hexCode": "&#xed00",
+    "niceName": "Happy2"
+  },
+  {
+    "className": "icon-smile",
+    "hexCode": "&#xed01",
+    "niceName": "Smile"
+  },
+  {
+    "className": "icon-smile2",
+    "hexCode": "&#xed02",
+    "niceName": "Smile2"
+  },
+  {
+    "className": "icon-tongue",
+    "hexCode": "&#xed03",
+    "niceName": "Tongue"
+  },
+  {
+    "className": "icon-tongue2",
+    "hexCode": "&#xed04",
+    "niceName": "Tongue2"
+  },
+  {
+    "className": "icon-sad",
+    "hexCode": "&#xed05",
+    "niceName": "Sad"
+  },
+  {
+    "className": "icon-sad2",
+    "hexCode": "&#xed06",
+    "niceName": "Sad2"
+  },
+  {
+    "className": "icon-wink",
+    "hexCode": "&#xed07",
+    "niceName": "Wink"
+  },
+  {
+    "className": "icon-wink2",
+    "hexCode": "&#xed08",
+    "niceName": "Wink2"
+  },
+  {
+    "className": "icon-grin",
+    "hexCode": "&#xed09",
+    "niceName": "Grin"
+  },
+  {
+    "className": "icon-grin2",
+    "hexCode": "&#xed0a",
+    "niceName": "Grin2"
+  },
+  {
+    "className": "icon-cool",
+    "hexCode": "&#xed0b",
+    "niceName": "Cool"
+  },
+  {
+    "className": "icon-cool2",
+    "hexCode": "&#xed0c",
+    "niceName": "Cool2"
+  },
+  {
+    "className": "icon-angry",
+    "hexCode": "&#xed0d",
+    "niceName": "Angry"
+  },
+  {
+    "className": "icon-angry2",
+    "hexCode": "&#xed0e",
+    "niceName": "Angry2"
+  },
+  {
+    "className": "icon-evil",
+    "hexCode": "&#xed0f",
+    "niceName": "Evil"
+  },
+  {
+    "className": "icon-evil2",
+    "hexCode": "&#xed10",
+    "niceName": "Evil2"
+  },
+  {
+    "className": "icon-shocked",
+    "hexCode": "&#xed11",
+    "niceName": "Shocked"
+  },
+  {
+    "className": "icon-shocked2",
+    "hexCode": "&#xed12",
+    "niceName": "Shocked2"
+  },
+  {
+    "className": "icon-baffled",
+    "hexCode": "&#xed13",
+    "niceName": "Baffled"
+  },
+  {
+    "className": "icon-baffled2",
+    "hexCode": "&#xed14",
+    "niceName": "Baffled2"
+  },
+  {
+    "className": "icon-confused",
+    "hexCode": "&#xed15",
+    "niceName": "Confused"
+  },
+  {
+    "className": "icon-confused2",
+    "hexCode": "&#xed16",
+    "niceName": "Confused2"
+  },
+  {
+    "className": "icon-neutral",
+    "hexCode": "&#xed17",
+    "niceName": "Neutral"
+  },
+  {
+    "className": "icon-neutral2",
+    "hexCode": "&#xed18",
+    "niceName": "Neutral2"
+  },
+  {
+    "className": "icon-hipster",
+    "hexCode": "&#xed19",
+    "niceName": "Hipster"
+  },
+  {
+    "className": "icon-hipster2",
+    "hexCode": "&#xed1a",
+    "niceName": "Hipster2"
+  },
+  {
+    "className": "icon-wondering",
+    "hexCode": "&#xed1b",
+    "niceName": "Wondering"
+  },
+  {
+    "className": "icon-wondering2",
+    "hexCode": "&#xed1c",
+    "niceName": "Wondering2"
+  },
+  {
+    "className": "icon-sleepy",
+    "hexCode": "&#xed1d",
+    "niceName": "Sleepy"
+  },
+  {
+    "className": "icon-sleepy2",
+    "hexCode": "&#xed1e",
+    "niceName": "Sleepy2"
+  },
+  {
+    "className": "icon-frustrated",
+    "hexCode": "&#xed1f",
+    "niceName": "Frustrated"
+  },
+  {
+    "className": "icon-frustrated2",
+    "hexCode": "&#xed20",
+    "niceName": "Frustrated2"
+  },
+  {
+    "className": "icon-crying",
+    "hexCode": "&#xed21",
+    "niceName": "Crying"
+  },
+  {
+    "className": "icon-crying2",
+    "hexCode": "&#xed22",
+    "niceName": "Crying2"
+  },
+  {
+    "className": "icon-cursor",
+    "hexCode": "&#xed23",
+    "niceName": "Cursor"
+  },
+  {
+    "className": "icon-cursor2",
+    "hexCode": "&#xed24",
+    "niceName": "Cursor2"
+  },
+  {
+    "className": "icon-lasso",
+    "hexCode": "&#xed25",
+    "niceName": "Lasso"
+  },
+  {
+    "className": "icon-lasso2",
+    "hexCode": "&#xed26",
+    "niceName": "Lasso2"
+  },
+  {
+    "className": "icon-select",
+    "hexCode": "&#xed27",
+    "niceName": "Select"
+  },
+  {
+    "className": "icon-select2",
+    "hexCode": "&#xed28",
+    "niceName": "Select2"
+  },
+  {
+    "className": "icon-point-up",
+    "hexCode": "&#xed29",
+    "niceName": "Point Up"
+  },
+  {
+    "className": "icon-point-right",
+    "hexCode": "&#xed2a",
+    "niceName": "Point Right"
+  },
+  {
+    "className": "icon-point-down",
+    "hexCode": "&#xed2b",
+    "niceName": "Point Down"
+  },
+  {
+    "className": "icon-point-left",
+    "hexCode": "&#xed2c",
+    "niceName": "Point Left"
+  },
+  {
+    "className": "icon-pointer",
+    "hexCode": "&#xed2d",
+    "niceName": "Pointer"
+  },
+  {
+    "className": "icon-reminder",
+    "hexCode": "&#xed2e",
+    "niceName": "Reminder"
+  },
+  {
+    "className": "icon-drag-left-right",
+    "hexCode": "&#xed2f",
+    "niceName": "Drag Left Right"
+  },
+  {
+    "className": "icon-drag-left",
+    "hexCode": "&#xed30",
+    "niceName": "Drag Left"
+  },
+  {
+    "className": "icon-drag-right",
+    "hexCode": "&#xed31",
+    "niceName": "Drag Right"
+  },
+  {
+    "className": "icon-touch",
+    "hexCode": "&#xed32",
+    "niceName": "Touch"
+  },
+  {
+    "className": "icon-multitouch",
+    "hexCode": "&#xed33",
+    "niceName": "Multitouch"
+  },
+  {
+    "className": "icon-touch-zoom",
+    "hexCode": "&#xed34",
+    "niceName": "Touch Zoom"
+  },
+  {
+    "className": "icon-touch-pinch",
+    "hexCode": "&#xed35",
+    "niceName": "Touch Pinch"
+  },
+  {
+    "className": "icon-hand",
+    "hexCode": "&#xed36",
+    "niceName": "Hand"
+  },
+  {
+    "className": "icon-grab",
+    "hexCode": "&#xed37",
+    "niceName": "Grab"
+  },
+  {
+    "className": "icon-stack-empty",
+    "hexCode": "&#xed38",
+    "niceName": "Stack Empty"
+  },
+  {
+    "className": "icon-stack-plus",
+    "hexCode": "&#xed39",
+    "niceName": "Stack Plus"
+  },
+  {
+    "className": "icon-stack-minus",
+    "hexCode": "&#xed3a",
+    "niceName": "Stack Minus"
+  },
+  {
+    "className": "icon-stack-star",
+    "hexCode": "&#xed3b",
+    "niceName": "Stack Star"
+  },
+  {
+    "className": "icon-stack-picture",
+    "hexCode": "&#xed3c",
+    "niceName": "Stack Picture"
+  },
+  {
+    "className": "icon-stack-down",
+    "hexCode": "&#xed3d",
+    "niceName": "Stack Down"
+  },
+  {
+    "className": "icon-stack-up",
+    "hexCode": "&#xed3e",
+    "niceName": "Stack Up"
+  },
+  {
+    "className": "icon-stack-cancel",
+    "hexCode": "&#xed3f",
+    "niceName": "Stack Cancel"
+  },
+  {
+    "className": "icon-stack-check",
+    "hexCode": "&#xed40",
+    "niceName": "Stack Check"
+  },
+  {
+    "className": "icon-stack-text",
+    "hexCode": "&#xed41",
+    "niceName": "Stack Text"
+  },
+  {
+    "className": "icon-stack-clubs",
+    "hexCode": "&#xed42",
+    "niceName": "Stack Clubs"
+  },
+  {
+    "className": "icon-stack-spades",
+    "hexCode": "&#xed43",
+    "niceName": "Stack Spades"
+  },
+  {
+    "className": "icon-stack-hearts",
+    "hexCode": "&#xed44",
+    "niceName": "Stack Hearts"
+  },
+  {
+    "className": "icon-stack-diamonds",
+    "hexCode": "&#xed45",
+    "niceName": "Stack Diamonds"
+  },
+  {
+    "className": "icon-stack-user",
+    "hexCode": "&#xed46",
+    "niceName": "Stack User"
+  },
+  {
+    "className": "icon-stack4",
+    "hexCode": "&#xed47",
+    "niceName": "Stack4"
+  },
+  {
+    "className": "icon-stack-music",
+    "hexCode": "&#xed48",
+    "niceName": "Stack Music"
+  },
+  {
+    "className": "icon-stack-play",
+    "hexCode": "&#xed49",
+    "niceName": "Stack Play"
+  },
+  {
+    "className": "icon-move",
+    "hexCode": "&#xed4a",
+    "niceName": "Move"
+  },
+  {
+    "className": "icon-dots",
+    "hexCode": "&#xed4b",
+    "niceName": "Dots"
+  },
+  {
+    "className": "icon-warning",
+    "hexCode": "&#xed4c",
+    "niceName": "Warning"
+  },
+  {
+    "className": "icon-warning2",
+    "hexCode": "&#xed4d",
+    "niceName": "Warning2"
+  },
+  {
+    "className": "icon-notification",
+    "hexCode": "&#xed4e",
+    "niceName": "Notification"
+  },
+  {
+    "className": "icon-notification2",
+    "hexCode": "&#xed4f",
+    "niceName": "Notification2"
+  },
+  {
+    "className": "icon-question",
+    "hexCode": "&#xed50",
+    "niceName": "Question"
+  },
+  {
+    "className": "icon-question2",
+    "hexCode": "&#xed51",
+    "niceName": "Question2"
+  },
+  {
+    "className": "icon-question3",
+    "hexCode": "&#xed52",
+    "niceName": "Question3"
+  },
+  {
+    "className": "icon-question4",
+    "hexCode": "&#xed53",
+    "niceName": "Question4"
+  },
+  {
+    "className": "icon-question5",
+    "hexCode": "&#xed54",
+    "niceName": "Question5"
+  },
+  {
+    "className": "icon-question6",
+    "hexCode": "&#xed55",
+    "niceName": "Question6"
+  },
+  {
+    "className": "icon-plus",
+    "hexCode": "&#xed56",
+    "niceName": "Plus"
+  },
+  {
+    "className": "icon-minus",
+    "hexCode": "&#xed57",
+    "niceName": "Minus"
+  },
+  {
+    "className": "icon-plus2",
+    "hexCode": "&#xed58",
+    "niceName": "Plus2"
+  },
+  {
+    "className": "icon-minus2",
+    "hexCode": "&#xed59",
+    "niceName": "Minus2"
+  },
+  {
+    "className": "icon-plus3",
+    "hexCode": "&#xed5a",
+    "niceName": "Plus3"
+  },
+  {
+    "className": "icon-minus3",
+    "hexCode": "&#xed5b",
+    "niceName": "Minus3"
+  },
+  {
+    "className": "icon-plus-circle",
+    "hexCode": "&#xed5c",
+    "niceName": "Plus Circle"
+  },
+  {
+    "className": "icon-minus-circle",
+    "hexCode": "&#xed5d",
+    "niceName": "Minus Circle"
+  },
+  {
+    "className": "icon-plus-circle2",
+    "hexCode": "&#xed5e",
+    "niceName": "Plus Circle2"
+  },
+  {
+    "className": "icon-minus-circle2",
+    "hexCode": "&#xed5f",
+    "niceName": "Minus Circle2"
+  },
+  {
+    "className": "icon-info",
+    "hexCode": "&#xed60",
+    "niceName": "Info"
+  },
+  {
+    "className": "icon-info2",
+    "hexCode": "&#xed61",
+    "niceName": "Info2"
+  },
+  {
+    "className": "icon-cancel-circle",
+    "hexCode": "&#xed62",
+    "niceName": "Cancel Circle"
+  },
+  {
+    "className": "icon-cancel-circle2",
+    "hexCode": "&#xed63",
+    "niceName": "Cancel Circle2"
+  },
+  {
+    "className": "icon-blocked",
+    "hexCode": "&#xed64",
+    "niceName": "Blocked"
+  },
+  {
+    "className": "icon-cancel-square",
+    "hexCode": "&#xed65",
+    "niceName": "Cancel Square"
+  },
+  {
+    "className": "icon-cancel-square2",
+    "hexCode": "&#xed66",
+    "niceName": "Cancel Square2"
+  },
+  {
+    "className": "icon-cancel",
+    "hexCode": "&#xed67",
+    "niceName": "Cancel"
+  },
+  {
+    "className": "icon-spam",
+    "hexCode": "&#xed68",
+    "niceName": "Spam"
+  },
+  {
+    "className": "icon-cross",
+    "hexCode": "&#xed69",
+    "niceName": "Cross"
+  },
+  {
+    "className": "icon-cross2",
+    "hexCode": "&#xed6a",
+    "niceName": "Cross2"
+  },
+  {
+    "className": "icon-cross3",
+    "hexCode": "&#xed6b",
+    "niceName": "Cross3"
+  },
+  {
+    "className": "icon-checkmark",
+    "hexCode": "&#xed6c",
+    "niceName": "Checkmark"
+  },
+  {
+    "className": "icon-checkmark2",
+    "hexCode": "&#xed6d",
+    "niceName": "Checkmark2"
+  },
+  {
+    "className": "icon-checkmark3",
+    "hexCode": "&#xed6e",
+    "niceName": "Checkmark3"
+  },
+  {
+    "className": "icon-checkmark4",
+    "hexCode": "&#xed6f",
+    "niceName": "Checkmark4"
+  },
+  {
+    "className": "icon-checkmark5",
+    "hexCode": "&#xed70",
+    "niceName": "Checkmark5"
+  },
+  {
+    "className": "icon-spell-check",
+    "hexCode": "&#xed71",
+    "niceName": "Spell Check"
+  },
+  {
+    "className": "icon-spell-check2",
+    "hexCode": "&#xed72",
+    "niceName": "Spell Check2"
+  },
+  {
+    "className": "icon-enter",
+    "hexCode": "&#xed73",
+    "niceName": "Enter"
+  },
+  {
+    "className": "icon-exit",
+    "hexCode": "&#xed74",
+    "niceName": "Exit"
+  },
+  {
+    "className": "icon-enter2",
+    "hexCode": "&#xed75",
+    "niceName": "Enter2"
+  },
+  {
+    "className": "icon-exit2",
+    "hexCode": "&#xed76",
+    "niceName": "Exit2"
+  },
+  {
+    "className": "icon-enter3",
+    "hexCode": "&#xed77",
+    "niceName": "Enter3"
+  },
+  {
+    "className": "icon-exit3",
+    "hexCode": "&#xed78",
+    "niceName": "Exit3"
+  },
+  {
+    "className": "icon-wall",
+    "hexCode": "&#xed79",
+    "niceName": "Wall"
+  },
+  {
+    "className": "icon-fence",
+    "hexCode": "&#xed7a",
+    "niceName": "Fence"
+  },
+  {
+    "className": "icon-play3",
+    "hexCode": "&#xed7b",
+    "niceName": "Play3"
+  },
+  {
+    "className": "icon-pause",
+    "hexCode": "&#xed7c",
+    "niceName": "Pause"
+  },
+  {
+    "className": "icon-stop",
+    "hexCode": "&#xed7d",
+    "niceName": "Stop"
+  },
+  {
+    "className": "icon-previous",
+    "hexCode": "&#xed7e",
+    "niceName": "Previous"
+  },
+  {
+    "className": "icon-next",
+    "hexCode": "&#xed7f",
+    "niceName": "Next"
+  },
+  {
+    "className": "icon-backward",
+    "hexCode": "&#xed80",
+    "niceName": "Backward"
+  },
+  {
+    "className": "icon-forward2",
+    "hexCode": "&#xed81",
+    "niceName": "Forward2"
+  },
+  {
+    "className": "icon-play4",
+    "hexCode": "&#xed82",
+    "niceName": "Play4"
+  },
+  {
+    "className": "icon-pause2",
+    "hexCode": "&#xed83",
+    "niceName": "Pause2"
+  },
+  {
+    "className": "icon-stop2",
+    "hexCode": "&#xed84",
+    "niceName": "Stop2"
+  },
+  {
+    "className": "icon-backward2",
+    "hexCode": "&#xed85",
+    "niceName": "Backward2"
+  },
+  {
+    "className": "icon-forward3",
+    "hexCode": "&#xed86",
+    "niceName": "Forward3"
+  },
+  {
+    "className": "icon-first",
+    "hexCode": "&#xed87",
+    "niceName": "First"
+  },
+  {
+    "className": "icon-last",
+    "hexCode": "&#xed88",
+    "niceName": "Last"
+  },
+  {
+    "className": "icon-previous2",
+    "hexCode": "&#xed89",
+    "niceName": "Previous2"
+  },
+  {
+    "className": "icon-next2",
+    "hexCode": "&#xed8a",
+    "niceName": "Next2"
+  },
+  {
+    "className": "icon-eject",
+    "hexCode": "&#xed8b",
+    "niceName": "Eject"
+  },
+  {
+    "className": "icon-volume-high",
+    "hexCode": "&#xed8c",
+    "niceName": "Volume High"
+  },
+  {
+    "className": "icon-volume-medium",
+    "hexCode": "&#xed8d",
+    "niceName": "Volume Medium"
+  },
+  {
+    "className": "icon-volume-low",
+    "hexCode": "&#xed8e",
+    "niceName": "Volume Low"
+  },
+  {
+    "className": "icon-volume-mute",
+    "hexCode": "&#xed8f",
+    "niceName": "Volume Mute"
+  },
+  {
+    "className": "icon-speaker-left",
+    "hexCode": "&#xed90",
+    "niceName": "Speaker Left"
+  },
+  {
+    "className": "icon-speaker-right",
+    "hexCode": "&#xed91",
+    "niceName": "Speaker Right"
+  },
+  {
+    "className": "icon-volume-mute2",
+    "hexCode": "&#xed92",
+    "niceName": "Volume Mute2"
+  },
+  {
+    "className": "icon-volume-increase",
+    "hexCode": "&#xed93",
+    "niceName": "Volume Increase"
+  },
+  {
+    "className": "icon-volume-decrease",
+    "hexCode": "&#xed94",
+    "niceName": "Volume Decrease"
+  },
+  {
+    "className": "icon-volume-high2",
+    "hexCode": "&#xed95",
+    "niceName": "Volume High2"
+  },
+  {
+    "className": "icon-volume-medium2",
+    "hexCode": "&#xed96",
+    "niceName": "Volume Medium2"
+  },
+  {
+    "className": "icon-volume-medium3",
+    "hexCode": "&#xed97",
+    "niceName": "Volume Medium3"
+  },
+  {
+    "className": "icon-volume-low2",
+    "hexCode": "&#xed98",
+    "niceName": "Volume Low2"
+  },
+  {
+    "className": "icon-volume-mute3",
+    "hexCode": "&#xed99",
+    "niceName": "Volume Mute3"
+  },
+  {
+    "className": "icon-volume-increase2",
+    "hexCode": "&#xed9a",
+    "niceName": "Volume Increase2"
+  },
+  {
+    "className": "icon-volume-decrease2",
+    "hexCode": "&#xed9b",
+    "niceName": "Volume Decrease2"
+  },
+  {
+    "className": "icon-volume-decrease3",
+    "hexCode": "&#xed9c",
+    "niceName": "Volume Decrease3"
+  },
+  {
+    "className": "icon-volume-5",
+    "hexCode": "&#xed9d",
+    "niceName": "Volume 5"
+  },
+  {
+    "className": "icon-volume-4",
+    "hexCode": "&#xed9e",
+    "niceName": "Volume 4"
+  },
+  {
+    "className": "icon-volume-3",
+    "hexCode": "&#xed9f",
+    "niceName": "Volume 3"
+  },
+  {
+    "className": "icon-volume-2",
+    "hexCode": "&#xeda0",
+    "niceName": "Volume 2"
+  },
+  {
+    "className": "icon-volume-1",
+    "hexCode": "&#xeda1",
+    "niceName": "Volume 1"
+  },
+  {
+    "className": "icon-volume-0",
+    "hexCode": "&#xeda2",
+    "niceName": "Volume 0"
+  },
+  {
+    "className": "icon-volume-mute4",
+    "hexCode": "&#xeda3",
+    "niceName": "Volume Mute4"
+  },
+  {
+    "className": "icon-volume-mute5",
+    "hexCode": "&#xeda4",
+    "niceName": "Volume Mute5"
+  },
+  {
+    "className": "icon-loop",
+    "hexCode": "&#xeda5",
+    "niceName": "Loop"
+  },
+  {
+    "className": "icon-loop2",
+    "hexCode": "&#xeda6",
+    "niceName": "Loop2"
+  },
+  {
+    "className": "icon-loop3",
+    "hexCode": "&#xeda7",
+    "niceName": "Loop3"
+  },
+  {
+    "className": "icon-infinite-square",
+    "hexCode": "&#xeda8",
+    "niceName": "Infinite Square"
+  },
+  {
+    "className": "icon-infinite",
+    "hexCode": "&#xeda9",
+    "niceName": "Infinite"
+  },
+  {
+    "className": "icon-infinite2",
+    "hexCode": "&#xedaa",
+    "niceName": "Infinite2"
+  },
+  {
+    "className": "icon-loop4",
+    "hexCode": "&#xedab",
+    "niceName": "Loop4"
+  },
+  {
+    "className": "icon-shuffle",
+    "hexCode": "&#xedac",
+    "niceName": "Shuffle"
+  },
+  {
+    "className": "icon-shuffle2",
+    "hexCode": "&#xedad",
+    "niceName": "Shuffle2"
+  },
+  {
+    "className": "icon-wave",
+    "hexCode": "&#xedae",
+    "niceName": "Wave"
+  },
+  {
+    "className": "icon-wave2",
+    "hexCode": "&#xedaf",
+    "niceName": "Wave2"
+  },
+  {
+    "className": "icon-split",
+    "hexCode": "&#xedb0",
+    "niceName": "Split"
+  },
+  {
+    "className": "icon-merge",
+    "hexCode": "&#xedb1",
+    "niceName": "Merge"
+  },
+  {
+    "className": "icon-first2",
+    "hexCode": "&#xedb2",
+    "niceName": "First2"
+  },
+  {
+    "className": "icon-last2",
+    "hexCode": "&#xedb3",
+    "niceName": "Last2"
+  },
+  {
+    "className": "icon-arrow-up",
+    "hexCode": "&#xedb4",
+    "niceName": "Arrow Up"
+  },
+  {
+    "className": "icon-arrow-up2",
+    "hexCode": "&#xedb5",
+    "niceName": "Arrow Up2"
+  },
+  {
+    "className": "icon-arrow-up3",
+    "hexCode": "&#xedb6",
+    "niceName": "Arrow Up3"
+  },
+  {
+    "className": "icon-arrow-up4",
+    "hexCode": "&#xedb7",
+    "niceName": "Arrow Up4"
+  },
+  {
+    "className": "icon-arrow-right",
+    "hexCode": "&#xedb8",
+    "niceName": "Arrow Right"
+  },
+  {
+    "className": "icon-arrow-right2",
+    "hexCode": "&#xedb9",
+    "niceName": "Arrow Right2"
+  },
+  {
+    "className": "icon-arrow-right3",
+    "hexCode": "&#xedba",
+    "niceName": "Arrow Right3"
+  },
+  {
+    "className": "icon-arrow-right4",
+    "hexCode": "&#xedbb",
+    "niceName": "Arrow Right4"
+  },
+  {
+    "className": "icon-arrow-down",
+    "hexCode": "&#xedbc",
+    "niceName": "Arrow Down"
+  },
+  {
+    "className": "icon-arrow-down2",
+    "hexCode": "&#xedbd",
+    "niceName": "Arrow Down2"
+  },
+  {
+    "className": "icon-arrow-down3",
+    "hexCode": "&#xedbe",
+    "niceName": "Arrow Down3"
+  },
+  {
+    "className": "icon-arrow-down4",
+    "hexCode": "&#xedbf",
+    "niceName": "Arrow Down4"
+  },
+  {
+    "className": "icon-arrow-left",
+    "hexCode": "&#xedc0",
+    "niceName": "Arrow Left"
+  },
+  {
+    "className": "icon-arrow-left2",
+    "hexCode": "&#xedc1",
+    "niceName": "Arrow Left2"
+  },
+  {
+    "className": "icon-arrow-left3",
+    "hexCode": "&#xedc2",
+    "niceName": "Arrow Left3"
+  },
+  {
+    "className": "icon-arrow-left4",
+    "hexCode": "&#xedc3",
+    "niceName": "Arrow Left4"
+  },
+  {
+    "className": "icon-arrow-up5",
+    "hexCode": "&#xedc4",
+    "niceName": "Arrow Up5"
+  },
+  {
+    "className": "icon-arrow-right5",
+    "hexCode": "&#xedc5",
+    "niceName": "Arrow Right5"
+  },
+  {
+    "className": "icon-arrow-down5",
+    "hexCode": "&#xedc6",
+    "niceName": "Arrow Down5"
+  },
+  {
+    "className": "icon-arrow-left5",
+    "hexCode": "&#xedc7",
+    "niceName": "Arrow Left5"
+  },
+  {
+    "className": "icon-arrow-up-left",
+    "hexCode": "&#xedc8",
+    "niceName": "Arrow Up Left"
+  },
+  {
+    "className": "icon-arrow-up6",
+    "hexCode": "&#xedc9",
+    "niceName": "Arrow Up6"
+  },
+  {
+    "className": "icon-arrow-up-right",
+    "hexCode": "&#xedca",
+    "niceName": "Arrow Up Right"
+  },
+  {
+    "className": "icon-arrow-right6",
+    "hexCode": "&#xedcb",
+    "niceName": "Arrow Right6"
+  },
+  {
+    "className": "icon-arrow-down-right",
+    "hexCode": "&#xedcc",
+    "niceName": "Arrow Down Right"
+  },
+  {
+    "className": "icon-arrow-down6",
+    "hexCode": "&#xedcd",
+    "niceName": "Arrow Down6"
+  },
+  {
+    "className": "icon-arrow-down-left",
+    "hexCode": "&#xedce",
+    "niceName": "Arrow Down Left"
+  },
+  {
+    "className": "icon-arrow-left6",
+    "hexCode": "&#xedcf",
+    "niceName": "Arrow Left6"
+  },
+  {
+    "className": "icon-arrow-up-left2",
+    "hexCode": "&#xedd0",
+    "niceName": "Arrow Up Left2"
+  },
+  {
+    "className": "icon-arrow-up7",
+    "hexCode": "&#xedd1",
+    "niceName": "Arrow Up7"
+  },
+  {
+    "className": "icon-arrow-up-right2",
+    "hexCode": "&#xedd2",
+    "niceName": "Arrow Up Right2"
+  },
+  {
+    "className": "icon-arrow-right7",
+    "hexCode": "&#xedd3",
+    "niceName": "Arrow Right7"
+  },
+  {
+    "className": "icon-arrow-down-right2",
+    "hexCode": "&#xedd4",
+    "niceName": "Arrow Down Right2"
+  },
+  {
+    "className": "icon-arrow-down7",
+    "hexCode": "&#xedd5",
+    "niceName": "Arrow Down7"
+  },
+  {
+    "className": "icon-arrow-down-left2",
+    "hexCode": "&#xedd6",
+    "niceName": "Arrow Down Left2"
+  },
+  {
+    "className": "icon-arrow-left7",
+    "hexCode": "&#xedd7",
+    "niceName": "Arrow Left7"
+  },
+  {
+    "className": "icon-arrow-up-left3",
+    "hexCode": "&#xedd8",
+    "niceName": "Arrow Up Left3"
+  },
+  {
+    "className": "icon-arrow-up8",
+    "hexCode": "&#xedd9",
+    "niceName": "Arrow Up8"
+  },
+  {
+    "className": "icon-arrow-up-right3",
+    "hexCode": "&#xedda",
+    "niceName": "Arrow Up Right3"
+  },
+  {
+    "className": "icon-arrow-right8",
+    "hexCode": "&#xeddb",
+    "niceName": "Arrow Right8"
+  },
+  {
+    "className": "icon-arrow-down-right3",
+    "hexCode": "&#xeddc",
+    "niceName": "Arrow Down Right3"
+  },
+  {
+    "className": "icon-arrow-down8",
+    "hexCode": "&#xeddd",
+    "niceName": "Arrow Down8"
+  },
+  {
+    "className": "icon-arrow-down-left3",
+    "hexCode": "&#xedde",
+    "niceName": "Arrow Down Left3"
+  },
+  {
+    "className": "icon-arrow-left8",
+    "hexCode": "&#xeddf",
+    "niceName": "Arrow Left8"
+  },
+  {
+    "className": "icon-circle-up",
+    "hexCode": "&#xede0",
+    "niceName": "Circle Up"
+  },
+  {
+    "className": "icon-circle-right",
+    "hexCode": "&#xede1",
+    "niceName": "Circle Right"
+  },
+  {
+    "className": "icon-circle-down",
+    "hexCode": "&#xede2",
+    "niceName": "Circle Down"
+  },
+  {
+    "className": "icon-circle-left",
+    "hexCode": "&#xede3",
+    "niceName": "Circle Left"
+  },
+  {
+    "className": "icon-circle-up2",
+    "hexCode": "&#xede4",
+    "niceName": "Circle Up2"
+  },
+  {
+    "className": "icon-circle-right2",
+    "hexCode": "&#xede5",
+    "niceName": "Circle Right2"
+  },
+  {
+    "className": "icon-circle-down2",
+    "hexCode": "&#xede6",
+    "niceName": "Circle Down2"
+  },
+  {
+    "className": "icon-circle-left2",
+    "hexCode": "&#xede7",
+    "niceName": "Circle Left2"
+  },
+  {
+    "className": "icon-circle-up-left",
+    "hexCode": "&#xede8",
+    "niceName": "Circle Up Left"
+  },
+  {
+    "className": "icon-circle-up3",
+    "hexCode": "&#xede9",
+    "niceName": "Circle Up3"
+  },
+  {
+    "className": "icon-circle-up-right",
+    "hexCode": "&#xedea",
+    "niceName": "Circle Up Right"
+  },
+  {
+    "className": "icon-circle-right3",
+    "hexCode": "&#xedeb",
+    "niceName": "Circle Right3"
+  },
+  {
+    "className": "icon-circle-down-right",
+    "hexCode": "&#xedec",
+    "niceName": "Circle Down Right"
+  },
+  {
+    "className": "icon-circle-down3",
+    "hexCode": "&#xeded",
+    "niceName": "Circle Down3"
+  },
+  {
+    "className": "icon-circle-down-left",
+    "hexCode": "&#xedee",
+    "niceName": "Circle Down Left"
+  },
+  {
+    "className": "icon-circle-left3",
+    "hexCode": "&#xedef",
+    "niceName": "Circle Left3"
+  },
+  {
+    "className": "icon-circle-up-left2",
+    "hexCode": "&#xedf0",
+    "niceName": "Circle Up Left2"
+  },
+  {
+    "className": "icon-circle-up4",
+    "hexCode": "&#xedf1",
+    "niceName": "Circle Up4"
+  },
+  {
+    "className": "icon-circle-up-right2",
+    "hexCode": "&#xedf2",
+    "niceName": "Circle Up Right2"
+  },
+  {
+    "className": "icon-circle-right4",
+    "hexCode": "&#xedf3",
+    "niceName": "Circle Right4"
+  },
+  {
+    "className": "icon-circle-down-right2",
+    "hexCode": "&#xedf4",
+    "niceName": "Circle Down Right2"
+  },
+  {
+    "className": "icon-circle-down4",
+    "hexCode": "&#xedf5",
+    "niceName": "Circle Down4"
+  },
+  {
+    "className": "icon-circle-down-left2",
+    "hexCode": "&#xedf6",
+    "niceName": "Circle Down Left2"
+  },
+  {
+    "className": "icon-circle-left4",
+    "hexCode": "&#xedf7",
+    "niceName": "Circle Left4"
+  },
+  {
+    "className": "icon-arrow-resize",
+    "hexCode": "&#xedf8",
+    "niceName": "Arrow Resize"
+  },
+  {
+    "className": "icon-arrow-resize2",
+    "hexCode": "&#xedf9",
+    "niceName": "Arrow Resize2"
+  },
+  {
+    "className": "icon-arrow-resize3",
+    "hexCode": "&#xedfa",
+    "niceName": "Arrow Resize3"
+  },
+  {
+    "className": "icon-arrow-resize4",
+    "hexCode": "&#xedfb",
+    "niceName": "Arrow Resize4"
+  },
+  {
+    "className": "icon-arrow-resize5",
+    "hexCode": "&#xedfc",
+    "niceName": "Arrow Resize5"
+  },
+  {
+    "className": "icon-arrow-resize6",
+    "hexCode": "&#xedfd",
+    "niceName": "Arrow Resize6"
+  },
+  {
+    "className": "icon-arrow-resize7",
+    "hexCode": "&#xedfe",
+    "niceName": "Arrow Resize7"
+  },
+  {
+    "className": "icon-arrow-resize8",
+    "hexCode": "&#xedff",
+    "niceName": "Arrow Resize8"
+  },
+  {
+    "className": "icon-square-up-left",
+    "hexCode": "&#xee00",
+    "niceName": "Square Up Left"
+  },
+  {
+    "className": "icon-square-up",
+    "hexCode": "&#xee01",
+    "niceName": "Square Up"
+  },
+  {
+    "className": "icon-square-up-right",
+    "hexCode": "&#xee02",
+    "niceName": "Square Up Right"
+  },
+  {
+    "className": "icon-square-right",
+    "hexCode": "&#xee03",
+    "niceName": "Square Right"
+  },
+  {
+    "className": "icon-square-down-right",
+    "hexCode": "&#xee04",
+    "niceName": "Square Down Right"
+  },
+  {
+    "className": "icon-square-down",
+    "hexCode": "&#xee05",
+    "niceName": "Square Down"
+  },
+  {
+    "className": "icon-square-down-left",
+    "hexCode": "&#xee06",
+    "niceName": "Square Down Left"
+  },
+  {
+    "className": "icon-square-left",
+    "hexCode": "&#xee07",
+    "niceName": "Square Left"
+  },
+  {
+    "className": "icon-arrow-up9",
+    "hexCode": "&#xee08",
+    "niceName": "Arrow Up9"
+  },
+  {
+    "className": "icon-arrow-right9",
+    "hexCode": "&#xee09",
+    "niceName": "Arrow Right9"
+  },
+  {
+    "className": "icon-arrow-down9",
+    "hexCode": "&#xee0a",
+    "niceName": "Arrow Down9"
+  },
+  {
+    "className": "icon-arrow-left9",
+    "hexCode": "&#xee0b",
+    "niceName": "Arrow Left9"
+  },
+  {
+    "className": "icon-arrow-up10",
+    "hexCode": "&#xee0c",
+    "niceName": "Arrow Up10"
+  },
+  {
+    "className": "icon-arrow-right10",
+    "hexCode": "&#xee0d",
+    "niceName": "Arrow Right10"
+  },
+  {
+    "className": "icon-arrow-down10",
+    "hexCode": "&#xee0e",
+    "niceName": "Arrow Down10"
+  },
+  {
+    "className": "icon-arrow-left10",
+    "hexCode": "&#xee0f",
+    "niceName": "Arrow Left10"
+  },
+  {
+    "className": "icon-arrow-up-left4",
+    "hexCode": "&#xee10",
+    "niceName": "Arrow Up Left4"
+  },
+  {
+    "className": "icon-arrow-up11",
+    "hexCode": "&#xee11",
+    "niceName": "Arrow Up11"
+  },
+  {
+    "className": "icon-arrow-up-right4",
+    "hexCode": "&#xee12",
+    "niceName": "Arrow Up Right4"
+  },
+  {
+    "className": "icon-arrow-right11",
+    "hexCode": "&#xee13",
+    "niceName": "Arrow Right11"
+  },
+  {
+    "className": "icon-arrow-down-right4",
+    "hexCode": "&#xee14",
+    "niceName": "Arrow Down Right4"
+  },
+  {
+    "className": "icon-arrow-down11",
+    "hexCode": "&#xee15",
+    "niceName": "Arrow Down11"
+  },
+  {
+    "className": "icon-arrow-down-left4",
+    "hexCode": "&#xee16",
+    "niceName": "Arrow Down Left4"
+  },
+  {
+    "className": "icon-arrow-left11",
+    "hexCode": "&#xee17",
+    "niceName": "Arrow Left11"
+  },
+  {
+    "className": "icon-arrow-up-left5",
+    "hexCode": "&#xee18",
+    "niceName": "Arrow Up Left5"
+  },
+  {
+    "className": "icon-arrow-up12",
+    "hexCode": "&#xee19",
+    "niceName": "Arrow Up12"
+  },
+  {
+    "className": "icon-arrow-up-right5",
+    "hexCode": "&#xee1a",
+    "niceName": "Arrow Up Right5"
+  },
+  {
+    "className": "icon-arrow-right12",
+    "hexCode": "&#xee1b",
+    "niceName": "Arrow Right12"
+  },
+  {
+    "className": "icon-arrow-down-right5",
+    "hexCode": "&#xee1c",
+    "niceName": "Arrow Down Right5"
+  },
+  {
+    "className": "icon-arrow-down12",
+    "hexCode": "&#xee1d",
+    "niceName": "Arrow Down12"
+  },
+  {
+    "className": "icon-arrow-down-left5",
+    "hexCode": "&#xee1e",
+    "niceName": "Arrow Down Left5"
+  },
+  {
+    "className": "icon-arrow-left12",
+    "hexCode": "&#xee1f",
+    "niceName": "Arrow Left12"
+  },
+  {
+    "className": "icon-arrow-up13",
+    "hexCode": "&#xee20",
+    "niceName": "Arrow Up13"
+  },
+  {
+    "className": "icon-arrow-right13",
+    "hexCode": "&#xee21",
+    "niceName": "Arrow Right13"
+  },
+  {
+    "className": "icon-arrow-down13",
+    "hexCode": "&#xee22",
+    "niceName": "Arrow Down13"
+  },
+  {
+    "className": "icon-arrow-left13",
+    "hexCode": "&#xee23",
+    "niceName": "Arrow Left13"
+  },
+  {
+    "className": "icon-arrow-up14",
+    "hexCode": "&#xee24",
+    "niceName": "Arrow Up14"
+  },
+  {
+    "className": "icon-arrow-right14",
+    "hexCode": "&#xee25",
+    "niceName": "Arrow Right14"
+  },
+  {
+    "className": "icon-arrow-down14",
+    "hexCode": "&#xee26",
+    "niceName": "Arrow Down14"
+  },
+  {
+    "className": "icon-arrow-left14",
+    "hexCode": "&#xee27",
+    "niceName": "Arrow Left14"
+  },
+  {
+    "className": "icon-circle-up5",
+    "hexCode": "&#xee28",
+    "niceName": "Circle Up5"
+  },
+  {
+    "className": "icon-circle-right5",
+    "hexCode": "&#xee29",
+    "niceName": "Circle Right5"
+  },
+  {
+    "className": "icon-circle-down5",
+    "hexCode": "&#xee2a",
+    "niceName": "Circle Down5"
+  },
+  {
+    "className": "icon-circle-left5",
+    "hexCode": "&#xee2b",
+    "niceName": "Circle Left5"
+  },
+  {
+    "className": "icon-circle-up6",
+    "hexCode": "&#xee2c",
+    "niceName": "Circle Up6"
+  },
+  {
+    "className": "icon-circle-right6",
+    "hexCode": "&#xee2d",
+    "niceName": "Circle Right6"
+  },
+  {
+    "className": "icon-circle-down6",
+    "hexCode": "&#xee2e",
+    "niceName": "Circle Down6"
+  },
+  {
+    "className": "icon-circle-left6",
+    "hexCode": "&#xee2f",
+    "niceName": "Circle Left6"
+  },
+  {
+    "className": "icon-arrow-up15",
+    "hexCode": "&#xee30",
+    "niceName": "Arrow Up15"
+  },
+  {
+    "className": "icon-arrow-right15",
+    "hexCode": "&#xee31",
+    "niceName": "Arrow Right15"
+  },
+  {
+    "className": "icon-arrow-down15",
+    "hexCode": "&#xee32",
+    "niceName": "Arrow Down15"
+  },
+  {
+    "className": "icon-arrow-left15",
+    "hexCode": "&#xee33",
+    "niceName": "Arrow Left15"
+  },
+  {
+    "className": "icon-arrow-up16",
+    "hexCode": "&#xee34",
+    "niceName": "Arrow Up16"
+  },
+  {
+    "className": "icon-arrow-right16",
+    "hexCode": "&#xee35",
+    "niceName": "Arrow Right16"
+  },
+  {
+    "className": "icon-arrow-down16",
+    "hexCode": "&#xee36",
+    "niceName": "Arrow Down16"
+  },
+  {
+    "className": "icon-arrow-left16",
+    "hexCode": "&#xee37",
+    "niceName": "Arrow Left16"
+  },
+  {
+    "className": "icon-menu-open",
+    "hexCode": "&#xee38",
+    "niceName": "Menu Open"
+  },
+  {
+    "className": "icon-menu-open2",
+    "hexCode": "&#xee39",
+    "niceName": "Menu Open2"
+  },
+  {
+    "className": "icon-menu-close",
+    "hexCode": "&#xee3a",
+    "niceName": "Menu Close"
+  },
+  {
+    "className": "icon-menu-close2",
+    "hexCode": "&#xee3b",
+    "niceName": "Menu Close2"
+  },
+  {
+    "className": "icon-enter4",
+    "hexCode": "&#xee3c",
+    "niceName": "Enter4"
+  },
+  {
+    "className": "icon-enter5",
+    "hexCode": "&#xee3d",
+    "niceName": "Enter5"
+  },
+  {
+    "className": "icon-esc",
+    "hexCode": "&#xee3e",
+    "niceName": "Esc"
+  },
+  {
+    "className": "icon-enter6",
+    "hexCode": "&#xee3f",
+    "niceName": "Enter6"
+  },
+  {
+    "className": "icon-backspace",
+    "hexCode": "&#xee40",
+    "niceName": "Backspace"
+  },
+  {
+    "className": "icon-backspace2",
+    "hexCode": "&#xee41",
+    "niceName": "Backspace2"
+  },
+  {
+    "className": "icon-tab",
+    "hexCode": "&#xee42",
+    "niceName": "Tab"
+  },
+  {
+    "className": "icon-transmission",
+    "hexCode": "&#xee43",
+    "niceName": "Transmission"
+  },
+  {
+    "className": "icon-transmission2",
+    "hexCode": "&#xee44",
+    "niceName": "Transmission2"
+  },
+  {
+    "className": "icon-sort",
+    "hexCode": "&#xee45",
+    "niceName": "Sort"
+  },
+  {
+    "className": "icon-sort2",
+    "hexCode": "&#xee46",
+    "niceName": "Sort2"
+  },
+  {
+    "className": "icon-move-up",
+    "hexCode": "&#xee47",
+    "niceName": "Move Up"
+  },
+  {
+    "className": "icon-move-down",
+    "hexCode": "&#xee48",
+    "niceName": "Move Down"
+  },
+  {
+    "className": "icon-sort-alpha-asc",
+    "hexCode": "&#xee49",
+    "niceName": "Sort Alpha Asc"
+  },
+  {
+    "className": "icon-sort-alpha-desc",
+    "hexCode": "&#xee4a",
+    "niceName": "Sort Alpha Desc"
+  },
+  {
+    "className": "icon-sort-numeric-asc",
+    "hexCode": "&#xee4b",
+    "niceName": "Sort Numeric Asc"
+  },
+  {
+    "className": "icon-sort-numberic-desc",
+    "hexCode": "&#xee4c",
+    "niceName": "Sort Numberic Desc"
+  },
+  {
+    "className": "icon-sort-amount-asc",
+    "hexCode": "&#xee4d",
+    "niceName": "Sort Amount Asc"
+  },
+  {
+    "className": "icon-sort-amount-desc",
+    "hexCode": "&#xee4e",
+    "niceName": "Sort Amount Desc"
+  },
+  {
+    "className": "icon-sort-time-asc",
+    "hexCode": "&#xee4f",
+    "niceName": "Sort Time Asc"
+  },
+  {
+    "className": "icon-sort-time-desc",
+    "hexCode": "&#xee50",
+    "niceName": "Sort Time Desc"
+  },
+  {
+    "className": "icon-battery-6",
+    "hexCode": "&#xee51",
+    "niceName": "Battery 6"
+  },
+  {
+    "className": "icon-battery-5",
+    "hexCode": "&#xee52",
+    "niceName": "Battery 5"
+  },
+  {
+    "className": "icon-battery-4",
+    "hexCode": "&#xee53",
+    "niceName": "Battery 4"
+  },
+  {
+    "className": "icon-battery-3",
+    "hexCode": "&#xee54",
+    "niceName": "Battery 3"
+  },
+  {
+    "className": "icon-battery-2",
+    "hexCode": "&#xee55",
+    "niceName": "Battery 2"
+  },
+  {
+    "className": "icon-battery-1",
+    "hexCode": "&#xee56",
+    "niceName": "Battery 1"
+  },
+  {
+    "className": "icon-battery-0",
+    "hexCode": "&#xee57",
+    "niceName": "Battery 0"
+  },
+  {
+    "className": "icon-battery-charging",
+    "hexCode": "&#xee58",
+    "niceName": "Battery Charging"
+  },
+  {
+    "className": "icon-key-keyboard",
+    "hexCode": "&#xee59",
+    "niceName": "Key Keyboard"
+  },
+  {
+    "className": "icon-key-A",
+    "hexCode": "&#xee5a",
+    "niceName": "Key A"
+  },
+  {
+    "className": "icon-key-up",
+    "hexCode": "&#xee5b",
+    "niceName": "Key Up"
+  },
+  {
+    "className": "icon-key-right",
+    "hexCode": "&#xee5c",
+    "niceName": "Key Right"
+  },
+  {
+    "className": "icon-key-down",
+    "hexCode": "&#xee5d",
+    "niceName": "Key Down"
+  },
+  {
+    "className": "icon-key-left",
+    "hexCode": "&#xee5e",
+    "niceName": "Key Left"
+  },
+  {
+    "className": "icon-command",
+    "hexCode": "&#xee5f",
+    "niceName": "Command"
+  },
+  {
+    "className": "icon-shift",
+    "hexCode": "&#xee60",
+    "niceName": "Shift"
+  },
+  {
+    "className": "icon-ctrl",
+    "hexCode": "&#xee61",
+    "niceName": "Ctrl"
+  },
+  {
+    "className": "icon-opt",
+    "hexCode": "&#xee62",
+    "niceName": "Opt"
+  },
+  {
+    "className": "icon-checkbox-checked",
+    "hexCode": "&#xee63",
+    "niceName": "Checkbox Checked"
+  },
+  {
+    "className": "icon-checkbox-unchecked",
+    "hexCode": "&#xee64",
+    "niceName": "Checkbox Unchecked"
+  },
+  {
+    "className": "icon-checkbox-partial",
+    "hexCode": "&#xee65",
+    "niceName": "Checkbox Partial"
+  },
+  {
+    "className": "icon-square",
+    "hexCode": "&#xee66",
+    "niceName": "Square"
+  },
+  {
+    "className": "icon-triangle",
+    "hexCode": "&#xee67",
+    "niceName": "Triangle"
+  },
+  {
+    "className": "icon-triangle2",
+    "hexCode": "&#xee68",
+    "niceName": "Triangle2"
+  },
+  {
+    "className": "icon-diamond3",
+    "hexCode": "&#xee69",
+    "niceName": "Diamond3"
+  },
+  {
+    "className": "icon-diamond4",
+    "hexCode": "&#xee6a",
+    "niceName": "Diamond4"
+  },
+  {
+    "className": "icon-checkbox-checked2",
+    "hexCode": "&#xee6b",
+    "niceName": "Checkbox Checked2"
+  },
+  {
+    "className": "icon-checkbox-unchecked2",
+    "hexCode": "&#xee6c",
+    "niceName": "Checkbox Unchecked2"
+  },
+  {
+    "className": "icon-checkbox-partial2",
+    "hexCode": "&#xee6d",
+    "niceName": "Checkbox Partial2"
+  },
+  {
+    "className": "icon-radio-checked",
+    "hexCode": "&#xee6e",
+    "niceName": "Radio Checked"
+  },
+  {
+    "className": "icon-radio-checked2",
+    "hexCode": "&#xee6f",
+    "niceName": "Radio Checked2"
+  },
+  {
+    "className": "icon-radio-unchecked",
+    "hexCode": "&#xee70",
+    "niceName": "Radio Unchecked"
+  },
+  {
+    "className": "icon-toggle-on",
+    "hexCode": "&#xee71",
+    "niceName": "Toggle On"
+  },
+  {
+    "className": "icon-toggle-off",
+    "hexCode": "&#xee72",
+    "niceName": "Toggle Off"
+  },
+  {
+    "className": "icon-checkmark-circle",
+    "hexCode": "&#xee73",
+    "niceName": "Checkmark Circle"
+  },
+  {
+    "className": "icon-circle",
+    "hexCode": "&#xee74",
+    "niceName": "Circle"
+  },
+  {
+    "className": "icon-circle2",
+    "hexCode": "&#xee75",
+    "niceName": "Circle2"
+  },
+  {
+    "className": "icon-circles",
+    "hexCode": "&#xee76",
+    "niceName": "Circles"
+  },
+  {
+    "className": "icon-circles2",
+    "hexCode": "&#xee77",
+    "niceName": "Circles2"
+  },
+  {
+    "className": "icon-crop",
+    "hexCode": "&#xee78",
+    "niceName": "Crop"
+  },
+  {
+    "className": "icon-crop2",
+    "hexCode": "&#xee79",
+    "niceName": "Crop2"
+  },
+  {
+    "className": "icon-make-group",
+    "hexCode": "&#xee7a",
+    "niceName": "Make Group"
+  },
+  {
+    "className": "icon-ungroup",
+    "hexCode": "&#xee7b",
+    "niceName": "Ungroup"
+  },
+  {
+    "className": "icon-vector",
+    "hexCode": "&#xee7c",
+    "niceName": "Vector"
+  },
+  {
+    "className": "icon-vector2",
+    "hexCode": "&#xee7d",
+    "niceName": "Vector2"
+  },
+  {
+    "className": "icon-rulers",
+    "hexCode": "&#xee7e",
+    "niceName": "Rulers"
+  },
+  {
+    "className": "icon-ruler",
+    "hexCode": "&#xee7f",
+    "niceName": "Ruler"
+  },
+  {
+    "className": "icon-pencil-ruler",
+    "hexCode": "&#xee80",
+    "niceName": "Pencil Ruler"
+  },
+  {
+    "className": "icon-scissors",
+    "hexCode": "&#xee81",
+    "niceName": "Scissors"
+  },
+  {
+    "className": "icon-scissors2",
+    "hexCode": "&#xee82",
+    "niceName": "Scissors2"
+  },
+  {
+    "className": "icon-scissors3",
+    "hexCode": "&#xee83",
+    "niceName": "Scissors3"
+  },
+  {
+    "className": "icon-haircut",
+    "hexCode": "&#xee84",
+    "niceName": "Haircut"
+  },
+  {
+    "className": "icon-comb",
+    "hexCode": "&#xee85",
+    "niceName": "Comb"
+  },
+  {
+    "className": "icon-filter",
+    "hexCode": "&#xee86",
+    "niceName": "Filter"
+  },
+  {
+    "className": "icon-filter2",
+    "hexCode": "&#xee87",
+    "niceName": "Filter2"
+  },
+  {
+    "className": "icon-filter3",
+    "hexCode": "&#xee88",
+    "niceName": "Filter3"
+  },
+  {
+    "className": "icon-filter4",
+    "hexCode": "&#xee89",
+    "niceName": "Filter4"
+  },
+  {
+    "className": "icon-font",
+    "hexCode": "&#xee8a",
+    "niceName": "Font"
+  },
+  {
+    "className": "icon-ampersand",
+    "hexCode": "&#xee8b",
+    "niceName": "Ampersand"
+  },
+  {
+    "className": "icon-ligature",
+    "hexCode": "&#xee8c",
+    "niceName": "Ligature"
+  },
+  {
+    "className": "icon-ligature2",
+    "hexCode": "&#xee8d",
+    "niceName": "Ligature2"
+  },
+  {
+    "className": "icon-font-size",
+    "hexCode": "&#xee8e",
+    "niceName": "Font Size"
+  },
+  {
+    "className": "icon-typography",
+    "hexCode": "&#xee8f",
+    "niceName": "Typography"
+  },
+  {
+    "className": "icon-text-height",
+    "hexCode": "&#xee90",
+    "niceName": "Text Height"
+  },
+  {
+    "className": "icon-text-width",
+    "hexCode": "&#xee91",
+    "niceName": "Text Width"
+  },
+  {
+    "className": "icon-height2",
+    "hexCode": "&#xee92",
+    "niceName": "Height2"
+  },
+  {
+    "className": "icon-width",
+    "hexCode": "&#xee93",
+    "niceName": "Width"
+  },
+  {
+    "className": "icon-bold",
+    "hexCode": "&#xee94",
+    "niceName": "Bold"
+  },
+  {
+    "className": "icon-underline",
+    "hexCode": "&#xee95",
+    "niceName": "Underline"
+  },
+  {
+    "className": "icon-italic",
+    "hexCode": "&#xee96",
+    "niceName": "Italic"
+  },
+  {
+    "className": "icon-strikethrough",
+    "hexCode": "&#xee97",
+    "niceName": "Strikethrough"
+  },
+  {
+    "className": "icon-strikethrough2",
+    "hexCode": "&#xee98",
+    "niceName": "Strikethrough2"
+  },
+  {
+    "className": "icon-font-size2",
+    "hexCode": "&#xee99",
+    "niceName": "Font Size2"
+  },
+  {
+    "className": "icon-bold2",
+    "hexCode": "&#xee9a",
+    "niceName": "Bold2"
+  },
+  {
+    "className": "icon-underline2",
+    "hexCode": "&#xee9b",
+    "niceName": "Underline2"
+  },
+  {
+    "className": "icon-italic2",
+    "hexCode": "&#xee9c",
+    "niceName": "Italic2"
+  },
+  {
+    "className": "icon-strikethrough3",
+    "hexCode": "&#xee9d",
+    "niceName": "Strikethrough3"
+  },
+  {
+    "className": "icon-omega",
+    "hexCode": "&#xee9e",
+    "niceName": "Omega"
+  },
+  {
+    "className": "icon-sigma",
+    "hexCode": "&#xee9f",
+    "niceName": "Sigma"
+  },
+  {
+    "className": "icon-nbsp",
+    "hexCode": "&#xeea0",
+    "niceName": "Nbsp"
+  },
+  {
+    "className": "icon-page-break",
+    "hexCode": "&#xeea1",
+    "niceName": "Page Break"
+  },
+  {
+    "className": "icon-page-break2",
+    "hexCode": "&#xeea2",
+    "niceName": "Page Break2"
+  },
+  {
+    "className": "icon-superscript",
+    "hexCode": "&#xeea3",
+    "niceName": "Superscript"
+  },
+  {
+    "className": "icon-subscript",
+    "hexCode": "&#xeea4",
+    "niceName": "Subscript"
+  },
+  {
+    "className": "icon-superscript2",
+    "hexCode": "&#xeea5",
+    "niceName": "Superscript2"
+  },
+  {
+    "className": "icon-subscript2",
+    "hexCode": "&#xeea6",
+    "niceName": "Subscript2"
+  },
+  {
+    "className": "icon-text-color",
+    "hexCode": "&#xeea7",
+    "niceName": "Text Color"
+  },
+  {
+    "className": "icon-highlight",
+    "hexCode": "&#xeea8",
+    "niceName": "Highlight"
+  },
+  {
+    "className": "icon-pagebreak",
+    "hexCode": "&#xeea9",
+    "niceName": "Pagebreak"
+  },
+  {
+    "className": "icon-clear-formatting",
+    "hexCode": "&#xeeaa",
+    "niceName": "Clear Formatting"
+  },
+  {
+    "className": "icon-table",
+    "hexCode": "&#xeeab",
+    "niceName": "Table"
+  },
+  {
+    "className": "icon-table2",
+    "hexCode": "&#xeeac",
+    "niceName": "Table2"
+  },
+  {
+    "className": "icon-insert-template",
+    "hexCode": "&#xeead",
+    "niceName": "Insert Template"
+  },
+  {
+    "className": "icon-pilcrow",
+    "hexCode": "&#xeeae",
+    "niceName": "Pilcrow"
+  },
+  {
+    "className": "icon-ltr",
+    "hexCode": "&#xeeaf",
+    "niceName": "Ltr"
+  },
+  {
+    "className": "icon-rtl",
+    "hexCode": "&#xeeb0",
+    "niceName": "Rtl"
+  },
+  {
+    "className": "icon-ltr2",
+    "hexCode": "&#xeeb1",
+    "niceName": "Ltr2"
+  },
+  {
+    "className": "icon-rtl2",
+    "hexCode": "&#xeeb2",
+    "niceName": "Rtl2"
+  },
+  {
+    "className": "icon-section",
+    "hexCode": "&#xeeb3",
+    "niceName": "Section"
+  },
+  {
+    "className": "icon-paragraph-left",
+    "hexCode": "&#xeeb4",
+    "niceName": "Paragraph Left"
+  },
+  {
+    "className": "icon-paragraph-center",
+    "hexCode": "&#xeeb5",
+    "niceName": "Paragraph Center"
+  },
+  {
+    "className": "icon-paragraph-right",
+    "hexCode": "&#xeeb6",
+    "niceName": "Paragraph Right"
+  },
+  {
+    "className": "icon-paragraph-justify",
+    "hexCode": "&#xeeb7",
+    "niceName": "Paragraph Justify"
+  },
+  {
+    "className": "icon-paragraph-left2",
+    "hexCode": "&#xeeb8",
+    "niceName": "Paragraph Left2"
+  },
+  {
+    "className": "icon-paragraph-center2",
+    "hexCode": "&#xeeb9",
+    "niceName": "Paragraph Center2"
+  },
+  {
+    "className": "icon-paragraph-right2",
+    "hexCode": "&#xeeba",
+    "niceName": "Paragraph Right2"
+  },
+  {
+    "className": "icon-paragraph-justify2",
+    "hexCode": "&#xeebb",
+    "niceName": "Paragraph Justify2"
+  },
+  {
+    "className": "icon-indent-increase",
+    "hexCode": "&#xeebc",
+    "niceName": "Indent Increase"
+  },
+  {
+    "className": "icon-indent-decrease",
+    "hexCode": "&#xeebd",
+    "niceName": "Indent Decrease"
+  },
+  {
+    "className": "icon-paragraph-left3",
+    "hexCode": "&#xeebe",
+    "niceName": "Paragraph Left3"
+  },
+  {
+    "className": "icon-paragraph-center3",
+    "hexCode": "&#xeebf",
+    "niceName": "Paragraph Center3"
+  },
+  {
+    "className": "icon-paragraph-right3",
+    "hexCode": "&#xeec0",
+    "niceName": "Paragraph Right3"
+  },
+  {
+    "className": "icon-paragraph-justify3",
+    "hexCode": "&#xeec1",
+    "niceName": "Paragraph Justify3"
+  },
+  {
+    "className": "icon-indent-increase2",
+    "hexCode": "&#xeec2",
+    "niceName": "Indent Increase2"
+  },
+  {
+    "className": "icon-indent-decrease2",
+    "hexCode": "&#xeec3",
+    "niceName": "Indent Decrease2"
+  },
+  {
+    "className": "icon-share",
+    "hexCode": "&#xeec4",
+    "niceName": "Share"
+  },
+  {
+    "className": "icon-share2",
+    "hexCode": "&#xeec5",
+    "niceName": "Share2"
+  },
+  {
+    "className": "icon-new-tab",
+    "hexCode": "&#xeec6",
+    "niceName": "New Tab"
+  },
+  {
+    "className": "icon-new-tab2",
+    "hexCode": "&#xeec7",
+    "niceName": "New Tab2"
+  },
+  {
+    "className": "icon-popout",
+    "hexCode": "&#xeec8",
+    "niceName": "Popout"
+  },
+  {
+    "className": "icon-embed",
+    "hexCode": "&#xeec9",
+    "niceName": "Embed"
+  },
+  {
+    "className": "icon-embed2",
+    "hexCode": "&#xeeca",
+    "niceName": "Embed2"
+  },
+  {
+    "className": "icon-markup",
+    "hexCode": "&#xeecb",
+    "niceName": "Markup"
+  },
+  {
+    "className": "icon-regexp",
+    "hexCode": "&#xeecc",
+    "niceName": "Regexp"
+  },
+  {
+    "className": "icon-regexp2",
+    "hexCode": "&#xeecd",
+    "niceName": "Regexp2"
+  },
+  {
+    "className": "icon-code",
+    "hexCode": "&#xeece",
+    "niceName": "Code"
+  },
+  {
+    "className": "icon-circle-css",
+    "hexCode": "&#xeecf",
+    "niceName": "Circle Css"
+  },
+  {
+    "className": "icon-circle-code",
+    "hexCode": "&#xeed0",
+    "niceName": "Circle Code"
+  },
+  {
+    "className": "icon-terminal",
+    "hexCode": "&#xeed1",
+    "niceName": "Terminal"
+  },
+  {
+    "className": "icon-unicode",
+    "hexCode": "&#xeed2",
+    "niceName": "Unicode"
+  },
+  {
+    "className": "icon-seven-segment-0",
+    "hexCode": "&#xeed3",
+    "niceName": "Seven Segment 0"
+  },
+  {
+    "className": "icon-seven-segment-1",
+    "hexCode": "&#xeed4",
+    "niceName": "Seven Segment 1"
+  },
+  {
+    "className": "icon-seven-segment-2",
+    "hexCode": "&#xeed5",
+    "niceName": "Seven Segment 2"
+  },
+  {
+    "className": "icon-seven-segment-3",
+    "hexCode": "&#xeed6",
+    "niceName": "Seven Segment 3"
+  },
+  {
+    "className": "icon-seven-segment-4",
+    "hexCode": "&#xeed7",
+    "niceName": "Seven Segment 4"
+  },
+  {
+    "className": "icon-seven-segment-5",
+    "hexCode": "&#xeed8",
+    "niceName": "Seven Segment 5"
+  },
+  {
+    "className": "icon-seven-segment-6",
+    "hexCode": "&#xeed9",
+    "niceName": "Seven Segment 6"
+  },
+  {
+    "className": "icon-seven-segment-7",
+    "hexCode": "&#xeeda",
+    "niceName": "Seven Segment 7"
+  },
+  {
+    "className": "icon-seven-segment-8",
+    "hexCode": "&#xeedb",
+    "niceName": "Seven Segment 8"
+  },
+  {
+    "className": "icon-seven-segment-9",
+    "hexCode": "&#xeedc",
+    "niceName": "Seven Segment 9"
+  },
+  {
+    "className": "icon-share3",
+    "hexCode": "&#xeedd",
+    "niceName": "Share3"
+  },
+  {
+    "className": "icon-share4",
+    "hexCode": "&#xeede",
+    "niceName": "Share4"
+  },
+  {
+    "className": "icon-mail",
+    "hexCode": "&#xeedf",
+    "niceName": "Mail"
+  },
+  {
+    "className": "icon-mail2",
+    "hexCode": "&#xeee0",
+    "niceName": "Mail2"
+  },
+  {
+    "className": "icon-mail3",
+    "hexCode": "&#xeee1",
+    "niceName": "Mail3"
+  },
+  {
+    "className": "icon-mail4",
+    "hexCode": "&#xeee2",
+    "niceName": "Mail4"
+  },
+  {
+    "className": "icon-google",
+    "hexCode": "&#xeee3",
+    "niceName": "Google"
+  },
+  {
+    "className": "icon-google-plus",
+    "hexCode": "&#xeee4",
+    "niceName": "Google Plus"
+  },
+  {
+    "className": "icon-google-plus2",
+    "hexCode": "&#xeee5",
+    "niceName": "Google Plus2"
+  },
+  {
+    "className": "icon-google-plus3",
+    "hexCode": "&#xeee6",
+    "niceName": "Google Plus3"
+  },
+  {
+    "className": "icon-google-drive",
+    "hexCode": "&#xeee7",
+    "niceName": "Google Drive"
+  },
+  {
+    "className": "icon-facebook",
+    "hexCode": "&#xeee8",
+    "niceName": "Facebook"
+  },
+  {
+    "className": "icon-facebook2",
+    "hexCode": "&#xeee9",
+    "niceName": "Facebook2"
+  },
+  {
+    "className": "icon-facebook3",
+    "hexCode": "&#xeeea",
+    "niceName": "Facebook3"
+  },
+  {
+    "className": "icon-ello",
+    "hexCode": "&#xeeeb",
+    "niceName": "Ello"
+  },
+  {
+    "className": "icon-instagram",
+    "hexCode": "&#xeeec",
+    "niceName": "Instagram"
+  },
+  {
+    "className": "icon-twitter",
+    "hexCode": "&#xeeed",
+    "niceName": "Twitter"
+  },
+  {
+    "className": "icon-twitter2",
+    "hexCode": "&#xeeee",
+    "niceName": "Twitter2"
+  },
+  {
+    "className": "icon-twitter3",
+    "hexCode": "&#xeeef",
+    "niceName": "Twitter3"
+  },
+  {
+    "className": "icon-feed2",
+    "hexCode": "&#xeef0",
+    "niceName": "Feed2"
+  },
+  {
+    "className": "icon-feed3",
+    "hexCode": "&#xeef1",
+    "niceName": "Feed3"
+  },
+  {
+    "className": "icon-feed4",
+    "hexCode": "&#xeef2",
+    "niceName": "Feed4"
+  },
+  {
+    "className": "icon-youtube",
+    "hexCode": "&#xeef3",
+    "niceName": "Youtube"
+  },
+  {
+    "className": "icon-youtube2",
+    "hexCode": "&#xeef4",
+    "niceName": "Youtube2"
+  },
+  {
+    "className": "icon-youtube3",
+    "hexCode": "&#xeef5",
+    "niceName": "Youtube3"
+  },
+  {
+    "className": "icon-youtube4",
+    "hexCode": "&#xeef6",
+    "niceName": "Youtube4"
+  },
+  {
+    "className": "icon-twitch",
+    "hexCode": "&#xeef7",
+    "niceName": "Twitch"
+  },
+  {
+    "className": "icon-vimeo",
+    "hexCode": "&#xeef8",
+    "niceName": "Vimeo"
+  },
+  {
+    "className": "icon-vimeo2",
+    "hexCode": "&#xeef9",
+    "niceName": "Vimeo2"
+  },
+  {
+    "className": "icon-vimeo3",
+    "hexCode": "&#xeefa",
+    "niceName": "Vimeo3"
+  },
+  {
+    "className": "icon-lanyrd",
+    "hexCode": "&#xeefb",
+    "niceName": "Lanyrd"
+  },
+  {
+    "className": "icon-flickr",
+    "hexCode": "&#xeefc",
+    "niceName": "Flickr"
+  },
+  {
+    "className": "icon-flickr2",
+    "hexCode": "&#xeefd",
+    "niceName": "Flickr2"
+  },
+  {
+    "className": "icon-flickr3",
+    "hexCode": "&#xeefe",
+    "niceName": "Flickr3"
+  },
+  {
+    "className": "icon-flickr4",
+    "hexCode": "&#xeeff",
+    "niceName": "Flickr4"
+  },
+  {
+    "className": "icon-picassa",
+    "hexCode": "&#xef00",
+    "niceName": "Picassa"
+  },
+  {
+    "className": "icon-picassa2",
+    "hexCode": "&#xef01",
+    "niceName": "Picassa2"
+  },
+  {
+    "className": "icon-dribbble",
+    "hexCode": "&#xef02",
+    "niceName": "Dribbble"
+  },
+  {
+    "className": "icon-dribbble2",
+    "hexCode": "&#xef03",
+    "niceName": "Dribbble2"
+  },
+  {
+    "className": "icon-dribbble3",
+    "hexCode": "&#xef04",
+    "niceName": "Dribbble3"
+  },
+  {
+    "className": "icon-forrst",
+    "hexCode": "&#xef05",
+    "niceName": "Forrst"
+  },
+  {
+    "className": "icon-forrst2",
+    "hexCode": "&#xef06",
+    "niceName": "Forrst2"
+  },
+  {
+    "className": "icon-deviantart",
+    "hexCode": "&#xef07",
+    "niceName": "Deviantart"
+  },
+  {
+    "className": "icon-deviantart2",
+    "hexCode": "&#xef08",
+    "niceName": "Deviantart2"
+  },
+  {
+    "className": "icon-steam",
+    "hexCode": "&#xef09",
+    "niceName": "Steam"
+  },
+  {
+    "className": "icon-steam2",
+    "hexCode": "&#xef0a",
+    "niceName": "Steam2"
+  },
+  {
+    "className": "icon-dropbox",
+    "hexCode": "&#xef0b",
+    "niceName": "Dropbox"
+  },
+  {
+    "className": "icon-onedrive",
+    "hexCode": "&#xef0c",
+    "niceName": "Onedrive"
+  },
+  {
+    "className": "icon-github",
+    "hexCode": "&#xef0d",
+    "niceName": "Github"
+  },
+  {
+    "className": "icon-github2",
+    "hexCode": "&#xef0e",
+    "niceName": "Github2"
+  },
+  {
+    "className": "icon-github3",
+    "hexCode": "&#xef0f",
+    "niceName": "Github3"
+  },
+  {
+    "className": "icon-github4",
+    "hexCode": "&#xef10",
+    "niceName": "Github4"
+  },
+  {
+    "className": "icon-github5",
+    "hexCode": "&#xef11",
+    "niceName": "Github5"
+  },
+  {
+    "className": "icon-wordpress",
+    "hexCode": "&#xef12",
+    "niceName": "Wordpress"
+  },
+  {
+    "className": "icon-wordpress2",
+    "hexCode": "&#xef13",
+    "niceName": "Wordpress2"
+  },
+  {
+    "className": "icon-joomla",
+    "hexCode": "&#xef14",
+    "niceName": "Joomla"
+  },
+  {
+    "className": "icon-blogger",
+    "hexCode": "&#xef15",
+    "niceName": "Blogger"
+  },
+  {
+    "className": "icon-blogger2",
+    "hexCode": "&#xef16",
+    "niceName": "Blogger2"
+  },
+  {
+    "className": "icon-tumblr",
+    "hexCode": "&#xef17",
+    "niceName": "Tumblr"
+  },
+  {
+    "className": "icon-tumblr2",
+    "hexCode": "&#xef18",
+    "niceName": "Tumblr2"
+  },
+  {
+    "className": "icon-yahoo",
+    "hexCode": "&#xef19",
+    "niceName": "Yahoo"
+  },
+  {
+    "className": "icon-tux",
+    "hexCode": "&#xef1a",
+    "niceName": "Tux"
+  },
+  {
+    "className": "icon-apple2",
+    "hexCode": "&#xef1b",
+    "niceName": "Apple2"
+  },
+  {
+    "className": "icon-finder",
+    "hexCode": "&#xef1c",
+    "niceName": "Finder"
+  },
+  {
+    "className": "icon-android",
+    "hexCode": "&#xef1d",
+    "niceName": "Android"
+  },
+  {
+    "className": "icon-windows",
+    "hexCode": "&#xef1e",
+    "niceName": "Windows"
+  },
+  {
+    "className": "icon-windows8",
+    "hexCode": "&#xef1f",
+    "niceName": "Windows8"
+  },
+  {
+    "className": "icon-soundcloud",
+    "hexCode": "&#xef20",
+    "niceName": "Soundcloud"
+  },
+  {
+    "className": "icon-soundcloud2",
+    "hexCode": "&#xef21",
+    "niceName": "Soundcloud2"
+  },
+  {
+    "className": "icon-skype",
+    "hexCode": "&#xef22",
+    "niceName": "Skype"
+  },
+  {
+    "className": "icon-reddit",
+    "hexCode": "&#xef23",
+    "niceName": "Reddit"
+  },
+  {
+    "className": "icon-linkedin",
+    "hexCode": "&#xef24",
+    "niceName": "Linkedin"
+  },
+  {
+    "className": "icon-linkedin2",
+    "hexCode": "&#xef25",
+    "niceName": "Linkedin2"
+  },
+  {
+    "className": "icon-lastfm",
+    "hexCode": "&#xef26",
+    "niceName": "Lastfm"
+  },
+  {
+    "className": "icon-lastfm2",
+    "hexCode": "&#xef27",
+    "niceName": "Lastfm2"
+  },
+  {
+    "className": "icon-delicious",
+    "hexCode": "&#xef28",
+    "niceName": "Delicious"
+  },
+  {
+    "className": "icon-stumbleupon",
+    "hexCode": "&#xef29",
+    "niceName": "Stumbleupon"
+  },
+  {
+    "className": "icon-stumbleupon2",
+    "hexCode": "&#xef2a",
+    "niceName": "Stumbleupon2"
+  },
+  {
+    "className": "icon-stackoverflow",
+    "hexCode": "&#xef2b",
+    "niceName": "Stackoverflow"
+  },
+  {
+    "className": "icon-pinterest",
+    "hexCode": "&#xef2c",
+    "niceName": "Pinterest"
+  },
+  {
+    "className": "icon-pinterest2",
+    "hexCode": "&#xef2d",
+    "niceName": "Pinterest2"
+  },
+  {
+    "className": "icon-xing",
+    "hexCode": "&#xef2e",
+    "niceName": "Xing"
+  },
+  {
+    "className": "icon-xing2",
+    "hexCode": "&#xef2f",
+    "niceName": "Xing2"
+  },
+  {
+    "className": "icon-flattr",
+    "hexCode": "&#xef30",
+    "niceName": "Flattr"
+  },
+  {
+    "className": "icon-foursquare",
+    "hexCode": "&#xef31",
+    "niceName": "Foursquare"
+  },
+  {
+    "className": "icon-paypal",
+    "hexCode": "&#xef32",
+    "niceName": "Paypal"
+  },
+  {
+    "className": "icon-paypal2",
+    "hexCode": "&#xef33",
+    "niceName": "Paypal2"
+  },
+  {
+    "className": "icon-paypal3",
+    "hexCode": "&#xef34",
+    "niceName": "Paypal3"
+  },
+  {
+    "className": "icon-yelp",
+    "hexCode": "&#xef35",
+    "niceName": "Yelp"
+  },
+  {
+    "className": "icon-file-pdf",
+    "hexCode": "&#xef36",
+    "niceName": "File Pdf"
+  },
+  {
+    "className": "icon-file-openoffice",
+    "hexCode": "&#xef37",
+    "niceName": "File Openoffice"
+  },
+  {
+    "className": "icon-file-word",
+    "hexCode": "&#xef38",
+    "niceName": "File Word"
+  },
+  {
+    "className": "icon-file-excel",
+    "hexCode": "&#xef39",
+    "niceName": "File Excel"
+  },
+  {
+    "className": "icon-libreoffice",
+    "hexCode": "&#xef3a",
+    "niceName": "Libreoffice"
+  },
+  {
+    "className": "icon-html5",
+    "hexCode": "&#xef3b",
+    "niceName": "Html5"
+  },
+  {
+    "className": "icon-html52",
+    "hexCode": "&#xef3c",
+    "niceName": "Html52"
+  },
+  {
+    "className": "icon-css3",
+    "hexCode": "&#xef3d",
+    "niceName": "Css3"
+  },
+  {
+    "className": "icon-git",
+    "hexCode": "&#xef3e",
+    "niceName": "Git"
+  },
+  {
+    "className": "icon-svg",
+    "hexCode": "&#xef3f",
+    "niceName": "Svg"
+  },
+  {
+    "className": "icon-codepen",
+    "hexCode": "&#xef40",
+    "niceName": "Codepen"
+  },
+  {
+    "className": "icon-chrome",
+    "hexCode": "&#xef41",
+    "niceName": "Chrome"
+  },
+  {
+    "className": "icon-firefox",
+    "hexCode": "&#xef42",
+    "niceName": "Firefox"
+  },
+  {
+    "className": "icon-IE",
+    "hexCode": "&#xef43",
+    "niceName": "IE"
+  },
+  {
+    "className": "icon-opera",
+    "hexCode": "&#xef44",
+    "niceName": "Opera"
+  },
+  {
+    "className": "icon-safari",
+    "hexCode": "&#xef45",
+    "niceName": "Safari"
+  },
+  {
+    "className": "icon-IcoMoon",
+    "hexCode": "&#xef46",
+    "niceName": "Icomoon"
+  }
+]

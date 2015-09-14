@@ -1,19 +1,27 @@
-div.col-sm-12
-  header.text-center
-    h2 Create Entity
+div.col-sm-12.state
+  form(name="createForm" ng-submit="save()")
+    fieldset(ng-disabled="vm.inProgress")
+      header
+        h2 Create Entity&nbsp;
+          i(ng-class="vm.entity.icon")
+        nav
+          button(ng-disabled="createForm.$invalid" type="submit").btn.btn-primary.btn-lg Save &nbsp;
+            i.icon-database-add
 
-  form(name="createForm" ng-submit="save()").col-sm-offset-3.col-sm-6
-    .row
+        .row
+          .col-sm-6
+            classification-select(entity="vm.entity")
 
-      classification-select(entity="vm.entity")
+            name-input(entity="vm.entity")
 
-      name-input(entity="vm.entity")
+            description-textarea(entity="vm.entity")
+          .col-sm-6
+            labels-input(entity="vm.entity")
 
-      description-textarea(entity="vm.entity")
+            uri-input(entity="vm.entity")
 
-      labels-input(entity="vm.entity")
+            entity-icon-select(entity="vm.entity")
 
-      uri-input(entity="vm.entity")
 
-    .row
-      button(ng-disabled="createForm.$invalid" type="submit").btn.btn-primary.btn-lg Save
+      .col-sm-12
+        //entity-pre(entity="vm.entity")

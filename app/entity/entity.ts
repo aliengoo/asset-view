@@ -3,11 +3,12 @@
 module av.entity {
 
   export interface IEntity {
-    name:string;
-    classification:string
+    name?:string;
+    classification?:string
     uri?:string;
     labels?:[string];
-    description:string;
+    description?:string;
+    icon?:string,
     meta?:any
   }
 }

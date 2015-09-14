@@ -6,3 +6,4 @@
 /// <reference path="angularjs/angular-mocks.d.ts" />
 /// <reference path="typeahead/typeahead.d.ts" />
 /// <reference path="lodash/lodash.d.ts" />
+/// <reference path="greensock/greensock.d.ts" />

@@ -1,4 +1,20 @@
+$border: #ccc;
+$boxShadow:#e0e0e0;
+
 body {
+
+}
+
+.state {
+  header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    nav {
+      height: 50px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+  }
 
 }
 
@@ -11,22 +27,62 @@ div {
 }
 
 .entity-mini {
+
   padding: 10px;
-  border: 1px solid #858585;
+  border: 1px solid $border;
   border-radius: 10px;
   box-sizing: border-box;
-  box-shadow: 5px 5px 5px #d8d8d8;
-  min-width: 150px;
-  max-width: 300px;
-  min-height: 200px;
+  box-shadow: 5px 5px 5px $boxShadow;
+  overflow:hidden;
 
-  header {
-    font-size: 12px;
+  .icon {
+    font-size:50px;
     text-align: center;
-    padding: 10px;
-    &.div {
-      font-size: 12px;
-      font-weight: 900;
+    margin: 10px auto;
+  }
+
+  .entity-name {
+    font-size:18px;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .entity-labels {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .entity-edit {
+    float:right;
+  }
+}
+
+.entity-icon-select {
+  #icon-container {
+    margin:8px 0 8px 0;
+    padding:10px;
+    max-height: 170px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px $boxShadow;
+    #icons {
+      padding:10px;
+      max-height: 150px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      i {
+        padding:7px;
+        font-size:1.5em;
+        cursor: pointer;
+      }
     }
   }
 }
+
+.entity-labels {
+  span {
+    margin-right: 5px;
+  }
+}
+
+

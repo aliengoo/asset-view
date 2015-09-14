@@ -60,7 +60,15 @@ gulp.task("vendor:icomoon-fix", function() {
     .pipe(gulp.dest(temporaryFilesPath));
 });
 
-gulp.task("vendor:css", ["vendor:icomoon-fix", "vendor:sass", "vendor:less"], function () {
+gulp.task("vendor:icomoon-json", function () {
+
+  var jsonFilter = lp.filter(filters.json);
+  var icomoon = client.vendor.icomoon;
+
+  return gulp.src(icomoonFilesGlob).pipe(jsonFilter).pipe(gulp.dest(publicPaths.css));
+});
+
+gulp.task("vendor:css", ["vendor:icomoon-fix", "vendor:icomoon-json", "vendor:sass", "vendor:less"], function () {
 
   var temporaryCssFilesGlob = path.join(temporaryFilesPath, "**/*.css");
 

@@ -33,7 +33,18 @@ module av {
     }];
 
     $httpBackend.whenGET("api/entity/adjectives").respond(200, fakeEntities);
-    $httpBackend.whenGET(/api\/entity\?*/).respond(200, fakeEntities);
+
+    $httpBackend.whenGET("api/entity/123").respond(200, {
+      _id: "123",
+      name: "hqserver01p",
+      icon: "icon-database",
+      description: "server",
+      uri:"hqserver01p",
+      labels: ["this", "is", "a", "server"]
+    });
+
+    //$httpBackend.whenGET(/api\/entity\?*/).respond(200, fakeEntities);
+    $httpBackend.whenGET("assets/icomoon.json").passThrough();
 
   }
 }

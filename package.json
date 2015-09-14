@@ -54,7 +54,8 @@
             "thisValue": "fonts/",
             "withThis": "./"
           },
-          "css": "icomoon.css"
+          "css": "icomoon.css",
+          "json": "icomoon.json"
         }
       },
       "serve": {

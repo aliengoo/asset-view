@@ -14,13 +14,14 @@ module av.entity {
       public adjectiveEntities:Array<IEntity>,
       public entityService:IEntityService,
       public $state:angular.ui.IStateService) {
-      this.entity = <IEntity>{
+      this.entity = <IEntity> {
+        icon: "icon-box"
       };
     }
 
     save() {
-
       var controller = this;
+
       this.entityService.save(this.entity).then((result):void => {
         controller.entity = result;
         controller.$state.go("entity.view");

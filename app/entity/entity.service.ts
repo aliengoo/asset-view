@@ -68,13 +68,7 @@ module av.entity {
     get(id:string): angular.IPromise<IEntity> {
       var defer:angular.IDeferred<IEntity> = this.$q.defer();
 
-      var config = <angular.IRequestShortcutConfig>{
-        params: {
-          id: id
-        }
-      };
-
-      this.$http.get("api/entity/:id", config).success((response:IEntity): void =>{
+      this.$http.get(`api/entity/${id}`).success((response:IEntity): void =>{
         defer.resolve(response);
       }).error(():void => {
         defer.reject();

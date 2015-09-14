@@ -20,12 +20,15 @@
 ///<reference path="directives\uri-input\uri-input.directive.ts"/>
 ///<reference path="directives\entity-pre\entity-pre.directive.ts"/>
 ///<reference path="directives\entity-mini\entity-mini.directive.ts"/>
+///<reference path="directives\entity-icon-select\entity-icon-select.directive.ts"/>
+///<reference path="directives\entity-labels\entity-labels.directive.ts"/>
 
 "use strict";
 
 module av.entity {
   var mod =  angular.module("av.entity", [
     "ui.router",
+    "ngStorage",
     "av.templates",
     "av.vendor"]);
 
@@ -40,6 +43,8 @@ module av.entity {
   mod.directive("entityFindInput", entityFindInput)
     .directive("classificationSelect", classificationSelect)
     .directive("descriptionTextarea", descriptionTextarea)
+    .directive("entityIconSelect", entityIconSelect)
+    .directive("entityLabels", entityLabels)
     .directive("entityMini", entityMini)
     .directive("entityPre", entityPre)
     .directive("labelsInput", labelsInput)

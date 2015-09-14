@@ -1,0 +1,13 @@
+div.entity-icon-select
+  .form-group
+    label.control-label Search for an icon, or select one
+    input(name="search" ng-model="search" placeholder="Typing will filter the icons").form-control
+    span(ng-hide="filteredIcons.length > 0").help-block.text-warning Sorry, no matching icons were found
+    span(ng-show="entity.icon").help-block
+      code {{entity.icon}}
+
+  div#icon-container(ng-show="filteredIcons.length > 0")
+    div#icons
+      // icons added in code
+
+

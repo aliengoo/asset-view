@@ -5,5 +5,6 @@
 module av.vendor {
   angular.module("av.vendor", [])
     .factory("$", jQueryService)
-    .factory("_", lodashService);
+    .factory("_", lodashService)
+    .factory("gsapService", gsapService);
 }

@@ -24,6 +24,7 @@
     "bootstrap3-typeahead": "~3.1.1",
     "font-awesome": "~4.3.0",
     "gsap": "~1.17.0",
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "ngstorage": "~0.3.9"
   }
 }

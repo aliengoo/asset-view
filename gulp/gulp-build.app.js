@@ -50,6 +50,9 @@ gulp.task("clean:app:styles", function (done) {
 /*
  ------------------ PROCESS STYLE TASK ------------------
  */
+
+
+
 gulp.task("app:styles", ["clean:app:styles"], function () {
   var scssStylesGlob = [path.join(client.src.styles.root, "/*.scss")];
 
