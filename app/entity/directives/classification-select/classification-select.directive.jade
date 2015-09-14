@@ -1,0 +1,8 @@
+.form-group
+  label.control-label Classification
+    sup *
+  select(ng-model="entity.classification" name="classification" required).form-control.input-lg
+    option(value="noun") Noun
+    option(value="adjective") Adjective
+  span.help-block Is this a thing, or describing a relationship between things?
+

@@ -10,6 +10,8 @@ module av.entity {
       public entity:IEntity,
       public adjectiveEntities:Array<IEntity>,
       private entityService:IEntityService) {
+
+
     }
 
   }

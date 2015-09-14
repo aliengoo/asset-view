@@ -9,3 +9,24 @@ div {
     }
   }
 }
+
+.entity-mini {
+  padding: 10px;
+  border: 1px solid #858585;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px #d8d8d8;
+  min-width: 150px;
+  max-width: 300px;
+  min-height: 200px;
+
+  header {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+    &.div {
+      font-size: 12px;
+      font-weight: 900;
+    }
+  }
+}

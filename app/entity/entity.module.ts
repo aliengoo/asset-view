@@ -13,22 +13,47 @@
 ///<reference path="find\entity-find-input.directive.ts"/>
 
 ///<reference path="../vendor/vendor.module.ts"/>
+///<reference path="directives\classification-select\classification-select.directive.ts"/>
+///<reference path="directives\description-textarea\description-textarea.directive.ts"/>
+///<reference path="directives\name-input\name-input.directive.ts"/>
+///<reference path="directives\labels-input\labels-input.directive.ts"/>
+///<reference path="directives\uri-input\uri-input.directive.ts"/>
+///<reference path="directives\entity-pre\entity-pre.directive.ts"/>
+///<reference path="directives\entity-mini\entity-mini.directive.ts"/>
 
 "use strict";
 
 module av.entity {
-  angular.module("av.entity", [
+  var mod =  angular.module("av.entity", [
     "ui.router",
     "av.templates",
-    "av.vendor"])
-    .service("entityService", EntityService)
-    .service("entityLinkService", EntityLinkService)
-    .controller("EntityController", EntityController)
-    .directive("entityFindInput", entityFindInput)
-    .config(EntityConfig)
+    "av.vendor"]);
+
+  // services
+  mod.service("entityService", EntityService)
+    .service("entityLinkService", EntityLinkService);
+
+  // controllers
+  mod.controller("EntityController", EntityController);
+
+  // directives
+  mod.directive("entityFindInput", entityFindInput)
+    .directive("classificationSelect", classificationSelect)
+    .directive("descriptionTextarea", descriptionTextarea)
+    .directive("entityMini", entityMini)
+    .directive("entityPre", entityPre)
+    .directive("labelsInput", labelsInput)
+    .directive("nameInput", nameInput)
+    .directive("uriInput", uriInput);
+
+  // config
+  mod.config(EntityConfig)
     .config(EntityFindConfig)
     .config(EntityEditConfig)
     .config(EntityCreateConfig)
-    .config(EntityViewConfig)
+    .config(EntityViewConfig);
+
+  // run
+  // TODO: No runs currently
 }
 

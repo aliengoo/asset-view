@@ -1,3 +1,19 @@
 div.col-sm-12
-  header
-    h2 Create
+  header.text-center
+    h2 Create Entity
+
+  form(name="createForm" ng-submit="save()").col-sm-offset-3.col-sm-6
+    .row
+
+      classification-select(entity="vm.entity")
+
+      name-input(entity="vm.entity")
+
+      description-textarea(entity="vm.entity")
+
+      labels-input(entity="vm.entity")
+
+      uri-input(entity="vm.entity")
+
+    .row
+      button(ng-disabled="createForm.$invalid" type="submit").btn.btn-primary.btn-lg Save

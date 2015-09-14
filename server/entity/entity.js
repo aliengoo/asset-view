@@ -36,6 +36,11 @@ var entitySchema = new Schema({
     type: String
   },
 
+  // the class name on the client-side
+  icon: {
+    type: String
+  },
+
   // Whatever you want
   meta: {
     type: Schema.Types.Mixed

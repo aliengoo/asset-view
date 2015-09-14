@@ -7,9 +7,11 @@
 ///<reference path="entity/entity.module.ts"/>
 ///<reference path="common/common.module.ts"/>
 ///<reference path="av.run.ts"/>
-
+///<reference path="av.run-with-fake-backend.ts"/>
+///<reference path="sandbox\sandbox.config.ts"/>
 
 module av {
+
 
   var dependencies:Array<string> = [
     "ui.router",
@@ -18,8 +20,20 @@ module av {
     "av.common",
     "av.entity"];
 
-  angular.module("av", dependencies)
-    .controller("AvController", AvController)
-    .run(avRun)
-    .config(AvConfig);
+  var mod = angular.module("av", dependencies);
+
+  // controllers
+  mod.controller("AvController", AvController);
+
+  // run
+  // fakeBackend is enabled with --fakeBackend
+  if ((<any>window).fakeBackend === true) {
+    mod.run(avRunWithFakeBackend);
+  } else {
+    mod.run(avRun);
+  }
+
+  // config
+  mod.config(AvConfig);
+  mod.config(SandboxConfig);
 }
