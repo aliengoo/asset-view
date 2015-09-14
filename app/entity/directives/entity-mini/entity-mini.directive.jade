@@ -1,14 +1,13 @@
 div.entity-mini
-
-  div(class="icon {{entity.icon}}")
-
-  div.entity-name {{entity.name}}
+  header
+    div(class="icon {{entity.icon}}")
+    div.entity-name {{entity.name}}
 
   div.entity-labels
     entity-labels(entity="entity")
 
   div.entity-edit
-    a(ui-sref="entity.edit({id:entity._id})").btn.btn-primary Edit &nbsp;
+    a(ui-sref="entity.edit({id:entity._id})").btn.btn-primary.btn-sm Edit &nbsp;
       i.icon-pencil
 
 
