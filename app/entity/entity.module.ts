@@ -34,7 +34,8 @@ module av.entity {
 
   // services
   mod.service("entityService", EntityService)
-    .service("entityLinkService", EntityLinkService);
+    .service("entityLinkService", EntityLinkService)
+    .service("entitySvgService", EntitySvgService);
 
   // controllers
   mod.controller("EntityController", EntityController);

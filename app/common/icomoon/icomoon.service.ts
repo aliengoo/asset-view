@@ -7,7 +7,7 @@ module av.common {
 
   export class IcomoonService {
 
-    public icomoonIcons:IcomoonIcon[];
+    private icomoonIcons:IcomoonIcon[];
 
     /* @ngInject */
     constructor(private $q:angular.IQService,
@@ -15,13 +15,12 @@ module av.common {
                 private $sessionStorage:any) {
 
       this.icomoonIcons = $sessionStorage.icomoon;
-
     }
 
     get():angular.IPromise<IcomoonIcon[]> {
       var defer = this.$q.defer();
 
-      function callback(icons) {
+      function callback(icons:IcomoonIcon[]) {
         this.$sessionStorage.icomoon = icons;
         defer.resolve(icons);
       }

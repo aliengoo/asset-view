@@ -5,7 +5,11 @@
 
 module av.entity {
 
-  export class EntitySvg {
+  export interface IEntitySvgService {
+    render(entity:IEntity, startingPoint:av.canvas.IPoint):void;
+  }
+
+  export class EntitySvgService implements IEntitySvgService{
 
     private ce:av.canvas.ICanvasEngine;
 
@@ -30,7 +34,10 @@ module av.entity {
     private padding:number = 5;
 
     /* @ngInject */
-    constructor(canvasEngine:av.canvas.ICanvasEngine) {
+    constructor(
+      canvasEngine:av.canvas.ICanvasEngine,
+      private _:_.LoDashStatic,
+      private icomoonService:av.common.IcomoonService) {
 
       this.ce = canvasEngine;
       this.set = this.ce.paper.set();
@@ -46,7 +53,7 @@ module av.entity {
       };
     }
 
-    render(public entity:IEntity, private startingPoint:av.canvas.IPoint) {
+    render(entity:IEntity, startingPoint:av.canvas.IPoint):void {
       var nameWidth = Math.max(this.ce.getTextWidth(entity.name, this.headerFont), this.entityNameMaxWidth);
       var width = nameWidth + this.iconSize.width + (this.padding * 2);
 
@@ -63,13 +70,29 @@ module av.entity {
         y: this.padding
       };
 
-      this.ce.drawTextWithinParent(
+      var textElement = this.ce.drawTextWithinParent(
         entityElement,
         textRelativePosition,
         entity.name,
         this.headerFont, nameWidth);
 
-      this.ce.drawImageWithinParent(entityElement, "");
+      // render icon
+      this.icomoonService.get().then((icomoonIcons:av.common.IcomoonIcon[]) => {
+        var icomoonIcon = _.find(icomoonIcons, (ii) => {
+          icomoonIcon = ii;
+        });
+
+        var imageElement = this.ce.drawImageWithinParent(entityElement, icomoonIcon.svgPath, {
+          x: nameWidth + this.padding,
+          y: this.padding
+        }, this.iconSize);
+
+        this.set.push(entityElement);
+        this.set.push(textElement);
+        this.set.push(imageElement);
+
+        this.ce.draggable(this.set);
+      });
     }
   }
 }

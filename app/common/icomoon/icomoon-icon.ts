@@ -5,6 +5,6 @@ module av.common {
     className: string;
     hexCode: string;
     niceName: string;
-    svgName: string;
+    svgPath: string;
   }
 }
