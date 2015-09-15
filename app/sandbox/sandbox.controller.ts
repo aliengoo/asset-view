@@ -1,27 +1,38 @@
+///<reference path="../../typings/tsd.d.ts"/>
+
+
 "use strict";
 
 module av {
 
   export class SandboxController {
 
-    public sandbox:HTMLCanvasElement;
-    public ctx:CanvasRenderingContext2D;
+    public cs:av.canvas.ICanvasEngine;
 
     /* @ngInject */
-    constructor() {
+    constructor($window:Window) {
 
-      this.sandbox = <HTMLCanvasElement>document.getElementById("sandbox");
+      this.cs = new av.canvas.CanvasEngine("container", {
+        height: $window.outerHeight,
+        width: $window.outerWidth
+      });
 
-      this.ctx = this.sandbox.getContext("2d");
+      this.drawEntity();
+    }
 
-      this.ctx.fillStyle = "rgb(200,0,0)";
-      this.ctx.fillRect (10, 10, 55, 50);
+    private drawEntity() {
+      var square = this.cs.drawSquare({
+        x: 50,
+        y: 50
+      }, 200, {
+        width: 1
+      });
 
-      this.ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-      this.ctx.fillRect (30, 30, 55, 50);
+      var entitySet = this.cs.paper.set();
+      entitySet.push(square);
 
-      this.ctx.font = 'italic 40pt Calibri';
-      this.ctx.fillText('Hello World!', 150, 100);
+      entitySet.push(this.cs.drawTextWithinParent(square, {x:50, y:30}, "Hello, World!"));
+      this.cs.draggable(entitySet);
     }
   }
 }

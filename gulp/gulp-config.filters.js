@@ -7,7 +7,7 @@ module.exports = {
   scss: ["**/*.scss"],
   json: ["**/*.json"],
   assets: [
-    '*',
+    "**",
     '!**/*.css',
     '!**/*.tmpl',
     '!**/*.js',

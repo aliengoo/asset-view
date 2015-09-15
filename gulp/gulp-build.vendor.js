@@ -19,6 +19,7 @@ var npm = require("./gulp-config.npm");
 var temporaryFilesPath = path.join(client.temp.root, "vendor");
 var icomoonFilesGlob = path.join(client.vendor.icomoon.root, "**");
 
+
 /*
  ------------------ GULP TASKS ------------------
 */
@@ -63,9 +64,10 @@ gulp.task("vendor:icomoon-fix", function() {
 gulp.task("vendor:icomoon-json", function () {
 
   var jsonFilter = lp.filter(filters.json);
-  var icomoon = client.vendor.icomoon;
 
-  return gulp.src(icomoonFilesGlob).pipe(jsonFilter).pipe(gulp.dest(publicPaths.css));
+  return gulp.src(icomoonFilesGlob)
+    .pipe(jsonFilter)
+    .pipe(gulp.dest(publicPaths.css));
 });
 
 gulp.task("vendor:css", ["vendor:icomoon-fix", "vendor:icomoon-json", "vendor:sass", "vendor:less"], function () {
@@ -86,6 +88,8 @@ gulp.task("vendor:assets", function () {
   var assetsFilter = lp.filter(filters.assets);
 
   return gulp.src(mbf(npm.mainBowerFiles))
+    .pipe(reusableTasks.printTask())
+    .pipe(reusableTasks.plumberTask())
     .pipe(lp.addSrc(client.vendor.src.additionalFiles))
     .pipe(lp.addSrc(icomoonFilesGlob)) // include icomoon in assets
     .pipe(assetsFilter)

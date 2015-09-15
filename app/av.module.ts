@@ -9,6 +9,8 @@
 ///<reference path="av.run.ts"/>
 ///<reference path="av.run-with-fake-backend.ts"/>
 ///<reference path="sandbox\sandbox.config.ts"/>
+///<reference path="canvas/canvas.module.ts"/>
+
 
 module av {
 
@@ -18,6 +20,7 @@ module av {
     "ngMockE2E",
     "av.home",
     "av.common",
+    "av.canvas",
     "av.entity"];
 
   var mod = angular.module("av", dependencies);

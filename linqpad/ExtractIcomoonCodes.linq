@@ -37,6 +37,9 @@ using (JsonWriter writer = new JsonTextWriter(sw))
 			{
 				// extract the CSS class name
 				var className = line.Split(":".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)[0].TrimStart(".".ToCharArray());
+				
+				// create the svg name
+				var svgPath = string.Format("svg/{0}.svg", className.Replace("icon-", ""));
 
 				// make a nice name for the class
 
@@ -58,6 +61,8 @@ using (JsonWriter writer = new JsonTextWriter(sw))
 				writer.WriteStartObject();
 				writer.WritePropertyName("className");
 				writer.WriteValue(className);
+				writer.WritePropertyName("svgPath");
+				writer.WriteValue(svgPath);
 				writer.WritePropertyName("hexCode");
 				writer.WriteValue(hexCode);
 				writer.WritePropertyName("niceName");
