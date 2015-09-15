@@ -8,10 +8,14 @@ module av.canvas {
 
   export interface ICanvasEngine {
     paper:RaphaelPaper;
-    drawSquareWithinParent(parentElement:RaphaelElement, size:number, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
-    drawSquare(startPoint:IPoint, size:number, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
+    drawRectWithinParent(parentElement:RaphaelElement, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
+    drawRect(startPoint:IPoint, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
 
-    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string):RelativeRaphaelElement;
+    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement;
+
+    drawImageWithinParent(parentElement:RaphaelElement, url:string, relativePosition:IPoint, size:ISize):RelativeRaphaelElement;
+
+    getTextWidth(text:string, font:IFont): number;
 
     draggable(set:RaphaelSet): RaphaelSet;
   }
@@ -24,11 +28,44 @@ module av.canvas {
   export class CanvasEngine implements ICanvasEngine {
     public paper:RaphaelPaper;
 
+    private textRuler:RaphaelElement;
+
     constructor(containerId:string, size:ISize) {
       this.paper = Raphael(containerId, size.width, size.height);
+      this.textRuler = this.paper.text(-10000, -10000, "").attr({
+        "fill": "none",
+        "stroke": "none"
+      });
+    }
+
+    getTextWidth(text:string, font:IFont): number{
+      this.textRuler.attr({
+        "text": text,
+        "font-family": font.family,
+        "font-size": font.size
+      });
+
+      var bb = this.textRuler.getBBox();
+
+      return bb.width;
     }
 
 
+    drawImageWithinParent(parentElement:RaphaelElement, url:string, relativePosition:IPoint, size:ISize):av.canvas.RelativeRaphaelElement {
+
+      var image:RelativeRaphaelElement;
+
+      image = this.paper.image(url,
+        parentElement.attr("x") + relativePosition.x,
+        parentElement.attr("y") + relativePosition.y,
+        size.width,
+        size.height);
+
+      image.parentElement = parentElement;
+      image.relativePosition = relativePosition;
+
+      return image;
+    }
 
     draggable(set:RaphaelSet):RaphaelSet {
 
@@ -94,14 +131,45 @@ module av.canvas {
       return set;
     }
 
-    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string):RelativeRaphaelElement {
+    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement {
 
       var textElement:RelativeRaphaelElement;
 
       textElement = this.paper.text(
         parentElement.attr("x") + relativePosition.x,
         parentElement.attr("y") + relativePosition.y,
-        text);
+        "").attr({
+          "font-size": font.size,
+          "font-family": font.family
+        });
+
+      // canvas doesn't understand word wrap...
+      var words = text.split(" ");
+
+      var temp = "";
+
+      if (!maxWidth) {
+        maxWidth = parentElement.getBBox().width - 5 - relativePosition.x;
+      }
+
+      for(var i = 0; i < words.length; i++) {
+        textElement.attr("text", temp + " " + words[i]);
+
+        if (textElement.getBBox().width > maxWidth) {
+          temp += "\n" + words[i];
+        } else {
+          temp += " " + words[i];
+        }
+      }
+
+      textElement.attr("text", temp.substring(1));
+
+      // fix position, coordinates relate to the
+      // center of the binding box, this corrects that to the top left
+      var bb = textElement.getBBox();
+
+      textElement.transform(`t0,${Math.floor(bb.height / 2)}`);
+      textElement.attr("text-anchor", "start");
 
       textElement.relativePosition = relativePosition;
       textElement.parentElement = parentElement;
@@ -109,9 +177,9 @@ module av.canvas {
       return textElement;
     }
 
-    drawSquareWithinParent(parentElement:RaphaelElement, size:number, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement {
+    drawRectWithinParent(parentElement:RaphaelElement, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement {
 
-      var element = this.drawSquare({
+      var element = this.drawRect({
         x: parentElement.attr("x"),
         y: parentElement.attr("y")
       },
@@ -124,15 +192,24 @@ module av.canvas {
       return element;
     }
 
-    drawSquare(startPoint:IPoint, size:number, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement {
+    drawRect(startPoint:IPoint, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement {
 
       var square:RelativeRaphaelElement;
 
       if (relativePosition) {
-        square = this.paper.rect(startPoint.x + relativePosition.x, startPoint.y + relativePosition.y, size, size);
+        square = this.paper.rect(
+          startPoint.x + relativePosition.x,
+          startPoint.y + relativePosition.y,
+          size.width,
+          size.height);
+
         square.relativePosition = relativePosition;
       } else {
-        square = this.paper.rect(startPoint.x, startPoint.y, size, size);
+        square = this.paper.rect(
+          startPoint.x,
+          startPoint.y,
+          size.width,
+          size.height);
       }
 
       if (line) {

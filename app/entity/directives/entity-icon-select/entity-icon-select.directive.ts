@@ -1,20 +1,14 @@
 ///<reference path="../../../../typings/tsd.d.ts"/>
 ///<reference path="../../entity.ts"/>
 ///<reference path="../../../vendor/gsap.service.ts"/>
-
+///<reference path="../../../common/common.module.ts"/>
 
 "use strict";
 
 module av.entity {
 
-  export interface IcomoonIcon {
-    className: string;
-    hexCode: string;
-    niceName: string;
-  }
-
   interface EntityIconSelectScope extends angular.IScope {
-    icons?: IcomoonIcon[],
+    icons?: av.common.IcomoonIcon[],
     entity: IEntity,
     search?: string,
     hasFocus: boolean
@@ -37,7 +31,7 @@ module av.entity {
     function link(scope:EntityIconSelectScope, element:angular.IAugmentedJQuery):void {
       var $icons = $(element).find("#icons");
 
-      function callback(icons:IcomoonIcon[]):void {
+      function callback(icons:av.common.IcomoonIcon[]):void {
         scope.icons = icons;
 
         var newElement = $(
