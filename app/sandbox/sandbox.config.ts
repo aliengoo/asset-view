@@ -9,9 +9,12 @@ module av {
     constructor($stateProvider:angular.ui.IStateProvider) {
       $stateProvider.state("sandbox", <angular.ui.IState>{
         url: "/sandbox",
-        controller: SandboxController,
-        controllerAs: "vm",
-        templateUrl: "sandbox/sandbox.html"
+        controller: "SandboxController as vm",
+        template: `<div class=\"col-sm-12\">
+          <header class=\"text-center\">
+            <h1>Sandbox - not for public consumption</h1>
+          </header>
+          <div><p ng-bind="{{2+2}}"></p></div></div>`
       });
     }
   }

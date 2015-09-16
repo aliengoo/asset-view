@@ -1,17 +1,18 @@
 ///<reference path="../../typings/tsd.d.ts"/>
+///<reference path="./point.ts"/>
+///<reference path="./line.ts"/>
+///<reference path="./size.ts"/>
+///<reference path="./font.ts"/>
 
-
-///<reference path="point.ts"/>
 "use strict";
 
 module av.canvas {
-
   export interface ICanvasEngine {
     paper:RaphaelPaper;
     drawRectWithinParent(parentElement:RaphaelElement, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
     drawRect(startPoint:IPoint, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement;
 
-    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement;
+    drawText(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement;
 
     drawImageWithinParent(parentElement:RaphaelElement, url:string, relativePosition:IPoint, size:ISize):RelativeRaphaelElement;
 
@@ -30,8 +31,9 @@ module av.canvas {
 
     private textRuler:RaphaelElement;
 
-    constructor(containerId:string, size:ISize) {
-      this.paper = Raphael(containerId, size.width, size.height);
+    constructor(containerId:string) {
+      // there is no overload for this call
+      this.paper = (<any>Raphael)(containerId, "100%", "100%");
       this.textRuler = this.paper.text(-10000, -10000, "").attr({
         "fill": "none",
         "stroke": "none"
@@ -131,7 +133,7 @@ module av.canvas {
       return set;
     }
 
-    drawTextWithinParent(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement {
+    drawText(parentElement:RaphaelElement, relativePosition:IPoint, text:string, font:IFont, maxWidth?:number):RelativeRaphaelElement {
 
       var textElement:RelativeRaphaelElement;
 
@@ -152,17 +154,22 @@ module av.canvas {
         maxWidth = parentElement.getBBox().width - 5 - relativePosition.x;
       }
 
-      for(var i = 0; i < words.length; i++) {
-        textElement.attr("text", temp + " " + words[i]);
+      if (words.length > 1) {
+        for (var i = 0; i < words.length; i++) {
+          textElement.attr("text", temp + " " + words[i]);
 
-        if (textElement.getBBox().width > maxWidth) {
-          temp += "\n" + words[i];
-        } else {
-          temp += " " + words[i];
+          if (textElement.getBBox().width > maxWidth) {
+            temp += "\n" + words[i];
+          } else {
+            temp += " " + words[i];
+          }
         }
-      }
 
-      textElement.attr("text", temp.substring(1));
+        textElement.attr("text", temp.substring(1));
+      } else {
+        console.log("text:" + text);
+        textElement.attr("text", text);
+      }
 
       // fix position, coordinates relate to the
       // center of the binding box, this corrects that to the top left
@@ -180,9 +187,9 @@ module av.canvas {
     drawRectWithinParent(parentElement:RaphaelElement, size:ISize, line?:ILine, relativePosition?:IPoint):RelativeRaphaelElement {
 
       var element = this.drawRect({
-        x: parentElement.attr("x"),
-        y: parentElement.attr("y")
-      },
+          x: parentElement.attr("x"),
+          y: parentElement.attr("y")
+        },
         size,
         line,
         relativePosition);

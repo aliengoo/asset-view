@@ -1,21 +1,5 @@
 div.col-sm-12.state.entity-view
   header
-    h2
-      i(class="{{vm.entity.icon}}") &nbsp;
-      span {{vm.entity.name}}
+    h2 {{vm.entity.name}}
 
-
-  .col-sm-4
-    div.entity-group
-      header
-        h3 LHS
-
-  .col-sm-4
-    div.entity-group
-
-      entity-mini(entity="vm.entity")
-    //entity-pre(entity="vm.entity")
-
-  .col-sm-4
-    div.entity-group
-
+  div#entity-container

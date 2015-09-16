@@ -1,15 +1,19 @@
 ///<reference path="../../../typings/tsd.d.ts"/>
-///<reference path="..\entity.ts"/>
+///<reference path="../../vendor/vendor.d.ts"/>
+///<reference path="../../common/common.d.ts"/>
+///<reference path="../../canvas/canvas.d.ts"/>
+
+///<reference path="../entity.ts"/>
 
 "use strict";
 
 module av.entity {
 
-  export interface IEntitySvgService {
+  export interface IEntitySvg {
     render(entity:IEntity, startingPoint:av.canvas.IPoint):void;
   }
 
-  export class EntitySvgService implements IEntitySvgService{
+  export class EntitySvg implements IEntitySvg {
 
     private ce:av.canvas.ICanvasEngine;
 
@@ -17,8 +21,8 @@ module av.entity {
     private set:RaphaelSet;
 
     private line:av.canvas.ILine = {
-      width:0.5,
-      style:"black"
+      width: 0.5,
+      style: "black"
     };
 
 
@@ -33,11 +37,9 @@ module av.entity {
 
     private padding:number = 5;
 
-    /* @ngInject */
-    constructor(
-      canvasEngine:av.canvas.ICanvasEngine,
-      private _:_.LoDashStatic,
-      private icomoonService:av.common.IcomoonService) {
+    constructor(canvasEngine:av.canvas.ICanvasEngine,
+                private _:_.LoDashStatic,
+                private icomoonService:av.common.IIcomoonService) {
 
       this.ce = canvasEngine;
       this.set = this.ce.paper.set();
@@ -70,28 +72,27 @@ module av.entity {
         y: this.padding
       };
 
-      var textElement = this.ce.drawTextWithinParent(
+      var textElement = this.ce.drawText(
         entityElement,
         textRelativePosition,
         entity.name,
         this.headerFont, nameWidth);
 
       // render icon
-      this.icomoonService.get().then((icomoonIcons:av.common.IcomoonIcon[]) => {
-        var icomoonIcon = _.find(icomoonIcons, (ii) => {
-          icomoonIcon = ii;
-        });
+      this.icomoonService.findByClassName(entity.icon).then((icon) => {
 
-        var imageElement = this.ce.drawImageWithinParent(entityElement, icomoonIcon.svgPath, {
-          x: nameWidth + this.padding,
-          y: this.padding
-        }, this.iconSize);
+        if (icon) {
+          var imageElement = this.ce.drawImageWithinParent(entityElement, icon.svgPath, {
+            x: nameWidth + this.padding,
+            y: this.padding
+          }, this.iconSize);
 
-        this.set.push(entityElement);
-        this.set.push(textElement);
-        this.set.push(imageElement);
+          this.set.push(entityElement);
+          this.set.push(textElement);
+          this.set.push(imageElement);
 
-        this.ce.draggable(this.set);
+          this.ce.draggable(this.set);
+        }
       });
     }
   }

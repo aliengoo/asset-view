@@ -1,45 +1,68 @@
 ///<reference path="../../../typings/tsd.d.ts"/>
+///<reference path="../../vendor/vendor.module.ts"/>
+///<reference path="icomoon-icon.ts"/>
 
 
 "use strict";
 
 module av.common {
 
-  export class IcomoonService {
+  export interface IIcomoonService {
+    getAll():angular.IPromise<IcomoonIcon[]>;
+    findByClassName(className:string):angular.IPromise<IcomoonIcon>;
+  }
+
+  export class IcomoonService implements IIcomoonService{
 
     private icomoonIcons:IcomoonIcon[];
 
     /* @ngInject */
     constructor(private $q:angular.IQService,
                 private $http:angular.IHttpService,
-                private $sessionStorage:any) {
+                private $sessionStorage:any,
+                private _:_.LoDashStatic) {
 
       this.icomoonIcons = $sessionStorage.icomoon;
     }
 
-    get():angular.IPromise<IcomoonIcon[]> {
+    getAll():angular.IPromise<IcomoonIcon[]> {
       var defer = this.$q.defer();
 
+      var me = this;
+
       function callback(icons:IcomoonIcon[]) {
-        this.$sessionStorage.icomoon = icons;
+        me.$sessionStorage.icomoon = icons;
         defer.resolve(icons);
       }
 
-      if (this.icomoonIcons) {
-        defer.resolve(this.icomoonIcons);
+      if (me.icomoonIcons) {
+        defer.resolve(me.icomoonIcons);
       }
       else {
         var config = <angular.IRequestShortcutConfig> {
           cache: true
         };
 
-        this.$http.get("assets/icomoon.json", config).success(callback).error(() => {
+        me.$http.get("assets/icomoon.json", config).success(callback).error(() => {
           defer.reject();
         });
       }
 
       return defer.promise;
     }
-  }
 
+    findByClassName(className:string): angular.IPromise<IcomoonIcon> {
+      var me = this;
+
+      var defer = me.$q.defer();
+
+      me.getAll().then((icons:IcomoonIcon[]) => {
+        var match = me._.find(icons, (icon:IcomoonIcon) => icon.className === className);
+
+        defer.resolve(match);
+      });
+
+      return defer.promise;
+    }
+  }
 }

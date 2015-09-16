@@ -10,23 +10,29 @@
 ///<reference path="av.run-with-fake-backend.ts"/>
 ///<reference path="sandbox\sandbox.config.ts"/>
 ///<reference path="canvas/canvas.module.ts"/>
+///<reference path="sandbox\sandbox.controller.ts"/>
 
 
 module av {
 
 
   var dependencies:Array<string> = [
-    "ui.router",
+    "ngAria",
+    "ngAnimate",
+    "ngMessages",
     "ngMockE2E",
-    "av.home",
+    "ui.router",
     "av.common",
     "av.canvas",
-    "av.entity"];
+    "av.home",
+    "av.entity"
+  ];
 
   var mod = angular.module("av", dependencies);
 
   // controllers
   mod.controller("AvController", AvController);
+  mod.controller("SandboxController", SandboxController);
 
   // run
   // fakeBackend is enabled with --fakeBackend
@@ -39,4 +45,5 @@ module av {
   // config
   mod.config(AvConfig);
   mod.config(SandboxConfig);
+
 }

@@ -22,23 +22,32 @@
 ///<reference path="directives\entity-mini\entity-mini.directive.ts"/>
 ///<reference path="directives\entity-icon-select\entity-icon-select.directive.ts"/>
 ///<reference path="directives\entity-labels\entity-labels.directive.ts"/>
+///<reference path="../vendor/vendor.d.ts"/>
+///<reference path="../canvas/canvas.d.ts"/>
+///<reference path="../common/common.d.ts"/>
+
 
 "use strict";
 
 module av.entity {
   var mod =  angular.module("av.entity", [
+    "ngAria",
+    "ngAnimate",
+    "ngMessages",
     "ui.router",
     "ngStorage",
     "av.templates",
-    "av.vendor"]);
+    "av.vendor",
+    "av.common",
+    "av.canvas"]);
 
   // services
   mod.service("entityService", EntityService)
-    .service("entityLinkService", EntityLinkService)
-    .service("entitySvgService", EntitySvgService);
+    .service("entityLinkService", EntityLinkService);
 
   // controllers
   mod.controller("EntityController", EntityController);
+
 
   // directives
   mod.directive("entityFindInput", entityFindInput)

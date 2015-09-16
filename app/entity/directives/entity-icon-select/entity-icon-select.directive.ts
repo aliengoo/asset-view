@@ -1,6 +1,5 @@
 ///<reference path="../../../../typings/tsd.d.ts"/>
 ///<reference path="../../entity.ts"/>
-///<reference path="../../../vendor/gsap.service.ts"/>
 ///<reference path="../../../common/common.module.ts"/>
 
 "use strict";
@@ -17,8 +16,8 @@ module av.entity {
   /* @ngInject */
   export function entityIconSelect($http:angular.IHttpService,
                                    $compile:angular.ICompileService,
-                                   $sessionStorage:any,
-                                   $:JQueryStatic):angular.IDirective {
+                                   $:JQueryStatic,
+                                   icomoonService:av.common.IIcomoonService):angular.IDirective {
     return {
       restrict: "E",
       templateUrl: "entity/directives/entity-icon-select/entity-icon-select.directive.html",
@@ -31,7 +30,7 @@ module av.entity {
     function link(scope:EntityIconSelectScope, element:angular.IAugmentedJQuery):void {
       var $icons = $(element).find("#icons");
 
-      function callback(icons:av.common.IcomoonIcon[]):void {
+      icomoonService.getAll().then((icons) => {
         scope.icons = icons;
 
         var newElement = $(
@@ -41,19 +40,7 @@ module av.entity {
 
         $icons.append(newElement);
         $compile(newElement)(scope);
-
-        $sessionStorage.icomoon = icons;
-      }
-
-      scope.icons = $sessionStorage.icoomoon;
-
-      if (!scope.icons) {
-        var config = <angular.IRequestShortcutConfig> {
-          cache: true
-        };
-
-        $http.get("assets/icomoon.json", config).success(callback);
-      }
+      });
     }
   }
 }
