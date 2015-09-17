@@ -31,11 +31,11 @@ module av.entity {
     private entityNameMaxWidth:number = 150;
     private normalFont:av.canvas.IFont;
     private iconSize:av.canvas.ISize = {
-      width: 40,
-      height: 40
+      width: 36,
+      height: 36
     };
 
-    private padding:number = 5;
+    private padding:number = 10;
 
     constructor(canvasEngine:av.canvas.ICanvasEngine,
                 private _:_.LoDashStatic,
@@ -61,7 +61,7 @@ module av.entity {
 
       var size:av.canvas.ISize = {
         width: width,
-        height: 300
+        height: 100
       };
 
       var entityElement = this.ce.drawRect(startingPoint, size, this.line);
@@ -91,7 +91,7 @@ module av.entity {
           this.set.push(textElement);
           this.set.push(imageElement);
 
-          this.ce.draggable(this.set);
+          this.ce.draggable(entityElement, this.set);
         }
       });
     }

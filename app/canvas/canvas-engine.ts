@@ -18,7 +18,7 @@ module av.canvas {
 
     getTextWidth(text:string, font:IFont): number;
 
-    draggable(set:RaphaelSet): RaphaelSet;
+    draggable(rootElement:RelativeRaphaelElement, set:RaphaelSet, onMove?:(point:IPoint) => void): RaphaelSet;
   }
 
   export interface RelativeRaphaelElement extends RaphaelElement {
@@ -28,10 +28,13 @@ module av.canvas {
 
   export class CanvasEngine implements ICanvasEngine {
     public paper:RaphaelPaper;
+    public container:HTMLElement;
 
     private textRuler:RaphaelElement;
 
     constructor(containerId:string) {
+
+      this.container = document.getElementById(containerId);
       // there is no overload for this call
       this.paper = (<any>Raphael)(containerId, "100%", "100%");
       this.textRuler = this.paper.text(-10000, -10000, "").attr({
@@ -40,7 +43,7 @@ module av.canvas {
       });
     }
 
-    getTextWidth(text:string, font:IFont): number{
+    getTextWidth(text:string, font:IFont):number {
       this.textRuler.attr({
         "text": text,
         "font-family": font.family,
@@ -69,59 +72,118 @@ module av.canvas {
       return image;
     }
 
-    draggable(set:RaphaelSet):RaphaelSet {
 
-      function start(x:number, y:number, event:DragEvent):any {
-        this.ox = this.attr("x");
-        this.oy = this.attr("y");
+    private getRootElement(rre:RelativeRaphaelElement):RelativeRaphaelElement {
+
+      if (rre.parentElement) {
+        return this.getRootElement(rre.parentElement);
       }
 
+      return rre;
+    }
+
+    private isInBounds(point:IPoint, size:ISize):boolean {
+      var me = this;
+
+      // left and top
+      if (point.x < 0 || point.y < 0) {
+        return false;
+      }
+
+      // right and bottom
+      if (point.x + size.width > me.container.offsetWidth || point.y + size.height > me.container.offsetHeight) {
+        return false;
+      }
+
+      return true;
+    }
+
+    draggable(rootElement:RelativeRaphaelElement, set:RaphaelSet, onMove?:(point:IPoint) => void):RaphaelSet {
+
+      var me = this;
+
+      // super useful when dragging - it means that the root element picks up the drag event
+      rootElement.toFront();
+      rootElement.attr({
+        "fill-opacity": 0
+      });
+
+      var bb = rootElement.getBBox();
+
+      function start(x:number, y:number, event:DragEvent):any {
+        var target = this;
+
+        // origin
+        this.ox = target.attr("x");
+        this.oy = target.attr("y");
+      }
+
+      /**
+       * To work correctly, this requires that the rootElement it at the front, and that
+       * @param dx
+       * @param dy
+       * @param x
+       * @param y
+       * @param event
+       */
       function move(dx:number, dy:number, x:number, y:number, event:DragEvent):any {
+
+        var target = this;
+
+        // calculate new point based on the origin and movement
         var mx = this.ox + dx;
         var my = this.oy + dy;
 
-        var targetAttr = {
+        var targetPoint = {
           x: mx,
           y: my
         };
 
-        this.attr(targetAttr);
+        if (onMove) {
+          onMove(targetPoint);
+        }
 
-        var that = this;
+        if (me.isInBounds(targetPoint, {
+            width: bb.width,
+            height: bb.height
+          })) {
+          console.log("in bounds");
+          target.attr(targetPoint);
+          set.forEach((el:RaphaelElement) => {
 
-        set.forEach((el:RaphaelElement) => {
+            var rre = <RelativeRaphaelElement>el;
 
-          var rel = <RelativeRaphaelElement>el;
+            // the current element in the set is not the one being dragged
+            if (rre !== target) {
 
-          if (rel !== that) {
+              var ix:number, iy:number;
 
-            var ix:number, iy:number;
+              // this is a child of the element being dragged
+              // and must be repositioned relative to it
+              if (rre.parentElement === target) {
+                if (rre.relativePosition) {
 
-            if (rel.parentElement === that) {
-              if (rel.relativePosition) {
+                  // move relative to the element
+                  ix = targetPoint.x + rre.relativePosition.x;
+                  iy = targetPoint.y + rre.relativePosition.y;
 
-                // move relative to the element
-                ix = mx + rel.relativePosition.x;
-                iy = my + rel.relativePosition.y;
+                  rre.attr({
+                    x: ix,
+                    y: iy
+                  });
+                }
+              } else {
+                ix = mx - target.relativePosition.x;
+                iy = my - target.relativePosition.y;
 
-                rel.attr({
+                target.parentElement.attr({
                   x: ix,
                   y: iy
                 });
               }
-            } else {
-              // must be a child element
-              ix = mx - that.relativePosition.x;
-              iy = my - that.relativePosition.y;
-
-              that.parentElement.attr({
-                x: ix,
-                y: iy
-              });
-
             }
-          }
-        });
+          });
+        }
       }
 
       function end(DragEvent:any):any {
@@ -167,12 +229,11 @@ module av.canvas {
 
         textElement.attr("text", temp.substring(1));
       } else {
-        console.log("text:" + text);
         textElement.attr("text", text);
       }
 
       // fix position, coordinates relate to the
-      // center of the binding box, this corrects that to the top left
+      // center of the binding box, this corrects me to the top left
       var bb = textElement.getBBox();
 
       textElement.transform(`t0,${Math.floor(bb.height / 2)}`);

@@ -3,9 +3,13 @@
 module av.entity {
 
   export interface IEntityLink {
-    lhs:string;
-    rhs:string;
-    link:string;
+
+    lhs:IEntity;
+
+    rhs:IEntity;
+
+    // the adjective
+    link:IEntity;
     description:string;
   }
 }

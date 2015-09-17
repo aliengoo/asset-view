@@ -22,9 +22,11 @@
 ///<reference path="directives\entity-mini\entity-mini.directive.ts"/>
 ///<reference path="directives\entity-icon-select\entity-icon-select.directive.ts"/>
 ///<reference path="directives\entity-labels\entity-labels.directive.ts"/>
+///<reference path="directives\entity-header\entity-header.directive.ts"/>
 ///<reference path="../vendor/vendor.d.ts"/>
 ///<reference path="../canvas/canvas.d.ts"/>
 ///<reference path="../common/common.d.ts"/>
+///<reference path="entity-linkage.service.ts"/>
 
 
 "use strict";
@@ -43,7 +45,8 @@ module av.entity {
 
   // services
   mod.service("entityService", EntityService)
-    .service("entityLinkService", EntityLinkService);
+    .service("entityLinkService", EntityLinkService)
+    .service("entityLinkageService", EntityLinkageService);
 
   // controllers
   mod.controller("EntityController", EntityController);
@@ -53,6 +56,7 @@ module av.entity {
   mod.directive("entityFindInput", entityFindInput)
     .directive("classificationSelect", classificationSelect)
     .directive("descriptionTextarea", descriptionTextarea)
+    .directive("entityHeader", entityHeader)
     .directive("entityIconSelect", entityIconSelect)
     .directive("entityLabels", entityLabels)
     .directive("entityMini", entityMini)

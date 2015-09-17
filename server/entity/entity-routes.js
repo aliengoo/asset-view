@@ -8,6 +8,8 @@ var mongoose = require("mongoose");
 var Entity = require("./entity").Entity;
 var EntityLink = require("./entity-link").EntityLink;
 
+var entityLinkage = require("./entity-linkage");
+
 module.exports = function (app) {
 
    app.get("/api/entity/adjectives", function (req, res) {
@@ -43,7 +45,6 @@ module.exports = function (app) {
   app.post("/api/entity/:id", postHandler);
 
   app.get("/api/entity/:id", function (req, res) {
-
     Entity.findById(req.params.id, function (err, result) {
       if(err) {
         res.status(500).send(err);
@@ -53,6 +54,16 @@ module.exports = function (app) {
     });
   });
 
+  app.get("/api/entity/:id/links", function (req, res) {
+    entityLinkage.getLinks(req.params.id).then(function(entityLinks){
+      console.log("All requests are finished", entityLinks[0].lhsEntity);
+      res.json(entityLinks);
+    }, function(error){
+      res.status(500).send(error);
+    });
+  });
+
+  // Retrieves links where the entity is on the rhs of the relationship
   app.get("/api/entity/:id/links/lhs", function(req, res) {
 
     EntityLink.find({
@@ -66,6 +77,7 @@ module.exports = function (app) {
     });
   });
 
+  // Retrieves links where the entity is on the lhs of the relationship
   app.get("/api/entity/:id/links/rhs", function(req, res) {
 
     EntityLink.find({

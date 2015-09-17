@@ -1,0 +1,22 @@
+.directive.entity-results
+  table.table.table-condensed.table-hover
+    thead
+      tr
+        th
+        th ID
+        th Name
+        th Classification
+        th Description
+        th Labels
+
+    tbody
+      tr(ng-repeat="entity in entities")
+        td {{entity._id}}
+        td {{entity.name}}
+        td {{entity.classification}}
+        td {{entity.description}}
+        td
+          entity-labels(entity="entity")
+
+
+

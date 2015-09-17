@@ -9,7 +9,7 @@ module av.entity {
       scope: {
         entity: "="
       },
-      template: "<pre>{{entity | json}}</pre>"
+      template: "<pre class='directive'>{{entity | json}}</pre>"
     };
   }
 }

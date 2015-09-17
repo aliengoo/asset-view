@@ -2,30 +2,33 @@
 
 ///<reference path="../entity.ts"/>
 ///<reference path="../entity.service.ts"/>
+///<reference path="../entity-linkage.service.ts"/>
 ///<reference path="..\entity-svg\entity-svg.ts"/>
+
 "use strict";
 
 module av.entity {
   export class EntityViewController {
 
-    private entitySvg:EntitySvg;
 
     /* @ngInject */
     constructor(
       public entity:IEntity,
-      private canvasService: av.canvas.CanvasService,
-      private _:_.LoDashStatic,
+      private entityService:IEntityService,
+      private entityLinkageService:IEntityLinkageService,
       private icomoonService:av.common.IIcomoonService) {
 
-      console.log(this.entity.name);
+      // show details of the target entity
 
-      var canvasEngine = canvasService.getEngine("entity-container");
+      // get links to the left-hand side
 
-      this.entitySvg = new av.entity.EntitySvg(canvasEngine, _, icomoonService);
+      // get links to the right-hand side
 
-      this.entitySvg.render(this.entity, {
-        x:0, y:0
-      });
+      // offer to create lhs links
+
+      // offer to create rhs links
+
+      // to create links between entities requires the ability to find an entity to link to
     }
   }
 }
