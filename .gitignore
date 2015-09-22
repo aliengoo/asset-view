@@ -5,6 +5,6 @@ bower_components
 .temp
 .sass-cache
 npm-debug.log
-public/assets
-public/js
+wwwroot/assets
+wwwroot/js
 xunit-output
