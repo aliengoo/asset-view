@@ -3,8 +3,11 @@ var path = require("path");
 /*
  ------------------ PUBLIC PATHS CONFIGURATION ------------------
  */
+
+// Where it gets publicly exposed
+
 var publicPaths = {
-  root: "public"
+  root: "wwwroot"
 };
 
 // JavaScript source
